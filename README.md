@@ -45,7 +45,17 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── matriz-raci
 │   └── uso-IA
 ├── presentaciones/
+│   ├── 0-dp/
+│   │   ├── 01-presentacion-05-02
+│   │   ├── 02-presentacion-12-02
+│   │   ├── 03-presentacion-19-02
+│   ├── 1-sprint-1/
+│   │   ├── 04-presentacion-26-02
+│   │   ├── 05-presentacion-05-03
+│   ├── 2-sprint-2/
+│   │   ├── 06-presentacion-12-03
 │   ├── guia-presentaciones
+│   ├── presentaciones
 ├── pug/
 │   ├── realizado/
 │   │   ├── sprint-1
