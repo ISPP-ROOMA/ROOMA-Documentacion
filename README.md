@@ -40,10 +40,12 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   └── usuarios-piloto
 ├── nuestro-equipo/
 │   ├── team-building/
+│   │   ├── plan-team-building
 │   ├── commitment-agreement
 │   ├── matriz-raci
-│   └── uso-ia
+│   └── uso-IA
 ├── presentaciones/
+│   ├── guia-presentaciones
 ├── pug/
 │   ├── realizado/
 │   │   ├── sprint-1
