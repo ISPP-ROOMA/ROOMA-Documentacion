@@ -23,12 +23,16 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── presupuesto-estimado
 │   └── tecnologias-de-pago
 ├── captacion-usuarios/
+|   ├── planes-usuarios-piloto/
+│   │   ├── investigación-tipos-de-usuarios
+│   │   ├── plan-de-captación-de-usuarios
+│   │   ├── plan-de-gestión-de-usuarios
 │   ├── redes/
+│   │   ├── redes-sociales
 │   ├── usuarios-piloto/
 │   │   ├── feedback-usuarios-piloto
 │   │   └── lista-usuarios-censurada
-│   ├── acuerdo-usuarios-piloto
-│   └── plan-captacion
+│   └── acuerdo-usuarios-piloto
 ├── despliegues/
 ├── entregas/
 ├── feedback/
