@@ -40,8 +40,13 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   ├── contribucion-bbdd-comun
 │   │   ├── enlace-bbdd-comun
 │   │   └── feedback-recopilado
-│   ├── pug
-│   └── usuarios-piloto
+│   ├── pug/
+|   │   ├── hechos-a-rooma/
+|   |   │   ├── cerebrus
+|   |   │   └── nexus
+│   │   ├── hechos-por-rooma/
+|   |   │   ├── keatkit
+|   |   │   └── vecinus
 ├── nuestro-equipo/
 │   ├── team-building/
 │   │   ├── plan-team-building
