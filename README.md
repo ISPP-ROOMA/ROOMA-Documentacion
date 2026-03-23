@@ -77,21 +77,21 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 ├── trabajo-sprints/
 │   ├── 0-dp/
 │   │   ├── registro-horas-dp/
-│   │   ├── problemas-riesgos-dp
 │   │   └── product-backlog
 │   ├── 1-sprint-1/
 │   │   ├── registro-horas-s1/
-│   │   ├── problemas-riesgos-s1
-│   │   └── sprint-planning-s1
+│   │   ├── sprint-planning-s1
+│   │   └── sprint-retrospective-s1
 │   ├── 2-sprint-2/
 │   │   ├── registro-horas-s2/
-│   │   ├── problemas-riesgos-s2
-│   │   └── sprint-planning-s2
+│   │   ├── sprint-planning-s2
+│   │   └── sprint-retrospective-s2
 │   ├── 3-sprint-3/
 │   │   ├── registro-horas-s3/
-│   │   ├── problemas-riesgos-s3
-│   │   └── sprint-planning-s3
+│   │   ├── sprint-planning-s3
+│   │   └── sprint-retrospective-s3
 │   ├── 4-ppl/
+|   ├── problemas-desarrollo
 │   └── prevision-de-riesgos
 └── readme       
 ```
