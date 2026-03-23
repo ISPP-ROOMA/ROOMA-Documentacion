@@ -43,9 +43,57 @@ Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el a
 | Ingeniero Junior | 16 | 150 | 10,60€/h | 13,50€/h | 17,82€/h | 42.768€ |
 
 
+### OPEX (Coste total: 614,44€/mes)
+Este bloque recoge los costes operativos recurrentes necesarios para mantener el entorno técnico de desarrollo en funcionamiento durante la fase de construcción del producto.
 
+#### Infraestructura (Coste total: 53,32€/mes)
+Incluye los servicios cloud base para desplegar y validar el entorno de desarrollo de forma continua, priorizando un proveedor con buen equilibrio entre coste, simplicidad y disponibilidad.
 
-### OPEX
+| Despliegue para desarrollo | Coste Mensual |
+|---|---|
+| Digital Ocean | 53,32€/mes |
+
+#### Herramientas de desarrollo (Coste total: 541,92€/mes)
+Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
+
+| Herramienta | Número de licencias | Coste unitario | Coste Total |
+|---|---|---|---|
+| Github Team | 16 | 3,67€/mes | 58,72€/mes |
+| Gemini Pro | 16 | 18,50/mes | 296€/mes |
+| Microsoft 365 Business | 16 | 11,70/mes | 187,2€/mes |
+
+#### Luz (Coste total: 19,20€/mes)
+Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, tomando como base las horas mensuales del equipo, una potencia media por puesto y un precio unitario conservador por kWh.
+
+| Horas mensuales equipo | Energía consumida | Precio Energía | Coste Total |
+|---|---|---|---|
+| 640 (16x40) | 128 (640x0,2) | 0,15/kWh€ | 19,20€/mes |
 ## Lanzamiento 21/05/2026 - 21/05/2027
-### CAPEX
 ### OPEX
+Ajustar los opex a jornadas completas y añadir los gastos que hay en el documento
+#### Infraestructura (Coste total: 88,32€/mes)
+| Número de usuarios | Coste Mensual |
+|---|---|
+| 0-1.0000 | 53,32€/mes |
+| 1.0000 - 10.0000 | 65,32€/mes |
+| +10.0000 | 88,32€/mes |
+
+#### Herramientas de desarrollo (Coste total: 541,92€/mes)
+Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
+
+| Herramienta | Número de licencias | Coste unitario | Coste Total |
+|---|---|---|---|
+| Github Team | 16 | 3,67€/mes | 58,72€/mes |
+| Gemini Pro | 16 | 18,50/mes | 296€/mes |
+| Microsoft 365 Business | 16 | 11,70/mes | 187,2€/mes |
+
+#### Luz (Coste total: 75,8€/mes)
+
+| Horas mensuales equipo | Energía consumida | Precio Energía | Coste Total |
+|---|---|---|---|
+| 2560 (16x160) | 512 (2560x0,2) | 0,15/kWh€ | 75,8€/mes |
+
+#### Mantenimiento (Coste total: 10.777,536€/mes)
+| Rol | Unidades | Horas | Salario Líquido | Salario Bruto | Coste de Empresa | Total |
+|---|---|---|---|---|---|---|
+| Ingeniero Junior | 16 | 37,8h/mes | 10,60€/h | 13,50€/h | 17,82€/h | 10.777,536€/mes |
