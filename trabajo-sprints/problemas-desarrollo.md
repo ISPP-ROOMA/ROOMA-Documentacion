@@ -16,7 +16,7 @@ Se ha detectado que algunos miembros del equipo han invertido más tiempo que ot
 - Establecer un límite máximo y mínimo de puntos de historia por persona para garantizar la equidad en el esfuerzo.
 
 ### Comprobación de mitigaciones
-Cada semana comprobar que todos los integrantes difieren como mucho 2/3 horas entre ellos
+Cada semana comprobar que todos los integrantes presentan una desviación típica de 2 horas o menos
 
 ## 2. Problemas con el despliegue el día de la entrega
 
