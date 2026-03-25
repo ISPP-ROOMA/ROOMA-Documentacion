@@ -1,6 +1,6 @@
 # Presupuesto Estimado
 ## Desarrollo 29/01/2026 - 21/05/2026
-### CAPEX (Coste total: 7.350€)
+### CAPEX (Coste total: 67.418€)
 #### Equipamiento Informático (Coste total: 16.000€)
 Se opta por un modelo Bring Your Own Device (BYOD) para la fase de desarrollo y lanzamiento inicial, acumulando un CAPEX estimado de 16K € (16 equipos a 1.000 €/ud).
 
