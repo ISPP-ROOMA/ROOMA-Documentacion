@@ -16,27 +16,12 @@ Se ha detectado que algunos miembros del equipo han invertido más tiempo que ot
 - Establecer un límite máximo y mínimo de puntos de historia por persona para garantizar la equidad en el esfuerzo.
 
 ### Comprobación de mitigaciones
-Se comprobará en el próximo sprint comparando el sumatorio de puntos de historia finalizados por cada miembro al cierre del periodo.
+Cada semana comprobar que todos los integrantes difieren como mucho 2/3 horas entre ellos
 
-## 2. Conflictos en la integración de ramas
-
-### Descripción
-Se han experimentado dificultades técnicas y retrasos al integrar el código debido a la existencia de un número excesivo de ramas abiertas simultáneamente.
-
-### Lecciones aprendidas
-- Cuanto más tiempo permanece una rama sin integrarse en la principal, más probable es que surjan conflictos de código.
-
-### Mitigaciones
-- Adoptar una política de ramas más efímeras, integrándolas en la rama principal cada dos días.
-- Realizar integraciones frecuentes de la rama principal hacia las ramas de desarrollo para resolver conflictos de forma incremental.
-
-### Comprobación de mitigaciones
-Revisar el historial de Git para verificar que el tiempo de vida de las ramas se ha reducido y que los conflictos en los *merges* finales son mínimos.
-
-## 3. Retraso en la fecha límite de despliegue
+## 2. Problemas con el despliegue el día de la entrega
 
 ### Descripción
-El despliegue de la aplicación se realizó en una fecha cercana a la entrega final, incumpliendo el objetivo interno de tener la versión estable desplegada dos días antes.
+El despliegue de la aplicación se realizó en una fecha cercana a la entrega final, lo que provocó que existieran errores el mismo día de la entrega
 
 ### Lecciones aprendidas
 - No se reservó el tiempo suficiente en el cronograma específicamente para tareas de infraestructura.
@@ -45,9 +30,9 @@ El despliegue de la aplicación se realizó en una fecha cercana a la entrega fi
 - Establecer una **congelación de funcionalidades** 72 horas antes de la entrega para dedicar las últimas 48 horas exclusivamente al despliegue y pruebas en producción.
 
 ### Comprobación de mitigaciones
-Se verificará comprobando la fecha del despliegue exitoso en el entorno de producción frente a la fecha de entrega del **Sprint 3**.
+El día de la entrega no debén de existir más de 5 commits de fix
 
-## 4. Incumplimiento de deadlines internos y dependencias
+## 3. Retrasos en el desarrollo
 
 ### Descripción
 En varias tareas del sprint, se ha producido un retraso debido a que algunas tareas dependían de otras que no se completaron a tiempo. Esto ha obligado a miembros del equipo a asumir tareas adicionales que no tenían asignadas originalmente para evitar bloquear el progreso.
@@ -69,7 +54,7 @@ Medir semanalmente el porcentaje de tareas que cumplen su deadline.
 
 Objetivo: al menos un 80% de las tareas completadas dentro del plazo establecido.
 
-## 5. Coordinación de la presentación
+## 4. Coordinación de la presentación
 
 ### Descripción
 Han existido dudas sobre cómo coordinar el trabajo de la presentación, especialmente sobre si incluir únicamente la solución final o también todo el proceso previo, lo que ha generado incertidumbre y falta de alineación.
@@ -87,6 +72,4 @@ Establecer una estructura clara y validarla con el equipo antes de comenzar.
 Asignar un responsable de coordinación que centralice decisiones.
 
 ### Comprobación de mitigaciones
-Evaluar si en siguientes presentaciones no hay bloqueos ni dudas iniciales.
-
-Medir si la preparación comienza antes y se cumple el planning sin retrasos.
+Comprobar que la presentación esta lista antes de las 16 del día de la entrega
