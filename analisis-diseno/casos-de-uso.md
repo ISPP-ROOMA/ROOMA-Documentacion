@@ -1,5 +1,5 @@
 # ROOMA
-# Requisitos de información
+# Casos de uso
 
 ## CU-01: Descubrimiento de viviendas
 **Actor:** Buscadores
