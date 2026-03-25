@@ -11,13 +11,25 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── alm
 │   └── stack-tecnologico
 ├── analisis-diseno/
-│   ├── casos-de-uso/
-│   ├── mockups/
-│   ├── analisis-competidores
-│   ├── analisis-dafo
+│   ├── cumplimiento-trazabilidad-requisitos/
+│   │   ├── cu-01-descubrimiento-viviendas
+│   │   ├── cu-02-gestion-candidatos-match
+│   │   ├── cu-03-sistema-chats
+│   │   ├── cu-04-gestion-notificaciones
+│   │   ├── cu-05-sistema-favoritos
+│   │   ├── cu-06-gestion-inmuebles
+│   │   ├── cu-07-gestion-cuentas-perfil
+│   │   ├── cu-08-filtros-avanzados-arrendador
+│   │   ├── cu-09-gestion-facturas-pagos
+│   │   ├── cu-10-gestion-incidencias
+│   │   ├── cu-11-resenas-valoracion-convivencia
+│   ├── requisitos/
+│   │   ├── requisitos-funcionales
+│   │   ├── requisitos-informacion
+│   │   ├── requisitos-no-funcionales
+│   ├── casos-de-uso
 │   ├── diagrama-mermaid
-│   ├── idea-rooma
-│   └── requisitos
+│   └── historias-de-usuario
 ├── analisis-economico/
 │   ├── informe-costes
 │   ├── presupuesto-estimado
@@ -34,7 +46,9 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   └── lista-usuarios-censurada
 │   └── acuerdo-usuarios-piloto
 ├── despliegues/
+│   ├── despliegue-info
 ├── entregas/
+│   ├── entregas
 ├── feedback/
 │   ├── clase/
 │   │   ├── contribucion-bbdd-comun
@@ -63,36 +77,31 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   ├── 05-presentacion-05-03
 │   ├── 2-sprint-2/
 │   │   ├── 06-presentacion-12-03
+│   │   ├── 07-presentacion-26-03
 │   ├── guia-presentaciones
 │   ├── presentaciones
 ├── pug/
-│   ├── realizado/
-│   │   ├── sprint-1
-│   │   ├── sprint-2
-│   │   └── sprint-3
-│   └── recibido/
-│       ├── sprint-1
-│       ├── sprint-2
-│       └── sprint-3
+│   ├── revisiones-realizadas/
+│   │   └──  feedback-vecinus-keakit-s1
+│   └── revisiones-recibidas/
+│       └── feedback-recibido
 ├── trabajo-sprints/
 │   ├── 0-dp/
-│   │   ├── registro-horas-dp/
-│   │   └── product-backlog
+│   │   └── horas-dp
 │   ├── 1-sprint-1/
-│   │   ├── registro-horas-s1/
-│   │   ├── sprint-planning-s1
-│   │   └── sprint-retrospective-s1
+│   │   └── horas-s1
 │   ├── 2-sprint-2/
-│   │   ├── registro-horas-s2/
-│   │   ├── sprint-planning-s2
-│   │   └── sprint-retrospective-s2
+│   │   ├── desviaciones-deadlines
+│   │   ├── horas-acumuladas-s2
+│   │   ├── horas-s2
+│   │   ├── lead-time-s2
+│   │   └── puntos-historia-s2
 │   ├── 3-sprint-3/
 │   │   ├── registro-horas-s3/
 │   │   ├── sprint-planning-s3
 │   │   └── sprint-retrospective-s3
 │   ├── 4-ppl/
-|   ├── problemas-desarrollo
-│   └── prevision-de-riesgos
+│   └── problemas-desarrollo
 └── readme       
 ```
 
