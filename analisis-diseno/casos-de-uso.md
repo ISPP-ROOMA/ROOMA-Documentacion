@@ -3,11 +3,11 @@
 
 ## CU-01: Descubrimiento de viviendas
 **Actor:** Buscadores
-**Objetivo:** Explorar e expresar interés en viviendas compatibles para encontrar un hogar.
+**Objetivo:** Explorar y expresar interés en viviendas compatibles para encontrar un hogar.
 
 **Flujo Principal:**
 1. El sistema presenta un deck de tarjetas basado en los filtros activos (precio, zona, reglas).
-2. El usuario accede al detalle para ver fotos del inmueble e los perfiles de afinidad de los compañeros actuales (gustos, horarios, profesión).
+2. El usuario accede al detalle para ver fotos del inmueble y los perfiles de afinidad de los compañeros actuales (gustos, horarios, profesión).
 3. El usuario desliza a la derecha (Like) para mostrar interés o a la izquierda (Dislike) para descartar.
 4. (Opcional) El usuario Premium utiliza la función Rewind para recuperar una tarjeta descartada.
 
@@ -15,7 +15,7 @@
 **Estado:** Completado Parcialmente (Excepto el paso 4).
 
 **Precondiciones:**
-* El usuario debe estar registrado e autenticado.
+* El usuario debe estar registrado y autenticado.
 * El usuario debe haber configurado al menos los filtros básicos de búsqueda.
 * Deben existir inmuebles activos compatibles con dichos filtros.
 
@@ -29,9 +29,9 @@
 
 ---
 
-## CU-02: Evaluación de Candidatos e Match
+## CU-02: Evaluación de Candidatos y Match
 **Actor:** Anunciante
-**Objetivo:** Evaluar a los interesados e filtrar quiénes pueden acceder al contacto directo.
+**Objetivo:** Evaluar a los interesados y filtrar quiénes pueden acceder al contacto directo.
 
 **Flujo Principal:**
 1. El sistema notifica al Anunciante que tiene nuevos perfiles interesados (Likes).
@@ -39,11 +39,11 @@
 3. El Anunciante revisa la ficha técnica del candidato (compatibilidad, verificación, profesión).
 4. El Anunciante selecciona una acción: Aceptar (abre chat), En Espera (mueve a reserva) o Rechazar (descarta perfil).
 
-**Resultado:** Match establecido e canal de comunicación habilitado.
+**Resultado:** Match establecido y canal de comunicación habilitado.
 **Estado:** Completado Parcialmente (Sin chat activo ni opción de espera).
 
 **Precondiciones:**
-* El inmueble debe estar publicado e en estado activo.
+* El inmueble debe estar publicado y en estado activo.
 * El candidato debe haber dado "Like" previamente.
 
 **Reglas de negocio:**
@@ -53,13 +53,13 @@
 ---
 
 ## CU-03: Chat post Match
-**Actor:** Buscadores e Anunciante
+**Actor:** Buscadores y Anunciante
 **Objetivo:** Coordinar un encuentro o contacto para avanzar en el alquiler.
 
 **Flujo Principal:**
 1. Los usuarios con Match acceden a la bandeja de mensajes.
 2. Intercambian mensajes de texto, fotos o documentos en tiempo real.
-3. Concretan mediante el chat la forma e medio para tener una quedada o visita formal.
+3. Concretan mediante el chat la forma y medio para tener una quedada o visita formal.
 
 **Resultado:** Acuerdo de visita o contacto registrado en el sistema.
 **Estado:** Pendiente.
@@ -72,10 +72,10 @@
 
 **Flujo Principal:**
 1. Ocurre un evento relevante (match, mensaje, solicitud aceptada|rechazada).
-2. El sistema comprueba preferencias del usuario e genera la notificación.
-3. El usuario la abre e el sistema redirige a la pantalla correspondiente, marcándola como leída.
+2. El sistema comprueba preferencias del usuario y genera la notificación.
+3. El usuario la abre y el sistema redirige a la pantalla correspondiente, marcándola como leída.
 
-**Resultado:** Usuario informado e notificación registrada (leída).
+**Resultado:** Usuario informado y notificación registrada (leída).
 **Estado:** Completado Parcialmente (Solo existen notificaciones de Likes).
 
 ---
@@ -87,23 +87,23 @@
 **Flujo Principal:**
 1. El usuario marca una vivienda como Favorito desde la tarjeta o el detalle.
 2. El sistema lo añade a la lista de favoritos del usuario (Elemento Guardado).
-3. El usuario accede a la sección "Favoritos", revisa e decide realizar Like o Dislike.
+3. El usuario accede a la sección "Favoritos", revisa y decide realizar Like o Dislike.
 
-**Resultado:** Elemento guardado en favoritos e accesible para revisión.
+**Resultado:** Elemento guardado en favoritos y accesible para revisión.
 **Estado:** Pendiente.
 
 ---
 
 ## CU-06: Gestión de Inmuebles
 **Actor:** Anunciante
-**Objetivo:** Dar de alta, editar e mantener la oferta de viviendas actualizada.
+**Objetivo:** Dar de alta, editar y mantener la oferta de viviendas actualizada.
 
 **Flujo Principal:**
 1. El Anunciante completa o edita el formulario guiado (ubicación, precio, fotos, reglas).
 2. El Anunciante define o actualiza el perfil de compañero ideal para el algoritmo.
-3. El sistema valida los datos, guarda los cambios e hace visible el anuncio en el deck.
+3. El sistema valida los datos, guarda los cambios y hace visible el anuncio en el deck.
 
-**Resultado:** Inmueble publicado o actualizado e visible para buscadores.
+**Resultado:** Inmueble publicado o actualizado y visible para buscadores.
 **Estado:** Completado (Alta) | Pendiente (Edición).
 
 **Reglas de negocio:**
@@ -112,70 +112,70 @@
 
 ---
 
-## CU-07: Gestión de Cuentas e Perfil
+## CU-07: Gestión de Cuentas y Perfil
 **Actor:** Todos los usuarios
-**Objetivo:** Administrar perfil, preferencias e estado de la cuenta.
+**Objetivo:** Administrar perfil, preferencias y estado de la cuenta.
 
 **Flujo Principal:**
-1. El usuario registra o edita datos personales, laborales e etiquetas de estilo de vida.
-2. El usuario configura sus preferencias de búsqueda e notificaciones.
+1. El usuario registra o edita datos personales, laborales y etiquetas de estilo de vida.
+2. El usuario configura sus preferencias de búsqueda y notificaciones.
 3. El usuario gestiona su suscripción Premium o métodos de acceso (OAuth, 2FA).
 
-**Resultado:** Perfil optimizado e estado de cuenta actualizado.
+**Resultado:** Perfil optimizado y estado de cuenta actualizado.
 **Estado:** Pendiente.
 
 ---
 
 ## CU-08: Filtros Avanzados para Arrendador
 **Actor:** Anunciante
-**Objetivo:** Definir criterios para priorizar candidatos e facilitar la selección.
+**Objetivo:** Definir criterios para priorizar candidatos y facilitar la selección.
 
 **Flujo Principal:**
 1. El Anunciante accede a la configuración del inmueble o panel de solicitudes.
 2. Define filtros (verificación, rango de edad, ocupación, hábitos).
-3. El sistema aplica los filtros e reordena la lista de candidatos mostrados.
+3. El sistema aplica los filtros y reordena la lista de candidatos mostrados.
 
-**Resultado:** Lista de candidatos filtrada e priorizada según afinidad.
+**Resultado:** Lista de candidatos filtrada y priorizada según afinidad.
 **Estado:** Pendiente.
 
 ---
 
-## CU-09: Gestión de Facturas e Pagos
+## CU-09: Gestión de Facturas y Pagos
 **Actor:** Anunciante (Casero) e Inquilinos
-**Objetivo:** Automatizar el reparto e seguimiento de los pagos de suministros e renta.
+**Objetivo:** Automatizar el reparto y seguimiento de los pagos de suministros y renta.
 
 **Flujo Principal:**
-1. El Anunciante carga la factura (importe, concepto e documento adjunto).
-2. El sistema asigna e divide el importe automáticamente según la configuración (partes iguales, % o fijo).
-3. Los Inquilinos reciben notificación de deuda e proceden al pago desde la app.
+1. El Anunciante carga la factura (importe, concepto y documento adjunto).
+2. El sistema asigna y divide el importe automáticamente según la configuración (partes iguales, % o fijo).
+3. Los Inquilinos reciben notificación de deuda y proceden al pago desde la app.
 
-**Resultado:** Transparencia financiera e control de cobros realizado.
+**Resultado:** Transparencia financiera y control de cobros realizado.
 **Estado:** Completado Parcialmente (Falta pasarela de pago real).
 
 ---
 
 ## CU-10: Gestión de Incidencias en la Vivienda
-**Actor:** Inquilinos e Anunciante
-**Objetivo:** Reportar e dar seguimiento a averías de mantenimiento de forma organizada.
+**Actor:** Inquilinos y Anunciante
+**Objetivo:** Reportar y dar seguimiento a averías de mantenimiento de forma organizada.
 
 **Flujo Principal:**
-1. El Inquilino crea un reporte detallando el problema e adjunta evidencia fotográfica.
-2. El Anunciante recibe la notificación e actualiza el estado (En proceso, Resuelta).
-3. Ambas partes comentan e adjuntan presupuestos hasta que se marca como "Cerrada".
+1. El Inquilino crea un reporte detallando el problema y adjunta evidencia fotográfica.
+2. El Anunciante recibe la notificación y actualiza el estado (En proceso, Resuelta).
+3. Ambas partes comentan y adjuntan presupuestos hasta que se marca como "Cerrada".
 
-**Resultado:** Historial de mantenimiento documentado e resolución eficiente.
+**Resultado:** Historial de mantenimiento documentado y resolución eficiente.
 **Estado:** Pendiente.
 
 ---
 
-## CU-11: Reseñas e Valoración de Convivencia
+## CU-11: Reseñas y Valoración de Convivencia
 **Actor:** Todos los usuarios
 **Objetivo:** Generar un sistema de confianza basado en la experiencia real.
 
 **Flujo Principal:**
 1. Al finalizar un contrato o convivencia, el sistema habilita la opción de valorar.
-2. El usuario califica mediante estrellas e etiquetas predefinidas (limpieza, puntualidad).
-3. El sistema aplica la regla de ciego mutuo e publica la valoración tras 30 días o reciprocidad.
+2. El usuario califica mediante estrellas y etiquetas predefinidas (limpieza, puntualidad).
+3. El sistema aplica la regla de ciego mutuo y publica la valoración tras 30 días o reciprocidad.
 
-**Resultado:** Perfiles con reputación verificada e pública.
+**Resultado:** Perfiles con reputación verificada y pública.
 **Estado:** Completado Parcialmente (Vista pública no implementada).
