@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-05: Sistema de favoritos
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-06 | RF-07 | RF-08 | RNF-03 | RNF-04 | RI-02 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -15,9 +22,9 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-06** | Gestión de Favoritos | | |
-| **RF-07** | Visualización del Listado de favoritos | | |
-| **RF-08** | Control de Disponibilidad en Favoritos | | |
+| **RF-06** | Gestión de Favoritos |  | Si |
+| **RF-07** | Visualización del Listado de favoritos |  | Si |
+| **RF-08** | Control de Disponibilidad en Favoritos |  | Parcial |
 
 ---
 

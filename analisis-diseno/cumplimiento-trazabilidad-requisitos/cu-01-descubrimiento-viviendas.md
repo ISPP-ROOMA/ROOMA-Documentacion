@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-01: Descubrimiento de viviendas
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-46 | RF-47 | RF-48 | RF-49 | RF-50 | RF-51 | RF-52 | RNF-08 | RNF-09 | RNF-10 | RI-03 | RI-04 | RI-06 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -16,13 +23,13 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-46** | Gestión del Deck |  |  |
-| **RF-47** | Visualizar Detalles |  | |
-| **RF-48** | Swipe |  | |
-| **RF-49** | Rewind | | |
-| **RF-50** | Gestión de Estados | |  |
-| **RF-51** | Persistencia | | |
-| **RF-52** | Sugerencia de Filtros | | |
+| **RF-46** | Gestión del Deck |  | Si |
+| **RF-47** | Visualizar Detalles |  | Si |
+| **RF-48** | Swipe |  | Si |
+| **RF-49** | Rewind |  | No |
+| **RF-50** | Gestión de Estados |  | Si |
+| **RF-51** | Persistencia |  | Parcial |
+| **RF-52** | Sugerencia de Filtros |  | Si |
 
 ---
 

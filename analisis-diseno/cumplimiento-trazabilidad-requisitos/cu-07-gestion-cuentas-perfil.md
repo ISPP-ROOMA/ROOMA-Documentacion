@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-07: Gestión de cuentas y perfil
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-63 | RF-64 | RF-65 | RF-66 | RF-67 | RF-68 | RF-69 | RF-70 | RF-71 | RI-16 | RI-17 | RI-18 | RI-19 | RI-20 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -20,15 +27,15 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-63** | Registro con email e contraseña | | |
-| **RF-64** | Validación, verificación e reenvío | | |
-| **RF-65** | Inicio de sesión con proveedores | | |
-| **RF-66** | Recuperación de contraseña | | |
-| **RF-67** | Autenticación en dos pasos (2FA TOTP) | | |
-| **RF-68** | Completar e editar perfil | | |
-| **RF-69** | Reportes de usuarios | | |
-| **RF-70** | Sanciones administrativas | | |
-| **RF-71** | Verificación de identidad delegada | | |
+| **RF-63** | Registro con email e contraseña |  | Si |
+| **RF-64** | Validación, verificación e reenvío |  | Parcial |
+| **RF-65** | Inicio de sesión con proveedores |  | No |
+| **RF-66** | Recuperación de contraseña |  | No |
+| **RF-67** | Autenticación en dos pasos (2FA TOTP) |  | No |
+| **RF-68** | Completar e editar perfil |  | Parcial |
+| **RF-69** | Reportes de usuarios |  | No |
+| **RF-70** | Sanciones administrativas |  | No |
+| **RF-71** | Verificación de identidad delegada |  | No |
 
 ---
 

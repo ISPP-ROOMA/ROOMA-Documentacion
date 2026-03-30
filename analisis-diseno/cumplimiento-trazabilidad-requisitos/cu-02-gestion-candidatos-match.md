@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-02: Gestión de Candidatos y Match
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-53 | RF-54 | RF-55 | RF-56 | RF-74 | RNF-19 | RNF-20 | RI-21 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -15,11 +22,11 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-53** | Gestión de Solicitudes | | |
-| **RF-54** | Visualización Candidato | | |
-| **RF-55** | Gestión de Candidatos | | |
-| **RF-56** | Gestión de Estados del Inmueble | | |
-| **RF-74** | Match | | |
+| **RF-53** | Gestión de Solicitudes |  | Si |
+| **RF-54** | Visualización Candidato |  | Si |
+| **RF-55** | Gestión de Candidatos |  | Si |
+| **RF-56** | Gestión de Estados del Inmueble |  | Parcial |
+| **RF-74** | Match |  | Si |
 
 ---
 

@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-06: Gestión de inmuebles
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-09 | RF-11 | RF-12 | RF-13 | RF-14 | RF-72 | RF-73 | RNF-05 | RNF-06 | RNF-07 | RI-03 | RI-04 | RI-05 | RI-06 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -20,13 +27,13 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-09** | Formulario de Alta Guiado | | |
-| **RF-11** | Gestión de Estado del Anuncio de la vivienda | | |
-| **RF-12** | Previsualización del Anuncio de la vivienda | | |
-| **RF-13** | Restricción de eliminación de vivienda | | |
-| **RF-14** | Consulta de miembros de la vivienda | | |
-| **RF-72** | Gestión de anuncios | | |
-| **RF-73** | Pausar y reactivar anuncio | | |
+| **RF-09** | Formulario de Alta Guiado |  | Si |
+| **RF-11** | Gestión de Estado del Anuncio de la vivienda |  | Si |
+| **RF-12** | Previsualización del Anuncio de la vivienda |  | No |
+| **RF-13** | Restricción de eliminación de vivienda |  | Parcial |
+| **RF-14** | Consulta de miembros de la vivienda |  | Si |
+| **RF-72** | Gestión de anuncios |  | Parcial |
+| **RF-73** | Pausar y reactivar anuncio |  | Si |
 
 ---
 

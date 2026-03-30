@@ -3,6 +3,13 @@
 # Trazabilidad y control - CU-09: Gestión de facturas y pagos
 
 
+## Criterio de la columna Testeado
+- **Si**: existe evidencia automatizada directa del requisito en al menos una suite (backend unitario/integracion con JUnit-Spring Test o frontend unitario con Vitest o frontend e2e con Playwright).
+- **Parcial**: existe cobertura automatizada, pero solo de una parte del flujo o sin cubrir todas las reglas del requisito.
+- **No**: no se encontro evidencia automatizada suficiente del requisito en las suites revisadas.
+- **Fuentes revisadas**: `backend/src/test` (unitarios e integracion), `frontend/src/__tests__` (unitarios), `frontend/tests` (e2e).
+- **Anexo detallado por RF**: desglose-testing-por-cu-rf.md (usar la seccion del CU correspondiente).
+
 ## Matriz de Trazabilidad (HU vs Requisitos)
 | ID | Historia de Usuario | RF-15 | RF-16 | RF-17 | RF-18 | RF-19 | RF-20 | RF-21 | RF-22 | RF-23 | RF-24 | RF-25 | RF-26 | RNF-11 | RNF-12 | RNF-16 | RNF-17 | RI-07 | RI-08 | RI-09 | RI-10 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -24,18 +31,18 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-15** | Pantalla de Registro de Gastos | | |
-| **RF-16** | Selector Visual de Inquilinos e Modo de Reparto | | |
-| **RF-17** | Visualización de Cuotas en Tiempo Real | | |
-| **RF-18** | Dashboard de "Mis Pagos" (Vista Inquilino) | | |
-| **RF-19** | Pasarela de Pago Integrada | | |
-| **RF-20** | Indicadores de Estado de Pago | | |
-| **RF-21** | Interruptor de Auto-Pago | | |
-| **RF-22** | Dashboard de Cobros (Vista Casero) | | |
-| **RF-23** | Notificaciones de Pagos | | |
-| **RF-24** | Exportación de Historial Financiero | | |
-| **RF-25** | Gestión de Métodos de Pago | | |
-| **RF-26** | Anulación e Edición de Facturas | | |
+| **RF-15** | Pantalla de Registro de Gastos |  | Si |
+| **RF-16** | Selector Visual de Inquilinos e Modo de Reparto |  | Si |
+| **RF-17** | Visualización de Cuotas en Tiempo Real |  | Si |
+| **RF-18** | Dashboard de "Mis Pagos" (Vista Inquilino) |  | Si |
+| **RF-19** | Pasarela de Pago Integrada |  | Parcial |
+| **RF-20** | Indicadores de Estado de Pago |  | Si |
+| **RF-21** | Interruptor de Auto-Pago |  | No |
+| **RF-22** | Dashboard de Cobros (Vista Casero) |  | Si |
+| **RF-23** | Notificaciones de Pagos |  | No |
+| **RF-24** | Exportación de Historial Financiero |  | No |
+| **RF-25** | Gestión de Métodos de Pago |  | No |
+| **RF-26** | Anulación e Edición de Facturas |  | Parcial |
 
 ---
 
