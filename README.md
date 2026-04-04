@@ -49,6 +49,7 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── despliegue-info
 ├── entregas/
 │   ├── entregas
+│   └── checklist-entrega-sprint-3.md
 ├── feedback/
 │   ├── clase/
 │   │   ├── contribucion-bbdd-comun
