@@ -42,16 +42,33 @@ Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el a
 |---|---|---|---|---|---|---|
 | Ingeniero Junior | 16 | 150 | 10,60€/h | 13,50€/h | 17,82€/h | 42.768€ |
 
+#### Resumen de Inversión CAPEX
 
-### OPEX (Coste total: 614,44€/mes)
+| Categoría | Partida | Importe | Subtotal |
+| :--- | :--- | :---: | :---: |
+| **Equipamiento Informático** | Equipamiento Informático (BYOD) | 16.000 € | **16.000 €** |
+| **Propiedad Intelectual y Legal** | Constitución de la Sociedad (SL) | 3.500 € | |
+| | Pacto de Socios | 1.500 € | |
+| | Auditoría y Adecuación GDPR/LOPDGDD | 1.500 € | |
+| | Registro de Marca (Nacional / Europea) | 850 € | **7.350 €** |
+| **Licencias Perpetuas y Activos Digitales** | Tipografías y Recursos Tipográficos Comerciales | 800 € | |
+| | Librerías de Sonido, Iconografía y Multimedia | 500 € | **1.300 €** |
+| **Laboral** | Desarrollo (16 Ingenieros x 150h) | 42.768 € | **42.768 €** |
+| **TOTAL CAPEX** | | | **67.418 €** |
+
+### OPEX (Coste total: 614,74€/mes)
 Este bloque recoge los costes operativos recurrentes necesarios para mantener el entorno técnico de desarrollo en funcionamiento durante la fase de construcción del producto.
 
-#### Infraestructura (Coste total: 53,32€/mes)
+#### Infraestructura (Coste total: 53,62€/mes)
 Incluye los servicios cloud base para desplegar y validar el entorno de desarrollo de forma continua, priorizando un proveedor con buen equilibrio entre coste, simplicidad y disponibilidad.
 
-| Despliegue para desarrollo | Coste Mensual |
-|---|---|
-| Digital Ocean | 53,32€/mes |
+Para esta fase de desarrollo, se establece un **coste fijo** basado en el mantenimiento del entorno de desarrollo y el soporte técnico para un grupo cerrado de **30 usuarios piloto**. Al ser un número de usuarios conocido y controlado, no se aplican variables de escalabilidad hasta la fase de lanzamiento comercial.
+
+| Despliegue para desarrollo | Usuarios Piloto (Fijo) | Coste Mensual |
+|---|---|---|
+| Digital Ocean (Servidor y Base de Datos) | 30 | 53,62€/mes |
+
+*El presupuesto contempla una base de 53,32€ para la infraestructura de computación, a la que se suma un margen de 0,30€ (0,01€/usuario) para cubrir el tráfico de datos y almacenamiento de imágenes generado por los 30 usuarios piloto durante el periodo de prueba.*
 
 #### Herramientas de desarrollo (Coste total: 541,92€/mes)
 Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
@@ -68,20 +85,37 @@ Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, toman
 | Horas mensuales equipo | Energía consumida | Precio Energía | Coste Total |
 |---|---|---|---|
 | 640 (16x40) | 128 (640x0,2) | 0,15/kWh€ | 19,20€/mes |
+
+#### Resumen de Gastos Operativos (OPEX - Fase Desarrollo)
+
+| Categoría | Partida | Importe | Subtotal |
+| :--- | :--- | :---: | :---: |
+| **Infraestructura** | Digital Ocean (Servidor y Base de Datos) | 53,32 € | |
+| | Soporte 30 Usuarios Piloto (0,01€/u) | 0,30 € | **53,62 €** |
+| **Herramientas de desarrollo** | Github Team (16 licencias) | 58,72 € | |
+| | Gemini Pro (16 licencias) | 296,00 € | |
+| | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
+| **Luz** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
+| **TOTAL OPEX MENSUAL** | | | **614,74 €** |
+
 ## Lanzamiento 21/05/2026 - 21/05/2027
 ### OPEX (Coste total: 14.483,576)
 
 Este bloque detalla los costes operativos recurrentes durante la fase de lanzamiento y operación de la plataforma.
 
-#### Infraestructura (Coste total: 88,32€/mes)
+#### Infraestructura (Coste total: 53,32€/mes + 0,01 · u/mes)
+En la fase de explotación comercial, la infraestructura de **Digital Ocean** escala dinámicamente para absorber el tráfico real. El coste se calcula mediante una función lineal que garantiza la sostenibilidad técnica del servicio:
 
-La infraestructura escala dinámicamente según el volumen de usuarios activos, garantizando disponibilidad y rendimiento.
+**Fórmula de Escalabilidad:** 
+>$Coste_{Infra} = 53,32€ + (0,01€ \cdot u)$
 
-| Número de usuarios | Coste Mensual |
-|---|---|
-| 0-1.0000 | 53,32€/mes |
-| 1.0000 - 10.0000 | 65,32€/mes |
-| +10.0000 | 88,32€/mes |
+| Usuarios Activos ($u$) | Cálculo (Fijo + 0,01€/u) | Coste Mensual |
+|---|---|---|
+| 1.000 | 53,32€ + 10,00€ | **63,32€/mes** |
+| 10.000 | 53,32€ + 100,00€ | **153,32€/mes** |
+| 25.000 | 53,32€ + 250,00€ | **303,32€/mes** |
+
+*El coste fijo de 53,32€ garantiza que la aplicación esté siempre disponible, segura y con copias de seguridad automáticas. El coste variable de 0,01€ por usuario cubre el gasto de Internet por el uso de la app, el espacio en la nube para guardar las fotos de los perfiles y pisos, y la potencia de cálculo necesaria para realizar los emparejamientos en tiempo real.*
 
 #### Herramientas de desarrollo (Coste total: 541,92€/mes)
 Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
@@ -108,22 +142,83 @@ Del equipo estructural de 16 ingenieros, durante la fase de lanzamiento se dedic
 |---|---|---|---|---|---|---|
 | Ingeniero Junior | 16 | 37,8h/mes | 10,60€/h | 13,50€/h | 17,82€/h | 10.777,536€/mes |
 
-#### Marketing (Coste total: 3000€/mes)
 
-Presupuesto inicial de adquisición de usuarios en canales digitales adaptados al perfil demográfico objetivo (Generación Z, móvil-first). Las campañas se distribuyen entre plataformas con mayor penetración en el segmento de inquilinos jóvenes.
+#### Marketing (Coste total: 31500 +  0,80€ · u / mes)
 
-| Canal | CPM | Alcance | Total |
-|---|---|---|---|
-| Tiktok | 3,5€ | 428.000 personas | 1500€/mes |
-| Meta | 6€ | 250.000 personas | 1500€/mes |
+El presupuesto de marketing se divide en dos áreas operativas: los costes fijos de estructura (personal y creación de contenidos) y la inversión variable en adquisición de usuarios (Ads).
 
-### Operaciones y Transacciones
+##### Estructura y Producción (Coste total: 3.150,00 €/mes)
+Representa el gasto operativo fijo necesario para mantener la presencia de marca, generar el material audiovisual y gestionar la comunidad de usuarios.
 
-Este apartado detalla los costes asociados a la gestión de pagos y transferencias a través del PSP seleccionado, que introduce un peaje variable sobre los ingresos y pagos procesados en la plataforma.
+| Partida de Gasto | Descripción del Servicio | Coste Mensual |
+| :--- | :--- | :---: |
+| **Contratación de Community Manager** | Gestión de redes sociales, atención al usuario y tendencias. | 1000,00 € |
+| **Producción de Anuncios** | Grabación y edición de vídeos (Spots publicitarios, Reels y TikToks). | 2000,00 € |
+| **Recursos Creativos** | Suscripciones de diseño, música comercial y stock. | 150,00 € |
 
-| Proveedor | Coste por Ingreso | Coste por Transaferencia |
-|---|---|---|
-| Stripe | 1,5% + 0,25€ por pago | 2€/mes por cuenta activa + 0,25% + 0,10€ por envío |
+
+##### Inversión Publicitaria (Coste total: 0,80€ · u € / mes)
+Presupuesto neto destinado a la compra de alcance y conversión. La inversión escala linealmente según el objetivo de usuarios activos ($u$), asumiendo un coste de adquisición competitivo en el sector de apps de servicios.
+
+**Fórmula de Escalabilidad:** 
+> $Inversión_{Ads} = 0,80€ \cdot u$
+
+| Escenario de Usuarios ($u$) | Inversión TikTok Ads (50%) | Inversión Meta Ads (50%) | Inversión Total Ads |
+| :--- | :---: | :---: | :---: |
+| **1.000 usuarios** | 400,00 € | 400,00 € | **800,00 €** |
+| **10.000 usuarios** | 4.000,00 € | 4.000,00 € | **8.000,00 €** |
+| **25.000 usuarios** | 10.000,00 € | 10.000,00 € | **20.000,00 €** |
+
+#### Operaciones y Transacciones (Coste total: 4,44€ · $u$ / mes)
+
+Este apartado detalla los costes de gestión de cobros (Pay-ins) y transferencias (Payouts) a través de **Stripe Connect**. Se asume un modelo transaccional donde Rooma actúa como intermediario seguro para el pago de rentas y servicios.
+
+#### Fórmulas de Cálculo Operativo:
+> $Coste_{Fijo\_Connect} = 2,00€ \cdot u_{piso}$
+
+> $Coste_{Comisiones} = (1,75\% \cdot Vol) + (0,35€ \cdot n)$
+
+* **$u_{piso}$ (25% de $u$):** Número de perfiles con un alquiler o servicio activo en la plataforma. Se estima que 1 de cada 4 usuarios registrados (25%) llega a formalizar y gestionar su contrato a través de la App.
+* **$Vol$ ($u_{piso} \times 800€$):** Volumen total de capital procesado (Alquiler + Suministros + Reparaciones).
+* **$n$ ($u_{piso} \times 5$):** Cantidad de transacciones ejecutadas (Pagos de inquilino + Payouts a propietarios/proveedores).
+
+#### Desglose del coste por usuario con contrato ($u_{piso}$):
+Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** transferidos mensualmente por cada usuario con contrato activo:
+* **Gestión de cuenta (Connect):** 2,00 € fijo/mes.
+* **Comisión por volumen (1,75% de 800€):** 14,00 € variable/mes.
+* **Comisión por transacciones (0,35€ x 5):** 1,75 € fijo/mes.
+* **Total por usuario con contrato:** **17,75 €/mes.**
+* **Total por usuario:** **4,4375 €/mes.**
+
+
+
+| Escenario de Usuarios ($u$) | Usuarios con Contrato ($u_{piso}$) | Volumen Mensual ($Vol$) | Nº Operaciones ($n$) | Coste Total Stripe |
+| :--- | :---: | :---: | :---: | :---: |
+| **1.000 usuarios** | 250 | 200.000 € | 1.250 | **4.437,50 €/mes** |
+| **10.000 usuarios** | 2.500 | 2.000.000 € | 12.500 | **44.375,00 €/mes** |
+| **25.000 usuarios** | 6.250 | **5.000.000 €** | **31.250** | **110.937,50 €/mes** |
+
+
+#### Suposiciones y Lógica de Negocio:
+1. **Ratio de Contratación (25%):** Se estima que el 25% de la base de usuarios totales ($u$) son perfiles con un contrato en vigor que requiere gestión de pagos recurrente. El 75% restante representa usuarios en fase de búsqueda o perfiles inactivos que no generan coste en Stripe.
+2. **Activación de Connect:** El coste de 2,00€ por cuenta se aplica únicamente si el usuario recibe fondos ese mes. Al asumir que todos los contratos en vigor liquidan pagos mensualmente, este coste se vuelve estructural para el 25% de la base.
+3. **Cumplimiento Normativo:** El coste fijo de Stripe Connect cubre la validación de identidad, prevención de blanqueo de capitales y el soporte técnico de la pasarela, delegando la responsabilidad legal bancaria en el proveedor.
+4. **Estimación de Comisiones:** El cálculo de las comisiones variables se basa en un ticket medio transaccionado proporcional a la densidad de usuarios, garantizando que la infraestructura soporte el flujo de caja proyectado.
+
+#### Resumen de Gastos Operativos (OPEX - Fase Lanzamiento)
+
+| Categoría | Partida | Desglose de Coste Mensual (f($u$)) |
+| :--- | :--- | :---: |
+| **Infraestructura** | Digital Ocean (Fijo + Cloud) | 53,32 € + 0,01 $u$ |
+| **Herramientas** | Github Team (16 licencias) | 58,72 € |
+| | Gemini Pro (16 licencias) | 296,00 € |
+| | Microsoft 365 Business (16 licencias) | 187,20 € |
+| **Luz** | Consumo eléctrico (Jornada completa) | 75,80 € |
+| **Mantenimiento** | Personal de Ingeniería (Mantenimiento) | 10.777,54 € |
+| **Marketing** | Estructura Fija (CM y Producción) | 3.150,00 € |
+| | Inversión Publicitaria (Ads) | 0,80 $u$ |
+| **Operaciones** | Gestión Stripe Connect y Comisiones | 4,44 $u$ |
+| **TOTAL OPEX MENSUAL** | **Fórmula Maestra de Gasto** | **14.598,58 € + 5,25 $u$** |
 
 ### Ingresos
 
@@ -137,10 +232,55 @@ Se establece un modelo escalonado para asegurar la adquisición masiva de usuari
 
 #### Vía de Ingresos 2: Modelo Transaccional y Comisiones
 
-El planteamiento inicial establecía una comisión plana del 3% sobre cada transacción realizada dentro de la app en concepto de Gestión y Servicio. Este modelo era deficitario y ha sido reestructurado antes del lanzamiento.
+Para garantizar que la pasarela de pagos no sea deficitaria tras los costes de Stripe, se establece una tarifa de **"Gestión y Garantía"** mixta.
 
-- **El problema de las microtransacciones:** Los Proveedores de Servicios de Pago (PSP) como Stripe o Mangopay aplican tarifas mixtas (aproximadamente un porcentaje variable + un cargo fijo de ~0,25€ a 0,30€ por transacción). En un pago de 10€ gestionado por la app, la comisión del 3% genera 0,30€ de ingresos brutos para Rooma. El coste del PSP superará los 0,40€. La empresa asume pérdidas netas en cada transacción de bajo importe.
-- **Corrección de Pricing:** La tarifa de "Gestión y Servicio" se modificará a un modelo de comisión mixta (ej. 3% + 0,50€ fijos) o, alternativamente, se establecerá un ticket mínimo de transacción para asegurar que el Margen Bruto sea matemáticamente positivo tras descontar el peaje del PSP.
+* **Tarifa Rooma:** **5% sobre el volumen ($Vol$) + 0,50€ fijos por transacción ($n$).**
+* **Margen Neto Transaccional:** Tras descontar el coste de Stripe (1,75% + 0,35€), Rooma retiene un margen neto del **3,25% + 0,15€** por cada operación.
 
-### Rentabilidad
-Para que nuestra app sea rentable, debemos superar los 14.483,576€/mes que tenemos en OPEX, por lo que necesitaríamos 1.442 usarios con el plan plus (9,99€mes) para llegar al breakeven.
+> **Ejemplo de Unidad de Negocio:** En un alquiler de 800€ con 5 transacciones mensuales:
+> * **Ingreso Bruto Rooma (5% + 0,50€ x 5):** 42,50 €
+> * **Coste Stripe (Tarifa técnica):** 17,75 €
+> * **Beneficio Neto para la plataforma:** **24,75 €/mes por contrato activo.**
+
+### Rentabilidad y Viabilidad Económica
+
+#### Análisis de Ingreso Medio por Usuario ($ARPU$)
+Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basándose en el embudo de conversión estimado para una plataforma de *matching* y gestión de alquileres:
+
+| Canal de Ingreso | Conversión | Cuota/Margen Bruto | Ingreso Ponderado ($u$) |
+| :--- | :---: | :---: | :---: |
+| **Suscripción Rooma Plus** | 15% | 9,99 € | 1,50 € |
+| **Suscripción Rooma Pro** | 2% | 29,99 € | 0,60 € |
+| **Comisiones Transaccionales** | 25% | 24,75 € | 6,18 € |
+| **TOTAL INGRESO BRUTO ($u$)** | | | **8,28 € / usuario** |
+
+---
+
+#### Análisis de Costes Variables y Margen de Contribución
+Para que el umbral de rentabilidad sea realista, restamos los costes operativos que cada usuario genera individualmente a la plataforma:
+
+* **Coste de Adquisición ($Ads$):** 0,80 €/u.
+* **Coste de Infraestructura ($Cloud$):** 0,01 €/u.
+* **Coste Operativo de Stripe (Promedio):** 4,44 €/u.
+* **Total costes variables:** **5,25 € / usuario.**
+
+> **Margen de Contribución Unitario:** 8,28 € (Ingreso) - 5,25 € (Gasto) = **3,03 € netos por usuario.**
+
+---
+
+#### Umbral de Rentabilidad (Breakeven)
+El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija de la empresa:
+
+* **Fórmula:** $Usuarios_{Breakeven} = \frac{Costes\_Fijos}{Margen\_Unitario}$
+* **Cálculo:** $14.545,04 € / 3,03 €$
+
+> **Resultado:** Rooma alcanza la rentabilidad operativa con **4.800 usuarios totales** registrados y activos en la plataforma.
+
+#### Proyección de Escenario de Éxito (25.000 usuarios)
+Una vez superado el umbral de rentabilidad, la escalabilidad del modelo transaccional permite un crecimiento acelerado del beneficio:
+
+* **Ingresos Brutos Mensuales:** 207.000,00 €
+* **Gastos Totales (Fijos + Variables):** 145.795,04 €
+* **Benficio neto mensual:** **+ 61.204,96 €**
+
+*Nota: Con este nivel de beneficios, la inversión inicial de CAPEX (67.418 €) se recuperaría íntegramente en poco más de un mes tras alcanzar el escenario de éxito, demostrando la alta eficiencia de retorno del proyecto.*
