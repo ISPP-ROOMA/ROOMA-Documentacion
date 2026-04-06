@@ -12,7 +12,7 @@ Este documento contiene los accesos a todas las presentaciones realizadas durant
 | 05-03 | S1 - Presentación de evaluación | [Ver PDF](/presentaciones/1-sprint-1/05-presentacion-05-03.pdf) | [Enlace a Canva](https://www.canva.com/design/DAHCoHmELoA/TNOHUMGGD7CqSb0seMdNAg/edit?utm_content=DAHCoHmELoA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 | 12-03 | S2 - Primera presentación | [Ver PDF](/presentaciones/2-sprint-2/06-presentacion-12-03.pdf) | [Enlace a Canva](https://www.canva.com/design/DAHDKzd1wok/Y1n7K7bbzCwXZJfH1pNCXw/edit?utm_content=DAHDKzd1wok&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 | 26-03 | S2 - Presentación de evaluación | [Ver PDF](/presentaciones/2-sprint-2/07-presentacion-26-03.pdf) | [Enlace a Canva](https://www.canva.com/design/DAHEVdryOP4/cPKGtgUg9Z1XR2ghIU_pWg/edit?utm_content=DAHEVdryOP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-| 09-04 | S3 - Primera presentación |   | [Enlace a Canva]([https://www.canva.com/design/DAHEVdryOP4/cPKGtgUg9Z1XR2ghIU_pWg/edit?utm_content=DAHEVdryOP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://canva.link/j09q56lfnd701kv))
+| 09-04 | S3 - Primera presentación |   | [Enlace a Canva](https://www.canva.com/design/DAHEVdryOP4/cPKGtgUg9Z1XR2ghIU_pWg/edit?utm_content=DAHEVdryOP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://canva.link/j09q56lfnd701kv))
 
 
 
