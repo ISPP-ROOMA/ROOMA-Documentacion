@@ -16,7 +16,7 @@ Se ha detectado que algunos miembros del equipo han invertido más tiempo que ot
 - Establecer un límite máximo y mínimo de puntos de historia por persona para garantizar la equidad en el esfuerzo.
 
 ### Comprobación de mitigaciones
-Cada semana comprobar que todos los integrantes presentan una desviación típica de 2 horas o menos
+El día 16/04 comprobar que todos los integrantes presentan una desviación típica de 2 horas o menos
 
 ## 2. Problemas con el despliegue el día de la entrega
 
@@ -30,7 +30,7 @@ El despliegue de la aplicación se realizó en una fecha cercana a la entrega fi
 - Establecer una **congelación de funcionalidades** 72 horas antes de la entrega para dedicar las últimas 48 horas exclusivamente al despliegue y pruebas en producción.
 
 ### Comprobación de mitigaciones
-El día de la entrega no debén de existir más de 5 commits de fix
+El 16/04 no deben de haber ningun commit de fix
 
 ## 3. Retrasos en el desarrollo
 
@@ -52,7 +52,7 @@ Hacer seguimiento del cumplimiento de deadlines mediante la herramienta de gesti
 
 Medir semanalmente el porcentaje de tareas que cumplen su deadline.
 
-Objetivo: al menos un 80% de las tareas completadas dentro del plazo establecido.
+Para el 16/04 al menos un 80% de las tareas completadas dentro del plazo establecido.
 
 ## 4. Coordinación de la presentación
 
@@ -73,3 +73,20 @@ Asignar un responsable de coordinación que centralice decisiones.
 
 ### Comprobación de mitigaciones
 Comprobar que la presentación esta lista antes de las 16 del día de la entrega
+
+## 5. Contenido de la presentación
+
+### Descripción
+En las presentaciones correspondientes al DP y Sprint 2 no incluimos contenido que se nos pidió explícitamente, lo que provocó penalizaciones en nuestra nota. A pesar de haber recibido feedback por parte de los profesores, dicho feedback no fue procesado ni trasladado correctamente al contenido final de la presentación.
+
+### Leciones aprendidas
+- A pesar de recopilar el feedback de los profesores y basar la presentación en dicho feedback, podemos concluir que no podemos dejar esta responsabilidad solo a una persona, ya que existe el riesgo de que se pasen por alto puntos importantes.
+- La revisión del contenido de la presentación debe ser un proceso colectivo y estructurado, no informal.
+- Es necesario contrastar siempre la presentación con los criterios de evaluación oficiales antes de darla por finalizada, y no basarse únicamente en el recuerdo o la interpretación de una sola persona.
+
+### Mitigraciones
+- Todas las personas del equipo deberán revisar individualmente la presentación mediante un checklist personal, comprobando que se incluyen todos los puntos requeridos. Posteriormente, se consolidará un checklist final común a partir de las revisiones individuales.
+- El checklist debe elaborarse a partir del feedback recibido de los profesores y de los criterios de evaluación oficiales, y debe ser validado por todos los miembros antes de la presentación.
+- Designar un responsable de hacer la primera versión del checklist, pero garantizando que la revisión final sea siempre colectiva.
+### Comprobación de mitigraciones
+Para el 16/04, no obtener ninguna penalización por contenido de la presentación en la evaluación.
