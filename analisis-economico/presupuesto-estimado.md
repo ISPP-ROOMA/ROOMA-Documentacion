@@ -246,43 +246,47 @@ Para garantizar que la pasarela de pagos no sea deficitaria tras los costes de S
 
 ### Rentabilidad y Viabilidad Económica
 
-#### Análisis de Ingreso Medio por Usuario ($ARPU$)
-Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basándose en el embudo de conversión estimado para una plataforma de *matching* y gestión de alquileres:
+#### Análisis de Ingreso Medio por Usuario (ARPU)
+Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basado en el mix de monetización. El ingreso por transacciones incluye la tasa técnica de la pasarela de pagos para reflejar la facturación bruta total de la plataforma.
 
-| Canal de Ingreso | Conversión | Cuota/Margen Bruto | Ingreso Ponderado ($u$) |
+| Canal de Ingreso | Conversión | Cuota Bruta | Ingreso Ponderado ($u$) |
 | :--- | :---: | :---: | :---: |
 | **Suscripción Rooma Plus** | 15% | 9,99 € | 1,50 € |
 | **Suscripción Rooma Pro** | 2% | 29,99 € | 0,60 € |
-| **Comisiones Transaccionales** | 25% | 24,75 € | 6,18 € |
-| **TOTAL INGRESO BRUTO ($u$)** | | | **8,28 € / usuario** |
+| **Comisiones Transaccionales** | 25% | 42,50 € | 10,62 € |
+| **TOTAL INGRESO BRUTO ($u$)** | | | **12,72 € / usuario** |
+
+*\*Nota: La comisión bruta de 42,50 € por contrato activo incluye el margen de Rooma (24,75 €) y la tasa técnica de Stripe (17,75 €).*
 
 ---
 
 #### Análisis de Costes Variables y Margen de Contribución
-Para que el umbral de rentabilidad sea realista, restamos los costes operativos que cada usuario genera individualmente a la plataforma:
+Para obtener el margen de contribución unitario, restamos todos los costes operativos variables asociados a cada usuario:
 
-* **Coste de Adquisición ($Ads$):** 0,80 €/u.
-* **Coste de Infraestructura ($Cloud$):** 0,01 €/u.
-* **Coste Operativo de Stripe (Promedio):** 4,44 €/u.
-* **Total costes variables:** **5,25 € / usuario.**
+* **Coste de Adquisición (Ads):** 0,80 €/u
+* **Coste de Infraestructura (Cloud):** 0,01 €/u
+* **Coste Operativo de Stripe:** 4,44 €/u
+* **Total costes variables:** **5,25 € / usuario**
 
-> **Margen de Contribución Unitario:** 8,28 € (Ingreso) - 5,25 € (Gasto) = **3,03 € netos por usuario.**
+> **Margen de Contribución Unitario:** 12,72 € (Ingreso) - 5,25 € (Gasto) = **7,47 € netos por usuario.**
 
 ---
 
 #### Umbral de Rentabilidad (Breakeven)
-El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija de la empresa:
+El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija mensual de la empresa (16.058,44 €).
 
 * **Fórmula:** $Usuarios_{Breakeven} = \frac{Costes\_Fijos}{Margen\_Unitario}$
-* **Cálculo:** $16.058,44 € / 3,03 €$
+* **Cálculo:** $16.058,44 € / 7,47 €$
 
-> **Resultado:** Rooma alcanza la rentabilidad operativa con **5.300 usuarios totales** registrados y activos en la plataforma.
+> **Resultado:** Rooma alcanza la rentabilidad operativa con **2.150 usuarios totales** registrados y activos en la plataforma.
 
-#### Proyección de Escenario de Éxito (25.000 usuarios)
-Una vez superado el umbral de rentabilidad, la escalabilidad del modelo transaccional permite un crecimiento acelerado del beneficio:
+---
 
-* **Ingresos Brutos Mensuales:** 207.000,00 €
-* **Gastos Totales (Fijos + Variables):** 147.308,44 €
-* **Benficio neto mensual:** **+ 59.691,56 €**
+#### Proyección de Escenario Realista (10.000 usuarios)
+Una vez superado el umbral de rentabilidad en el mes 9, la eficiencia del margen unitario permite una consolidación financiera acelerada hacia el cierre del primer año:
 
-*Nota: Con este nivel de beneficios, la inversión inicial de CAPEX (74.159,80 €) se recuperaría íntegramente en poco más de un mes tras alcanzar el escenario de éxito, demostrando la alta eficiencia de retorno del proyecto.*
+* **Ingresos Brutos Mensuales:** 127.200,00 €
+* **Gastos Totales (Fijos + Variables):** 68.558,44 €
+* **Beneficio Neto Mensual:** **+ 58.641,56 €**
+
+*Nota: Con este nivel de beneficios operativos al finalizar el año, la inversión inicial de CAPEX (74.159,80 €) se recuperaría íntegramente en apenas 1,3 meses de operación en este escenario. Esto demuestra un retorno de inversión (ROI) extremadamente sólido y una alta capacidad de autofinanciación del proyecto tras alcanzar su masa crítica inicial.*
