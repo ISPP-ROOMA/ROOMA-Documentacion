@@ -46,11 +46,15 @@ Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el a
 
 | Categoría | Partida | Importe | Subtotal |
 | :--- | :--- | :---: | :---: |
-| **Equipamiento Informático** | Equipamiento Informático (BYOD) | 16.000 € | **16.000 €** |
-| **Propiedad Intelectual y Legal** | Constitución, Pacto y GDPR | 7.350 € | **7.350 €** |
-| **Licencias Perpetuas y Activos Digitales** | Tipografías y Multimedia | 1.300 € | **1.300 €** |
-| **Laboral** | Desarrollo (16 Ingenieros x 150h) | 42.768 € | **42.768 €** |
-| **Contingencia** | **Margen de seguridad (10%)** | 6.741,80 € | **6.741,80 €** |
+| **Equipamiento Informático** | 16 Equipos Portátiles (BYOD - 1.000€/ud) | 16.000,00 € | **16.000,00 €** |
+| **Propiedad Intelectual y Legal** | Constitución de la Sociedad (Capital + Notaría) | 3.500,00 € | |
+| | Redacción de Pacto de Socios | 1.500,00 € | |
+| | Auditoría y Adecuación GDPR/LOPDGDD | 1.500,00 € | |
+| | Registro de Marca (OEPM / EUIPO) | 850,00 € | **7.350,00 €** |
+| **Licencias y Activos Digitales** | Licencias Tipográficas Comerciales | 800,00 € | |
+| | Librerías de Sonido e Iconografía | 500,00 € | **1.300,00 €** |
+| **Laboral** | 16 Ingenieros Junior (150h/ud a 17,82€/h) | 42.768,00 € | **42.768,00 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre el coste fijo)** | 6.741,80 € | **6.741,80 €** |
 | **TOTAL CAPEX** | | | **74.159,80 €** |
 
 ### OPEX (Coste total: 676,32 €/mes)
@@ -84,13 +88,15 @@ Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, toman
 | 640 (16x40) | 128 (640x0,2) | 0,15/kWh€ | 19,20€/mes |
 
 #### Resumen de Gastos Operativos (OPEX - Fase Desarrollo)
-
 | Categoría | Partida | Importe | Subtotal |
 | :--- | :--- | :---: | :---: |
-| **Infraestructura** | Digital Ocean (Fijo + 40 Pilotos) | 53,72 € | **53,72 €** |
-| **Herramientas de desarrollo** | Github, Gemini y Microsoft 365 | 541,92 € | **541,92 €** |
-| **Luz** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
-| **Contingencia** | **Margen de seguridad (10%)** | 61,48 € | **61,48 €** |
+| **Infraestructura Cloud** | Digital Ocean (Servidor y Base de Datos) | 53,32 € | |
+| | Soporte 40 Usuarios Piloto | 0,40 € | **53,72 €** |
+| **Herramientas de Desarrollo** | Github Team (16 licencias) | 58,72 € | |
+| | Gemini Pro (16 licencias) | 296,00 € | |
+| | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
+| **Suministros** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 61,48 € | **61,48 €** |
 | **TOTAL OPEX MENSUAL** | | | **676,32 €** |
 
 ## Lanzamiento 21/05/2026 - 21/05/2027
@@ -202,19 +208,19 @@ Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** tr
 
 #### Resumen de Gastos Operativos (OPEX - Fase Lanzamiento)
 
-| Categoría | Partida | Desglose de Coste Mensual (f($u$)) |
-| :--- | :--- | :---: |
-| **Infraestructura** | Digital Ocean (Fijo + Cloud) | 53,32 € + 0,01 $u$ |
-| **Herramientas** | Github Team (16 licencias) | 58,72 € |
-| | Gemini Pro (16 licencias) | 296,00 € |
-| | Microsoft 365 Business (16 licencias) | 187,20 € |
-| **Luz** | Consumo eléctrico (Jornada completa) | 75,80 € |
-| **Mantenimiento** | Personal de Ingeniería (Mantenimiento) | 10.777,54 € |
-| **Marketing** | Estructura Fija (CM y Producción) | 3.150,00 € |
-| | Inversión Publicitaria (Ads) | 0,80 $u$ |
-| **Operaciones** | Gestión Stripe Connect y Comisiones | 4,44 $u$ |
-| **Contingencia** | **Margen de seguridad (10% s/fijos)** | 1.459,86 € |
-| **TOTAL OPEX MENSUAL** |  | **16.058,44 € + 5,25 $u$** |
+| Categoría | Partida | Importe (f($u$)) | Subtotal |
+| :--- | :--- | :---: | :---: |
+| **Infraestructura Cloud** | Digital Ocean | **53,32 € + 0,01 $u$** |
+| **Herramientas de Equipo** | Github Team (16 licencias) | 58,72 € | |
+| | Gemini Pro (16 licencias) | 296,00 € | |
+| | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
+| **Suministros** | Consumo eléctrico (Jornada completa) | 75,80 € | **75,80 €** |
+| **Mantenimiento Técnico** | Ingeniería (16 pers. x 37,8h/mes) | 10.777,54 € | **10.777,54 €** |
+| **Marketing y Adquisición** | Estructura CM y Producción Audiovisual | 3.150,00 € | |
+| | Inversión Publicitaria Ads | 0,80 $u$ | **3.150,00 € + 0,80 $u$** |
+| **Operaciones Financieras** | Gestión Stripe y Transacciones | 4,44 $u$ | **4,44 $u$** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 1.459,86 € | **1.459,86 €** |
+| **TOTAL OPEX MENSUAL** |  | | **16.058,44 € + 5,25 $u$** |
 
 ### Ingresos
 
