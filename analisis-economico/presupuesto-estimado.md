@@ -1,6 +1,6 @@
 # Presupuesto Estimado
 ## Desarrollo 29/01/2026 - 21/05/2026
-### CAPEX (Coste total: 67.418€)
+### CAPEX (Coste total: 74.159,80 €)
 #### Equipamiento Informático (Coste total: 16.000€)
 Se opta por un modelo Bring Your Own Device (BYOD) para la fase de desarrollo y lanzamiento inicial, acumulando un CAPEX estimado de 16K € (16 equipos a 1.000 €/ud).
 
@@ -9,22 +9,22 @@ Se opta por un modelo Bring Your Own Device (BYOD) para la fase de desarrollo y 
 Este apartado contempla la inversión inicial e ineludible para blindar la empresa, proteger el producto y cumplir con la legalidad vigente para una plataforma de interacción social.
 
 - **Constitución de la Sociedad (SL):** 3.5K €
-	- Incluye el Capital Social mínimo exigido por ley (3K €), gastos de Notaría y Registro Mercantil (500€).
+    - Incluye el Capital Social mínimo exigido por ley (3K€), gastos de Notaría y Registro Mercantil (500€).
 - **Pacto de Socios:** 1.5K €
-	- Con un equipo estructural de más de 15 personas, es imprescindible un contrato redactado por un abogado mercantil que regule el reparto de acciones, cláusulas de permanencia, y la cesión obligatoria de los derechos de propiedad intelectual del código y diseño a favor de la sociedad.
+    - Con un equipo estructural de más de 15 personas, es imprescindible un contrato redactado por un abogado mercantil que regule el reparto de acciones, cláusulas de permanencia, y la cesión obligatoria de los derechos de propiedad intelectual del código y diseño a favor de la sociedad.
 - **Auditoría y Adecuación GDPR/LOPDGDD:** 1.5K €
-	- La aplicación recopila datos de geolocalización (mapas), preferencias personales, hábitos de vida (fumadores, mascotas) y gestiona transacciones económicas. Se requiere un bufete especializado para redactar Términos y Condiciones de Uso, Política de Privacidad y Consentimiento de Tratamiento de Datos Sensibles; y Política de Cookies.
+    - La aplicación recopila datos de geolocalización (mapas), preferencias personales, hábitos de vida (fumadores, mascotas) y gestiona transacciones económicas. Se requiere un bufete especializado para redactar Términos y Condiciones de Uso, Política de Privacidad y Consentimiento de Tratamiento de Datos Sensibles; y Política de Cookies.
 - **Registro de Marca (Nacional / Europea):** 850 €
-	- Tasas de la OEPM (Oficina Española de Patentes y Marcas) o la EUIPO (Oficina Europea) para proteger el nombre comercial "Rooma" y su logotipo en las clases correspondientes a software y servicios de emparejamiento.
+    - Tasas de la OEPM (Oficina Española de Patentes y Marcas) o la EUIPO (Oficina Europea) para proteger el nombre comercial "Rooma" y su logotipo en las clases correspondientes a software y servicios de emparejamiento.
 
 #### Licencias Perpetuas y Activos Digitales (Coste total: 1300€)
 
 Este apartado recoge la inversión inicial para adquirir los derechos de uso comercial y vitalicio sobre los activos digitales necesarios para el desarrollo, diseño y branding de la aplicación.
 
 - **Tipografías y Recursos Tipográficos Comerciales:** 800 €
-	- Adquisición de licencias de uso comercial (App/Web/Desktop) para las fuentes tipográficas integradas en la interfaz de usuario y utilizadas en los materiales de marketing. Las licencias Open Source a menudo prohíben su uso o exigen atribuciones incompatibles con un producto monetizado.
+    - Adquisición de licencias de uso comercial (App/Web/Desktop) para las fuentes tipográficas integradas en la interfaz de usuario y utilizadas en los materiales de marketing. Las licencias Open Source a menudo prohíben su uso o exigen atribuciones incompatibles con un producto monetizado.
 - **Librerías de Sonido, Iconografía y Multimedia:** 500 €
-	- Compra de derechos (licencias Royalty-Free extendidas) para los efectos de sonido de la aplicación (ej. el feedback auditivo de los swipes, notificaciones de chat o alertas de sistema).
+    - Compra de derechos (licencias Royalty-Free extendidas) para los efectos de sonido de la aplicación (ej. el feedback auditivo de los swipes, notificaciones de chat o alertas de sistema).
 
 #### Laboral (Coste total: 42.768€)
 
@@ -46,29 +46,30 @@ Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el a
 
 | Categoría | Partida | Importe | Subtotal |
 | :--- | :--- | :---: | :---: |
-| **Equipamiento Informático** | Equipamiento Informático (BYOD) | 16.000 € | **16.000 €** |
-| **Propiedad Intelectual y Legal** | Constitución de la Sociedad (SL) | 3.500 € | |
-| | Pacto de Socios | 1.500 € | |
-| | Auditoría y Adecuación GDPR/LOPDGDD | 1.500 € | |
-| | Registro de Marca (Nacional / Europea) | 850 € | **7.350 €** |
-| **Licencias Perpetuas y Activos Digitales** | Tipografías y Recursos Tipográficos Comerciales | 800 € | |
-| | Librerías de Sonido, Iconografía y Multimedia | 500 € | **1.300 €** |
-| **Laboral** | Desarrollo (16 Ingenieros x 150h) | 42.768 € | **42.768 €** |
-| **TOTAL CAPEX** | | | **67.418 €** |
+| **Equipamiento Informático** | 16 Equipos Portátiles (BYOD - 1.000€/ud) | 16.000,00 € | **16.000,00 €** |
+| **Propiedad Intelectual y Legal** | Constitución de la Sociedad (Capital + Notaría) | 3.500,00 € | |
+| | Redacción de Pacto de Socios | 1.500,00 € | |
+| | Auditoría y Adecuación GDPR/LOPDGDD | 1.500,00 € | |
+| | Registro de Marca (OEPM / EUIPO) | 850,00 € | **7.350,00 €** |
+| **Licencias y Activos Digitales** | Licencias Tipográficas Comerciales | 800,00 € | |
+| | Librerías de Sonido e Iconografía | 500,00 € | **1.300,00 €** |
+| **Laboral** | 16 Ingenieros Junior (150h/ud a 17,82€/h) | 42.768,00 € | **42.768,00 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre el coste fijo)** | 6.741,80 € | **6.741,80 €** |
+| **TOTAL CAPEX** | | | **74.159,80 €** |
 
-### OPEX (Coste total: 614,74€/mes)
+### OPEX (Coste total: 676,32 €/mes)
 Este bloque recoge los costes operativos recurrentes necesarios para mantener el entorno técnico de desarrollo en funcionamiento durante la fase de construcción del producto.
 
-#### Infraestructura (Coste total: 53,62€/mes)
+#### Infraestructura (Coste total: 53,72 €/mes)
 Incluye los servicios cloud base para desplegar y validar el entorno de desarrollo de forma continua, priorizando un proveedor con buen equilibrio entre coste, simplicidad y disponibilidad.
 
-Para esta fase de desarrollo, se establece un **coste fijo** basado en el mantenimiento del entorno de desarrollo y el soporte técnico para un grupo cerrado de **30 usuarios piloto**. Al ser un número de usuarios conocido y controlado, no se aplican variables de escalabilidad hasta la fase de lanzamiento comercial.
+Para esta fase de desarrollo, se establece un **coste fijo** basado en el mantenimiento del entorno de desarrollo y el soporte técnico para un grupo cerrado de **40 usuarios piloto**. Al ser un número de usuarios conocido y controlado, no se aplican variables de escalabilidad hasta la fase de lanzamiento comercial.
 
 | Despliegue para desarrollo | Usuarios Piloto (Fijo) | Coste Mensual |
 |---|---|---|
-| Digital Ocean (Servidor y Base de Datos) | 30 | 53,62€/mes |
+| Digital Ocean (Servidor y Base de Datos) | 40 | 53,72 €/mes |
 
-*El presupuesto contempla una base de 53,32€ para la infraestructura de computación, a la que se suma un margen de 0,30€ (0,01€/usuario) para cubrir el tráfico de datos y almacenamiento de imágenes generado por los 30 usuarios piloto durante el periodo de prueba.*
+*El presupuesto contempla una base de 53,32€ para la infraestructura de computación, a la que se suma un margen de 0,40€ (0,01€/usuario) para cubrir el tráfico de datos y almacenamiento de imágenes generado por los 40 usuarios piloto durante el periodo de prueba.*
 
 #### Herramientas de desarrollo (Coste total: 541,92€/mes)
 Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
@@ -87,19 +88,19 @@ Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, toman
 | 640 (16x40) | 128 (640x0,2) | 0,15/kWh€ | 19,20€/mes |
 
 #### Resumen de Gastos Operativos (OPEX - Fase Desarrollo)
-
 | Categoría | Partida | Importe | Subtotal |
 | :--- | :--- | :---: | :---: |
-| **Infraestructura** | Digital Ocean (Servidor y Base de Datos) | 53,32 € | |
-| | Soporte 30 Usuarios Piloto (0,01€/u) | 0,30 € | **53,62 €** |
-| **Herramientas de desarrollo** | Github Team (16 licencias) | 58,72 € | |
+| **Infraestructura Cloud** | Digital Ocean (Servidor y Base de Datos) | 53,32 € | |
+| | Soporte 40 Usuarios Piloto | 0,40 € | **53,72 €** |
+| **Herramientas de Desarrollo** | Github Team (16 licencias) | 58,72 € | |
 | | Gemini Pro (16 licencias) | 296,00 € | |
 | | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
-| **Luz** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
-| **TOTAL OPEX MENSUAL** | | | **614,74 €** |
+| **Suministros** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 61,48 € | **61,48 €** |
+| **TOTAL OPEX MENSUAL** | | | **676,32 €** |
 
 ## Lanzamiento 21/05/2026 - 21/05/2027
-### OPEX (Coste total: 14.483,576)
+### OPEX (Coste total: 16.058,44 € + 5,25 $u$ / mes)
 
 Este bloque detalla los costes operativos recurrentes durante la fase de lanzamiento y operación de la plataforma.
 
@@ -207,18 +208,19 @@ Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** tr
 
 #### Resumen de Gastos Operativos (OPEX - Fase Lanzamiento)
 
-| Categoría | Partida | Desglose de Coste Mensual (f($u$)) |
-| :--- | :--- | :---: |
-| **Infraestructura** | Digital Ocean (Fijo + Cloud) | 53,32 € + 0,01 $u$ |
-| **Herramientas** | Github Team (16 licencias) | 58,72 € |
-| | Gemini Pro (16 licencias) | 296,00 € |
-| | Microsoft 365 Business (16 licencias) | 187,20 € |
-| **Luz** | Consumo eléctrico (Jornada completa) | 75,80 € |
-| **Mantenimiento** | Personal de Ingeniería (Mantenimiento) | 10.777,54 € |
-| **Marketing** | Estructura Fija (CM y Producción) | 3.150,00 € |
-| | Inversión Publicitaria (Ads) | 0,80 $u$ |
-| **Operaciones** | Gestión Stripe Connect y Comisiones | 4,44 $u$ |
-| **TOTAL OPEX MENSUAL** | **Fórmula Maestra de Gasto** | **14.598,58 € + 5,25 $u$** |
+| Categoría | Partida | Importe (f($u$)) | Subtotal |
+| :--- | :--- | :---: | :---: |
+| **Infraestructura Cloud** | Digital Ocean | **53,32 € + 0,01 $u$** |
+| **Herramientas de Equipo** | Github Team (16 licencias) | 58,72 € | |
+| | Gemini Pro (16 licencias) | 296,00 € | |
+| | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
+| **Suministros** | Consumo eléctrico (Jornada completa) | 75,80 € | **75,80 €** |
+| **Mantenimiento Técnico** | Ingeniería (16 pers. x 37,8h/mes) | 10.777,54 € | **10.777,54 €** |
+| **Marketing y Adquisición** | Estructura CM y Producción Audiovisual | 3.150,00 € | |
+| | Inversión Publicitaria Ads | 0,80 $u$ | **3.150,00 € + 0,80 $u$** |
+| **Operaciones Financieras** | Gestión Stripe y Transacciones | 4,44 $u$ | **4,44 $u$** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 1.459,86 € | **1.459,86 €** |
+| **TOTAL OPEX MENSUAL** |  | | **16.058,44 € + 5,25 $u$** |
 
 ### Ingresos
 
@@ -244,43 +246,47 @@ Para garantizar que la pasarela de pagos no sea deficitaria tras los costes de S
 
 ### Rentabilidad y Viabilidad Económica
 
-#### Análisis de Ingreso Medio por Usuario ($ARPU$)
-Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basándose en el embudo de conversión estimado para una plataforma de *matching* y gestión de alquileres:
+#### Análisis de Ingreso Medio por Usuario (ARPU)
+Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basado en el mix de monetización. El ingreso por transacciones incluye la tasa técnica de la pasarela de pagos para reflejar la facturación bruta total de la plataforma.
 
-| Canal de Ingreso | Conversión | Cuota/Margen Bruto | Ingreso Ponderado ($u$) |
+| Canal de Ingreso | Conversión | Cuota Bruta | Ingreso Ponderado ($u$) |
 | :--- | :---: | :---: | :---: |
 | **Suscripción Rooma Plus** | 15% | 9,99 € | 1,50 € |
 | **Suscripción Rooma Pro** | 2% | 29,99 € | 0,60 € |
-| **Comisiones Transaccionales** | 25% | 24,75 € | 6,18 € |
-| **TOTAL INGRESO BRUTO ($u$)** | | | **8,28 € / usuario** |
+| **Comisiones Transaccionales** | 25% | 42,50 € | 10,62 € |
+| **TOTAL INGRESO BRUTO ($u$)** | | | **12,72 € / usuario** |
+
+*\*Nota: La comisión bruta de 42,50 € por contrato activo incluye el margen de Rooma (24,75 €) y la tasa técnica de Stripe (17,75 €).*
 
 ---
 
 #### Análisis de Costes Variables y Margen de Contribución
-Para que el umbral de rentabilidad sea realista, restamos los costes operativos que cada usuario genera individualmente a la plataforma:
+Para obtener el margen de contribución unitario, restamos todos los costes operativos variables asociados a cada usuario:
 
-* **Coste de Adquisición ($Ads$):** 0,80 €/u.
-* **Coste de Infraestructura ($Cloud$):** 0,01 €/u.
-* **Coste Operativo de Stripe (Promedio):** 4,44 €/u.
-* **Total costes variables:** **5,25 € / usuario.**
+* **Coste de Adquisición (Ads):** 0,80 €/u
+* **Coste de Infraestructura (Cloud):** 0,01 €/u
+* **Coste Operativo de Stripe:** 4,44 €/u
+* **Total costes variables:** **5,25 € / usuario**
 
-> **Margen de Contribución Unitario:** 8,28 € (Ingreso) - 5,25 € (Gasto) = **3,03 € netos por usuario.**
+> **Margen de Contribución Unitario:** 12,72 € (Ingreso) - 5,25 € (Gasto) = **7,47 € netos por usuario.**
 
 ---
 
 #### Umbral de Rentabilidad (Breakeven)
-El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija de la empresa:
+El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija mensual de la empresa (16.058,44 €).
 
 * **Fórmula:** $Usuarios_{Breakeven} = \frac{Costes\_Fijos}{Margen\_Unitario}$
-* **Cálculo:** $14.545,04 € / 3,03 €$
+* **Cálculo:** $16.058,44 € / 7,47 €$
 
-> **Resultado:** Rooma alcanza la rentabilidad operativa con **4.800 usuarios totales** registrados y activos en la plataforma.
+> **Resultado:** Rooma alcanza la rentabilidad operativa con **2.150 usuarios totales** registrados y activos en la plataforma.
 
-#### Proyección de Escenario de Éxito (25.000 usuarios)
-Una vez superado el umbral de rentabilidad, la escalabilidad del modelo transaccional permite un crecimiento acelerado del beneficio:
+---
 
-* **Ingresos Brutos Mensuales:** 207.000,00 €
-* **Gastos Totales (Fijos + Variables):** 145.795,04 €
-* **Benficio neto mensual:** **+ 61.204,96 €**
+#### Proyección de Escenario Realista (10.000 usuarios)
+Una vez superado el umbral de rentabilidad en el mes 9, la eficiencia del margen unitario permite una consolidación financiera acelerada hacia el cierre del primer año:
 
-*Nota: Con este nivel de beneficios, la inversión inicial de CAPEX (67.418 €) se recuperaría íntegramente en poco más de un mes tras alcanzar el escenario de éxito, demostrando la alta eficiencia de retorno del proyecto.*
+* **Ingresos Brutos Mensuales:** 127.200,00 €
+* **Gastos Totales (Fijos + Variables):** 68.558,44 €
+* **Beneficio Neto Mensual:** **+ 58.641,56 €**
+
+*Nota: Con este nivel de beneficios operativos al finalizar el año, la inversión inicial de CAPEX (74.159,80 €) se recuperaría íntegramente en apenas 1,3 meses de operación en este escenario. Esto demuestra un retorno de inversión (ROI) extremadamente sólido y una alta capacidad de autofinanciación del proyecto tras alcanzar su masa crítica inicial.*
