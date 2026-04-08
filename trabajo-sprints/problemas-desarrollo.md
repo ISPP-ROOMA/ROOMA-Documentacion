@@ -2,7 +2,7 @@
 
 Durante el desarrollo hemos encontrado los siguientes problemas:
 
-## 1. Reparto de tareas desigual
+## 1. Descompensación de trabajo
 
 ### Descripción
 Se ha detectado que algunos miembros del equipo han invertido más tiempo que otros. Esto se debe a una asignación de actividades desequilibrada basada en puntos de historia, donde **1 punto = 1 hora de trabajo estimada**.
@@ -30,7 +30,7 @@ El despliegue de la aplicación se realizó en una fecha cercana a la entrega fi
 - Establecer una **congelación de funcionalidades** 72 horas antes de la entrega para dedicar las últimas 48 horas exclusivamente al despliegue y pruebas en producción.
 
 ### Comprobación de mitigaciones
-El 16/04 no deben de haber ningun commit de fix
+El 25/03 no deben de haber mas de 3 commits de fix
 
 ## 3. Retrasos en el desarrollo
 

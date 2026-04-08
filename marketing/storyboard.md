@@ -9,24 +9,24 @@
 
 
 ## Viñeta 2 — El descubrimiento
-**Plano:** Medio — dos amigas en un café  
+**Plano:** Medio — dos amigos en un café  
 **Acción:** Juan le pregunta: "¿Has probado RoomA? Yo encontré piso en una semana."  
 **Audio:** Juan proponiendole RoomA.
 
 
-## Viñeta 3 — La descarga
+## Viñeta 3 — El descubrimiento
 **Plano:** Detalle — manos con móvil  
 **Acción:** German abre la RoomA. 
 **Audio:** Musica de fondo.
 
 
-## Viñeta 4 — El swipe
+## Viñeta 4 — El descubrimiento
 **Plano:** Detalle — pantalla con swipe  
 **Acción:** German navega por las tarjetas. Ve un piso en que le encaja. Desliza a la derecha.  
 **Audio:** Sonido de swipe satisfactorio.
 
 
-## Viñeta 5 — El match
+## Viñeta 5 — El descubrimiento
 **Plano:** Medio — cara de German + pantalla  
 **Acción:** Aparece la pantalla de Match. El propietario también lo eligió. Cara de sorpresa y alegría.  
 **Audio:** Música climax. Sonido de celebración.
