@@ -39,7 +39,7 @@
 - **InteresCasero:** Indicador de interés por parte del anunciante.
 - **InteresInquilino:** Indicador de interés por parte del buscador.
 - **Fecha del Match:** Timestamp del momento del interés mutuo.
-- **Estado del Match:** (Activo | Match | Rechazado | Exitoso).
+- **Estado del Match:** (Activo | Match | Rechazado | Exitoso | Invitado | Cancelado).
 
 ---
 
