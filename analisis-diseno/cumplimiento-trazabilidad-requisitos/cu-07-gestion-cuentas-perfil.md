@@ -20,15 +20,15 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-63** | Registro con email e contraseña | | |
-| **RF-64** | Validación, verificación e reenvío | | |
-| **RF-65** | Inicio de sesión con proveedores | | |
-| **RF-66** | Recuperación de contraseña | | |
-| **RF-67** | Autenticación en dos pasos (2FA TOTP) | | |
-| **RF-68** | Completar e editar perfil | | |
-| **RF-69** | Reportes de usuarios | | |
-| **RF-70** | Sanciones administrativas | | |
-| **RF-71** | Verificación de identidad delegada | | |
+| **RF-63** | Registro con email e contraseña | Completado Parcialmente (la vaidación de cuentas no está implementada y la contraseña solo tiene como restriccion min de 4 chars)| |
+| **RF-64** | Validación, verificación e reenvío | Por Hacer | |
+| **RF-65** | Inicio de sesión con proveedores | Por Hacer | |
+| **RF-66** | Recuperación de contraseña | Por Hacer | |
+| **RF-67** | Autenticación en dos pasos (2FA TOTP) | Por Hacer | |
+| **RF-68** | Completar e editar perfil | Completado | |
+| **RF-69** | Reportes de usuarios | Por Hacer | |
+| **RF-70** | Sanciones administrativas | Por Hacer | |
+| **RF-71** | Verificación de identidad delegada | Por Hacer | |
 
 ---
 
