@@ -25,12 +25,12 @@
 | **RF-36** | Tarjeta de Valoración Pendiente | | |
 | **RF-37** | Interfaz de Estrellas e Etiquetas | | |
 | **RF-38** | Sistema de Ciego Mutuo | | |
-| **RF-39** | Hilo de Réplica | | |
-| **RF-41** | Visualización de Reseñas en Perfil Público | | |
-| **RF-42** | Moderación de Contenido | | |
-| **RF-43** | Reportar Reseña Inadecuada | | |
-| **RF-44** | Resumen de Reputación en Tarjetas | | |
-| **RF-45** | Recordatorios de Valoración | | |
+| **RF-39** | Hilo de Réplica | Completado | |
+| **RF-41** | Visualización de Reseñas en Perfil Público | Por Hacer | |
+| **RF-42** | Moderación de Contenido | Por Hacer| |
+| **RF-43** | Reportar Reseña Inadecuada | Por Hacer| |
+| **RF-44** | Resumen de Reputación en Tarjetas | Por Hacer| |
+| **RF-45** | Recordatorios de Valoración | Completado | |
 
 ---
 
