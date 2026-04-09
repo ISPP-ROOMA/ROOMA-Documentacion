@@ -11,12 +11,14 @@
 - **Gastos:** Especificación de suministros incluidos o adicionales.
 - **Ubicación:** Coordenadas e zona para el filtrado en el mapa.
 - **Estado:** Indicador de disponibilidad (Activo | Pausado | Cerrado).
-- **Nº máximo de inquilinos.**
+- **Perfil Ideal:** Descripción sobre el perfil ideal.
+- **Nº máximo de inquilinos:** Indicador de número máximo de inquilinos que puede tener la vivienda.
 
 ### RI-04: FotosViviendas
 **Descripción:** El sistema debe gestionar la información individual de cada archivo visual:
 - **ID_Vivienda:** Referencia al inmueble al que pertenece el archivo.
 - **URL_Imagen:** Enlace directo al almacenamiento del recurso visual.
+- **ID_Public:** Id para usar en Cloudnary.
 - **Orden:** Posición numérica del archivo dentro de la galería.
 - **Portada:** Indicador binario para definir la imagen principal del deck.
 

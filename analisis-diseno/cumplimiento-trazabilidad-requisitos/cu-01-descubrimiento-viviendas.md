@@ -29,25 +29,25 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-03** | Vivienda (Datos obligatorios) |  |
-| **RI-04** | FotosViviendas (Archivos visuales) |  |
-| **RI-06** | ReglasVivienda (Normas booleanas) |  |
+| **RI-03** | Vivienda (Datos obligatorios) | Parcialmente (Falta el indicador de Nº Máximo de inquilinos en una vivienda)|
+| **RI-04** | FotosViviendas (Archivos visuales) | Parcialmente (Nombres en español)|
+| **RI-06** | ReglasVivienda (Normas booleanas) | Parcialmente (Los nombres están en español) |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-08** | Responsividad del Swipe |  |
-| **RNF-09** | Caché de deck offline | |
-| **RNF-10** | Estandarización carga Deck |  |
+| **RNF-08** | Responsividad del Swipe | Completado|
+| **RNF-09** | Caché de deck offline | NO |
+| **RNF-10** | Estandarización carga Deck | NO |
 
 ---
 
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-01** | Visualización del Deck |  |
-| **HU-02** | Navegación por Gestos (Swipe) |  |
-| **HU-03** | Detalle del Inmueble |  |
-| **HU-04** | Función Rewind (Premium) |  |
+| **HU-01** | Visualización del Deck |  Parcialmente completado |
+| **HU-02** | Navegación por Gestos (Swipe) | Completado (Falta la caché offline)|
+| **HU-03** | Detalle del Inmueble |  Parcialmente(falta indicador de nº máximo de inquilinos)|
+| **HU-04** | Función Rewind (Premium) |  NO|
