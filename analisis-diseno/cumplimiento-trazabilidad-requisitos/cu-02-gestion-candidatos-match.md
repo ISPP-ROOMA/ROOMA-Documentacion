@@ -15,11 +15,11 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-53** | Gestión de Solicitudes | | |
-| **RF-54** | Visualización Candidato | | |
-| **RF-55** | Gestión de Candidatos | | |
-| **RF-56** | Gestión de Estados del Inmueble | | |
-| **RF-74** | Match | | |
+| **RF-53** | Gestión de Solicitudes | Completado | |
+| **RF-54** | Visualización Candidato | Completado | |
+| **RF-55** | Gestión de Candidatos | Completado Parcialmente (no hay calendario de citas) | |
+| **RF-56** | Gestión de Estados del Inmueble | Completado Parcialmente (no se modifica el estado si esta ocupado, pero esto no me parece mal ya que también apuntamos para encontrar compañeros) | |
+| **RF-74** | Match | Completado Parcialmente (el Match no se puede cancelar una vez aceptado) | |
 
 ---
 
