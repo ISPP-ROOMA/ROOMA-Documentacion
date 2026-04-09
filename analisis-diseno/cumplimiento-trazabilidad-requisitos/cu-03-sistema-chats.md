@@ -16,12 +16,12 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-57** | Gestión de Chats entre Usuarios | | |
-| **RF-58** | Mensajería Multimedia en Tiempo Real | | |
-| **RF-59** | Indicadores de Estado | | |
-| **RF-60** | Gestión de Citas | | |
-| **RF-61** | Cancelación de Citas | | |
-| **RF-62** | Cierre de Chats | | |
+| **RF-57** | Gestión de Chats entre Usuarios | Completado | |
+| **RF-58** | Mensajería Multimedia en Tiempo Real | Completado | |
+| **RF-59** | Indicadores de Estado | Completado | |
+| **RF-60** | Gestión de Citas | Por Hacer | |
+| **RF-61** | Cancelación de Citas | Por Hacer | |
+| **RF-62** | Cierre de Chats | Por Hacer | |
 
 ---
 
