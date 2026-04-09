@@ -17,11 +17,11 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-01** | Generación de notificaciones por eventos | | |
-| **RF-02** | Visualización de Listado | | |
-| **RF-03** | Indicador de nuevas notificaciones | | |
-| **RF-04** | Navegación Directa desde la notificación | | |
-| **RF-05** | Actualización de Estado leída | | |
+| **RF-01** | Generación de notificaciones por eventos | Completado | |
+| **RF-02** | Visualización de Listado | Completado | |
+| **RF-03** | Indicador de nuevas notificaciones | Por Hacer | |
+| **RF-04** | Navegación Directa desde la notificación | Completado | |
+| **RF-05** | Actualización de Estado leída | Completado | |
 
 ---
 
