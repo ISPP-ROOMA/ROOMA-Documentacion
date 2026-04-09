@@ -16,9 +16,9 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-10** | Definición de Perfil Ideal | | |
-| **RF-75** | Filtrado Manual de Solicitudes | | |
-| **RF-76** | Ordenación de Candidatos | | |
+| **RF-10** | Definición de Perfil Ideal | Por Hacer | |
+| **RF-75** | Filtrado Manual de Solicitudes | Completado | |
+| **RF-76** | Ordenación de Candidatos | Completado Parcialmente (el algoritmo de afinidad no está implementado) | |
 
 ---
 
