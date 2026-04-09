@@ -24,18 +24,18 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-15** | Pantalla de Registro de Gastos | | |
-| **RF-16** | Selector Visual de Inquilinos e Modo de Reparto | | |
-| **RF-17** | Visualización de Cuotas en Tiempo Real | | |
-| **RF-18** | Dashboard de "Mis Pagos" (Vista Inquilino) | | |
-| **RF-19** | Pasarela de Pago Integrada | | |
-| **RF-20** | Indicadores de Estado de Pago | | |
-| **RF-21** | Interruptor de Auto-Pago | | |
-| **RF-22** | Dashboard de Cobros (Vista Casero) | | |
-| **RF-23** | Notificaciones de Pagos | | |
-| **RF-24** | Exportación de Historial Financiero | | |
-| **RF-25** | Gestión de Métodos de Pago | | |
-| **RF-26** | Anulación e Edición de Facturas | | |
+| **RF-15** | Pantalla de Registro de Gastos | Completado | |
+| **RF-16** | Selector Visual de Inquilinos e Modo de Reparto | Completado | |
+| **RF-17** | Visualización de Cuotas en Tiempo Real | Completado | |
+| **RF-18** | Dashboard de "Mis Pagos" (Vista Inquilino) | Completado | |
+| **RF-19** | Pasarela de Pago Integrada | Por Hacer | |
+| **RF-20** | Indicadores de Estado de Pago | Completado | |
+| **RF-21** | Interruptor de Auto-Pago | Por Hacer | |
+| **RF-22** | Dashboard de Cobros (Vista Casero) | Completado | |
+| **RF-23** | Notificaciones de Pagos | Completado | |
+| **RF-24** | Exportación de Historial Financiero | Por Hacer | |
+| **RF-25** | Gestión de Métodos de Pago | Por Hacer| |
+| **RF-26** | Anulación e Edición de Facturas | Por Hacer| |
 
 ---
 
