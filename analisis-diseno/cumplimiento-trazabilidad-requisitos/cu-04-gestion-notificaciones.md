@@ -43,8 +43,8 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-43** | Notificaciones Automáticas | |
-| **HU-44** | Visualización Cronológica | |
-| **HU-45** | Indicador de Pendientes | |
-| **HU-46** | Navegación desde Notificación | |
-| **HU-47** | Gestión de Estado de Lectura | |
+| **HU-43** | Notificaciones Automáticas | Completado Parcialmente (Faltan Notificaciones para nuevos match)|
+| **HU-44** | Visualización Cronológica | Completado|
+| **HU-45** | Indicador de Pendientes | Completado Parcialmente|
+| **HU-46** | Navegación desde Notificación | Completado|
+| **HU-47** | Gestión de Estado de Lectura | Completado|

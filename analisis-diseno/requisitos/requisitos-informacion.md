@@ -71,7 +71,7 @@
 ### RI-01: Notificación
 **Descripción:** El sistema debe almacenar e mostrar para cada notificación los siguientes datos obligatorios:
 - **Identificador de origen:** Usuario que originó el mensaje o evento.
-- **Tipo de evento:** Categoría (Match | Mensaje | Pago pendiente).
+- **Tipo de evento:** Categoría (Match | Nuevo match | Invitación enviada | Invitación aceptada | Invitación rechazada | Reseña | Nueva factura | Factura pagada).
 - **Fecha e hora:** Momento exacto del evento.
 - **Descripción:** Mensaje breve sobre el contenido.
 - **Leido:** Indicador binario de estado.
