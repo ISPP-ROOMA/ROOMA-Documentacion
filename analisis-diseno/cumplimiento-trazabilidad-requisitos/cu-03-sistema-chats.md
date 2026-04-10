@@ -28,7 +28,7 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-12** | Mensaje | |
+| **RI-12** | Mensaje | Completado |
 | **RI-15** | Citas | Visitas | |
 
 ---
@@ -36,7 +36,7 @@
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-18** | Latencia de Mensajes | |
+| **RNF-18** | Latencia de Mensajes | Completado |
 
 ---
 
