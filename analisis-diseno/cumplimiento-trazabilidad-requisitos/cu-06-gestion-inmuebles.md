@@ -33,19 +33,19 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-03** | Vivienda | |
-| **RI-04** | FotosViviendas | |
-| **RI-05** | MiembrosViviendas | |
-| **RI-06** | ReglasVivienda | |
+| **RI-03** | Vivienda | Parcialmente completado (falta incluir el nº máximo de inquilinos) |
+| **RI-04** | FotosViviendas | Completado |
+| **RI-05** | MiembrosViviendas | Completado |
+| **RI-06** | ReglasVivienda | Completado |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-05** | Confirmación de borrado inmueble | |
-| **RNF-06** | Moderación previa publicación | |
-| **RNF-07** | Acceso restringido a datos sensibles | |
+| **RNF-05** | Confirmación de borrado inmueble | Por Hacer |
+| **RNF-06** | Moderación previa publicación | - |
+| **RNF-07** | Acceso restringido a datos sensibles | Completado |
 
 ---
 
