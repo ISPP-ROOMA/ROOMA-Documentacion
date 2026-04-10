@@ -52,13 +52,13 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-33** | Valoración de la Estancia (Inquilino) | |
-| **HU-34** | Sistema de Ciego Mutuo | |
-| **HU-35** | Consulta de Reputación del Casero | |
-| **HU-36** | Valoración del Inquilino (Casero) | |
-| **HU-37** | Reputación del Candidato | |
-| **HU-38** | Valoración entre Compañeros | |
-| **HU-39** | Réplica a Valoraciones | |
-| **HU-40** | Reporte de Reseñas Inadecuadas | |
-| **HU-41** | Moderación Automática | |
-| **HU-42** | Sistema de Recordatorios e Cierre | |
+| **HU-33** | Valoración de la Estancia (Inquilino) | Completado|
+| **HU-34** | Sistema de Ciego Mutuo | Completado|
+| **HU-35** | Consulta de Reputación del Casero | Por Hacer|
+| **HU-36** | Valoración del Inquilino (Casero) | Completado|
+| **HU-37** | Reputación del Candidato | Por Hacer|
+| **HU-38** | Valoración entre Compañeros | Completado|
+| **HU-39** | Réplica a Valoraciones | Completado|
+| **HU-40** | Reporte de Reseñas Inadecuadas | Por Hacer|
+| **HU-41** | Moderación Automática | Por Hacer|
+| **HU-42** | Sistema de Recordatorios e Cierre | Completado|
