@@ -53,11 +53,11 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-57** | Registro de Usuario | |
-| **HU-58** | Inicio de Sesión Social | |
-| **HU-59** | Recuperación de Acceso | |
-| **HU-60** | Autenticación en Dos Pasos (2FA) | |
-| **HU-61** | Completar Perfil | |
-| **HU-62** | Reporte de Usuarios | |
-| **HU-63** | Moderación Administrativa | |
-| **HU-64** | Verificación de Identidad | |
+| **HU-57** | Registro de Usuario | Completado Parcialmente|
+| **HU-58** | Inicio de Sesión Social | Por Hacer|
+| **HU-59** | Recuperación de Acceso | Por Hacer|
+| **HU-60** | Autenticación en Dos Pasos (2FA) | Por Hacer|
+| **HU-61** | Completar Perfil | Completado|
+| **HU-62** | Reporte de Usuarios | Por Hacer|
+| **HU-63** | Moderación Administrativa | Por Hacer|
+| **HU-64** | Verificación de Identidad | Por Hacer|
