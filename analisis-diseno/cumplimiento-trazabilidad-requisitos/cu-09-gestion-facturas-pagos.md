@@ -42,20 +42,20 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-07** | FacturaGasto | |
-| **RI-08** | DeudaInquilino | |
-| **RI-09** | TransaccionPago | |
-| **RI-10** | MetodoPago | |
+| **RI-07** | FacturaGasto | Completado |
+| **RI-08** | DeudaInquilino | Parcialmente Completado (falta ID_transaccion y semaforo) |
+| **RI-09** | TransaccionPago | Por Hacer |
+| **RI-10** | MetodoPago | Por Hacer |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-11** | Cumplimiento PCI-DSS | |
-| **RNF-12** | Cifrado AES-256 e TLS 1.2+ | |
-| **RNF-16** | Uptime del 99.00% en pagos | |
-| **RNF-17** | Claves de Idempotencia | |
+| **RNF-11** | Cumplimiento PCI-DSS | Por Hacer |
+| **RNF-12** | Cifrado AES-256 e TLS 1.2+ | Por Hacer |
+| **RNF-16** | Uptime del 99.00% en pagos | Por hacer |
+| **RNF-17** | Claves de Idempotencia | Completado |
 
 ---
 
