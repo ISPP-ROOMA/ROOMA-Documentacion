@@ -28,15 +28,15 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-01** | Notificación | |
+| **RI-01** | Notificación | Completado |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-01** | Orden descendente notificaciones | |
-| **RNF-02** | Autorización de notificaciones | |
+| **RNF-01** | Orden descendente notificaciones | Completado |
+| **RNF-02** | Autorización de notificaciones | Completado |
 
 ---
 
