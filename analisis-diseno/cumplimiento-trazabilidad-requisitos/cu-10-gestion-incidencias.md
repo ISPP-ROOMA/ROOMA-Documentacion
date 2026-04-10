@@ -36,15 +36,15 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-11** | Incidencia | |
-| **RI-12** | Mensaje | |
+| **RI-11** | Incidencia | Parcialmente Completado (falta el Boolean de coste compartido) | 
+| **RI-12** | Mensaje | Completado |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-13** | Visibilidad según zona incidencia | |
+| **RNF-13** | Visibilidad según zona incidencia | Completado |
 
 ---
 
