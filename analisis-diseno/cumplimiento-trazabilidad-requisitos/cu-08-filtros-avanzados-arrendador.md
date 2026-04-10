@@ -25,9 +25,9 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-03** | Vivienda | |
-| **RI-06** | ReglasVivienda | |
-| **RI-16** | Usuario | |
+| **RI-03** | Vivienda | Completado |
+| **RI-06** | ReglasVivienda | Completado |
+| **RI-16** | Usuario | Completado |
 
 ---
 
