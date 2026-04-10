@@ -83,9 +83,10 @@
 
 ### RI-02: Elemento Guardado
 **Descripción:** Entidad relacional que vincula de forma única a un Usuario con una Vivienda específica:
+- **ID_Elemento:** Identificador único(autogenerado).
 - **ID_Usuario:** Referencia al buscador.
 - **ID_Vivienda:** Referencia al inmueble.
-- **Favorito:** Indicador booleano de guardado.
+- **Fecha creación:** Fecha en la que se guardó el elemento.
 
 ---
 

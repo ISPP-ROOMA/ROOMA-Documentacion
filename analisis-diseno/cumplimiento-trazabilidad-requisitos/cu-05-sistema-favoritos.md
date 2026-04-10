@@ -39,6 +39,6 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-48** | Marcar como Favorito | |
-| **HU-49** | Listado de Favoritos | |
-| **HU-50** | Control de Disponibilidad en Favoritos | |
+| **HU-48** | Marcar como Favorito | Completado|
+| **HU-49** | Listado de Favoritos | Completado|
+| **HU-50** | Control de Disponibilidad en Favoritos | Completado|
