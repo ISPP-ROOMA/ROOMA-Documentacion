@@ -24,15 +24,15 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-02** | Elemento Guardado | |
+| **RI-02** | Elemento Guardado | Completado |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-03** | Privacidad de favoritos | |
-| **RNF-04** | Depuración automática favoritos | |
+| **RNF-03** | Privacidad de favoritos | Completado |
+| **RNF-04** | Depuración automática favoritos | Completado |
 
 ---
 
