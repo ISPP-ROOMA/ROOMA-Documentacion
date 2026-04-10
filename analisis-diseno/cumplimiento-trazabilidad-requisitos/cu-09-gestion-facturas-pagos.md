@@ -62,15 +62,15 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-12** | Registro de Facturas | |
-| **HU-13** | Selección de Participantes e Reparto | |
-| **HU-14** | Dashboard de Cobros (Vista Casero) | |
-| **HU-15** | Edición e Anulación de Facturas | |
-| **HU-16** | Exportación Contable (Casero) | |
-| **HU-17** | Dashboard "Mis Pagos" (Inquilino) | |
-| **HU-18** | Historial de Pagos (Inquilino) | |
-| **HU-19** | Pago con un Clic | |
-| **HU-20** | Activación de Auto-Pago | |
-| **HU-21** | Gestión de Métodos de Pago | |
-| **HU-22** | Exportación de Justificantes (Inquilino) | |
-| **HU-23** | Sistema de Alertas de Pago | |
+| **HU-12** | Registro de Facturas | Completado|
+| **HU-13** | Selección de Participantes e Reparto | Completado|
+| **HU-14** | Dashboard de Cobros (Vista Casero) | Completado|
+| **HU-15** | Edición e Anulación de Facturas | Por hacer|
+| **HU-16** | Exportación Contable (Casero) | Por hacer|
+| **HU-17** | Dashboard "Mis Pagos" (Inquilino) | Completado|
+| **HU-18** | Historial de Pagos (Inquilino) | Completado|
+| **HU-19** | Pago con un Clic | Por hacer|
+| **HU-20** | Activación de Auto-Pago | Por hacer|
+| **HU-21** | Gestión de Métodos de Pago | Por hacer|
+| **HU-22** | Exportación de Justificantes (Inquilino) | Por hacer|
+| **HU-23** | Sistema de Alertas de Pago | Completado|
