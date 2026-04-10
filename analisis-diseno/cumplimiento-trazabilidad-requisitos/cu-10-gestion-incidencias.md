@@ -51,12 +51,12 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-24** | Reporte de Avería | |
-| **HU-25** | Listado de Incidencias (Inquilino) | |
-| **HU-26** | Seguimiento por Línea de Tiempo | |
-| **HU-27** | Validación de Solución | |
-| **HU-28** | Chat Técnico de Incidencia | |
-| **HU-29** | Panel Kanban (Vista Casero) | |
-| **HU-30** | Actualización de Estado (Casero) | |
-| **HU-31** | Gestión de Presupuestos | |
-| **HU-32** | Historial de Mantenimiento | |
+| **HU-24** | Reporte de Avería | Completado Parcialmente|
+| **HU-25** | Listado de Incidencias (Inquilino) | Completado|
+| **HU-26** | Seguimiento por Línea de Tiempo | Completado Parcialmente|
+| **HU-27** | Validación de Solución | Completado|
+| **HU-28** | Chat Técnico de Incidencia | Completado|
+| **HU-29** | Panel Kanban (Vista Casero) | Completado|
+| **HU-30** | Actualización de Estado (Casero) | Completado Parcialmente|
+| **HU-31** | Gestión de Presupuestos | Por Hacer|
+| **HU-32** | Historial de Mantenimiento | Completado|
