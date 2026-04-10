@@ -7,7 +7,7 @@
 
 ### 1.2. Gestión de inmuebles
 
-- No existía validación para comprobar que el piso que se creaba no existía anteriormente. Como no se ha acordado una restricción de unicidad dependiente de varios campos en la base de datos para el piso, se ha optado por asegurar la idempotencia del método POST al crear el piso creando una clave de creación del piso necesaria que evita que se cree otro piso con los mismos datos en una ventana temporal. Asimismo, se ha añadido un estilo al botón de creación que muestra que el piso se está creando.
+- No existía validación para comprobar que el piso que se creaba no existía anteriormente, por lo que se ha modificado el esquema de datos que debe almacenar la entidad Apartment para incluir un campo que pueda hacerlo único y así añadir esa restricción evitando que se creen dos pisos idénticos. Asimismo, se ha añadido un estilo al botón de creación que muestra que el piso se está creando.
 - También se ha eliminado el campo de fecha (al menos, de momento) ya que no se utilizaba para ninguna operación relevante dentro de la aplicación.
 - La función de edición del inmueble se realizó posteriormente. Aún está en desarrollo.
 - Por último, la tardanza en la creación del inmueble puede ser debida a tiempos de latencia grandes a causa de los proveedores de servidor en la nube en su capa gratuita, ya que en despliegue local la creación tarda sólo lo que tarda en enviar una petición a la API de Cloudinary para subir imágenes.
