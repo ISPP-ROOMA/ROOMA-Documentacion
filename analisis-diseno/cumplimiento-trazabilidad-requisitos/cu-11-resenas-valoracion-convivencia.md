@@ -37,15 +37,15 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-13** | Reseña | |
+| **RI-13** | Reseña | Completado |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-14** | Anonimización en moderación | |
-| **RNF-15** | Inmutabilidad de reseñas | |
+| **RNF-14** | Anonimización en moderación | Por Hacer |
+| **RNF-15** | Inmutabilidad de reseñas | Completado |
 
 ---
 
