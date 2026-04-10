@@ -29,21 +29,21 @@
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
 | **RI-12** | Mensaje | Completado |
-| **RI-15** | Citas | Visitas | |
+| **RI-15** | Citas/Visitas | Por hacer |
 
 ---
 
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RNF-18** | Latencia de Mensajes | Completado |
+| **RNF-18** | Latencia de Mensajes | Completado(Falta verificarlo pero se emplean websockets) |
 
 ---
 
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-08** | Mensajería Multimedia | |
-| **HU-09** | Proponer Visitas | |
-| **HU-10** | Cancelación de Citas | |
-| **HU-11** | Cierre de Chats | |
+| **HU-08** | Mensajería Multimedia | Completado |
+| **HU-09** | Proponer Visitas | Por hacer |
+| **HU-10** | Cancelación de Citas | Por hacer|
+| **HU-11** | Cierre de Chats | Por hacer|

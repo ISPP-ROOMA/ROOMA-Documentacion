@@ -52,12 +52,10 @@
 - **ID_Mensaje:** Identificador único (autogenerado).
 - **ID_Incidencia:** Ticket asociado (FK) si el mensaje es de soporte técnico.
 - **ID_Remitente:** Usuario que envía (FK).
-- **Nombre_Remitente:** Nombre para mostrar en la burbuja de chat.
 - **Tipo (Enum):** Texto | Imagen | Sistema.
 - **Contenido:** Texto del mensaje o URL de la imagen adjunta.
 - **Fecha_Envio:** Timestamp de envío.
-- **Leido (Boolean):** Indicador de lectura.
-- **Fecha_Lectura:** Timestamp de cuando fue leído (null si no leído).
+- **Estado (Enum):** Enviado | Recibido | Leido.
 
 ### RI-15: Citas | Visitas
 **Descripción:** Datos a almacenar para cada visita que se concrete:
