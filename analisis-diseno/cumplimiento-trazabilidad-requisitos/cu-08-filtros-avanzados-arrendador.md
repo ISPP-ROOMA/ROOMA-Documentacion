@@ -39,6 +39,6 @@ No se asocian RNF específicos en la documentación para este CU
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-52** | Definición de Perfil Ideal | |
-| **RF-75** | Filtrado Manual de Solicitudes | |
-| **RF-76** | Ordenación de Candidatos | |
+| **HU-52** | Definición de Perfil Ideal | Por Hacer|
+| **RF-75** | Filtrado Manual de Solicitudes | Completado|
+| **RF-76** | Ordenación de Candidatos | Completado Parcialmente|
