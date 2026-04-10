@@ -35,11 +35,11 @@
 ## Requisitos de Información (RI)
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
-| **RI-16** | Usuario | |
-| **RI-17** | Tokens de Seguridad | |
-| **RI-18** | ProveedorOAuth | |
-| **RI-19** | Seguridad 2FA | |
-| **RI-20** | Audit Log | |
+| **RI-16** | Usuario | Completado | 
+| **RI-17** | Tokens de Seguridad | Parcialmente Completado (falta incluir el tipo de Token)|
+| **RI-18** | ProveedorOAuth | Completado |
+| **RI-19** | Seguridad 2FA | Por Hacer |
+| **RI-20** | Audit Log | Por Hacer |
 
 ---
 
