@@ -35,7 +35,7 @@
 | :--- | :--- | :---: |
 | **RI-03** | Vivienda | Parcialmente completado (falta incluir el nº máximo de inquilinos) |
 | **RI-04** | FotosViviendas | Completado |
-| **RI-05** | MiembrosViviendas | Completado |
+| **RI-05** | MiembrosViviendas | Parcialmente(No hay estado compañero) |
 | **RI-06** | ReglasVivienda | Completado |
 
 ---
@@ -44,7 +44,7 @@
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
 | **RNF-05** | Confirmación de borrado inmueble | Por Hacer |
-| **RNF-06** | Moderación previa publicación | - |
+| **RNF-06** | Moderación previa publicación | Por hacer |
 | **RNF-07** | Acceso restringido a datos sensibles | Completado |
 
 ---
@@ -52,11 +52,11 @@
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
-| **HU-51** | Registro de Inmueble | |
-| **HU-53** | Control de Disponibilidad | |
-| **HU-54** | Previsualización de Anuncio | |
-| **HU-55** | Eliminación Protegida | |
-| **HU-56** | Visualización de Convivientes | |
-| **HU-65** | Edición de Información | |
-| **HU-66** | Pausa de Anuncio | |
-| **HU-67** | Reactivación de Anuncio | |
+| **HU-51** | Registro de Inmueble | Completado Parcialmente|
+| **HU-53** | Control de Disponibilidad | Completado|
+| **HU-54** | Previsualización de Anuncio | Por Hacer|
+| **HU-55** | Eliminación Protegida | Por Hacer|
+| **HU-56** | Visualización de Convivientes | Completado|
+| **HU-65** | Edición de Información | Completado|
+| **HU-66** | Pausa de Anuncio | Completado|
+| **HU-67** | Reactivación de Anuncio | Completado|
