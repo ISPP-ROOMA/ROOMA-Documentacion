@@ -19,7 +19,7 @@
 | **RF-46** | Gestión del Deck | Parcialmente completado |  |
 | **RF-47** | Visualizar Detalles | Completado | |
 | **RF-48** | Swipe | Completado | |
-| **RF-49** | Rewind | Por Hacer | |
+| **RF-49** | Rewind | Fuera del alcance | |
 | **RF-50** | Gestión de Estados |Completado |  |
 | **RF-51** | Persistencia | Completado| |
 | **RF-52** | Sugerencia de Filtros | Por Hacer| |
@@ -50,4 +50,4 @@
 | **HU-01** | Visualización del Deck |  Parcialmente completado |
 | **HU-02** | Navegación por Gestos (Swipe) | Completado (Falta la caché offline)|
 | **HU-03** | Detalle del Inmueble |  Parcialmente(falta indicador de nº máximo de inquilinos)|
-| **HU-04** | Función Rewind (Premium) |  NO|
+| **HU-04** | Función Rewind |  Fuera del alcance |
