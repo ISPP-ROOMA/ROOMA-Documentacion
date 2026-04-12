@@ -1,107 +1,37 @@
 # Presupuesto Estimado
-## Desarrollo 29/01/2026 - 21/05/2026
-### CAPEX (Coste total: 74.159,80 €)
-#### Equipamiento Informático (Coste total: 16.000€)
-Se opta por un modelo Bring Your Own Device (BYOD) para la fase de desarrollo y lanzamiento inicial, acumulando un CAPEX estimado de 16K € (16 equipos a 1.000 €/ud).
-
-#### Propiedad Intelectual y Legal (Coste total: 7.350€)
-
-Este apartado contempla la inversión inicial e ineludible para blindar la empresa, proteger el producto y cumplir con la legalidad vigente para una plataforma de interacción social.
-
-- **Constitución de la Sociedad (SL):** 3.5K €
-    - Incluye el Capital Social mínimo exigido por ley (3K€), gastos de Notaría y Registro Mercantil (500€).
-- **Pacto de Socios:** 1.5K €
-    - Con un equipo estructural de más de 15 personas, es imprescindible un contrato redactado por un abogado mercantil que regule el reparto de acciones, cláusulas de permanencia, y la cesión obligatoria de los derechos de propiedad intelectual del código y diseño a favor de la sociedad.
-- **Auditoría y Adecuación GDPR/LOPDGDD:** 1.5K €
-    - La aplicación recopila datos de geolocalización (mapas), preferencias personales, hábitos de vida (fumadores, mascotas) y gestiona transacciones económicas. Se requiere un bufete especializado para redactar Términos y Condiciones de Uso, Política de Privacidad y Consentimiento de Tratamiento de Datos Sensibles; y Política de Cookies.
-- **Registro de Marca (Nacional / Europea):** 850 €
-    - Tasas de la OEPM (Oficina Española de Patentes y Marcas) o la EUIPO (Oficina Europea) para proteger el nombre comercial "Rooma" y su logotipo en las clases correspondientes a software y servicios de emparejamiento.
-
-#### Licencias Perpetuas y Activos Digitales (Coste total: 1300€)
-
-Este apartado recoge la inversión inicial para adquirir los derechos de uso comercial y vitalicio sobre los activos digitales necesarios para el desarrollo, diseño y branding de la aplicación.
-
-- **Tipografías y Recursos Tipográficos Comerciales:** 800 €
-    - Adquisición de licencias de uso comercial (App/Web/Desktop) para las fuentes tipográficas integradas en la interfaz de usuario y utilizadas en los materiales de marketing. Las licencias Open Source a menudo prohíben su uso o exigen atribuciones incompatibles con un producto monetizado.
-- **Librerías de Sonido, Iconografía y Multimedia:** 500 €
-    - Compra de derechos (licencias Royalty-Free extendidas) para los efectos de sonido de la aplicación (ej. el feedback auditivo de los swipes, notificaciones de chat o alertas de sistema).
-
-#### Laboral (Coste total: 42.768€)
-
-Todo el salario de los 16 desarrolladores y el tiempo de gestión dedicado exclusivamente a construir la aplicación (antes de que esté lista para el público) es CAPEX.
-
-Este apartado detalla el gasto operativo del capital humano. Para realizar una presupuestación realista y evitar la descapitalización de la empresa, es imperativo distinguir entre lo que percibe el trabajador y el impacto real en la tesorería.
-
-- **Salario Líquido (Neto):** El importe final que recibe el empleado en su cuenta bancaria tras deducir IRPF y su cuota obrera de la Seguridad Social. No tiene relevancia para el presupuesto de la empresa.
-- **Salario Bruto:** La base imponible negociada en el contrato. Incluye el líquido más las retenciones del trabajador.
-- **Coste Total de Empresa (Coste Presupuestado):** El desembolso real. Es la suma del Salario Bruto más la cuota patronal a la Seguridad Social (aprox. 30-33% adicional en España por contingencias comunes, desempleo, formación y FOGASA). Esta es la única métrica utilizada para calcular el gasto mensual y anual.
-
-Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el análisis financiero, los costes se han prorrateado en base a una dedicación parcial de 10 horas semanales por persona durante el periodo estipulado de 15 semanas.
-
-| Rol | Unidades | Horas | Salario Líquido | Salario Bruto | Coste de Empresa | Total |
-|---|---|---|---|---|---|---|
-| Ingeniero Junior | 16 | 150 | 10,60€/h | 13,50€/h | 17,82€/h | 42.768€ |
-
-#### Resumen de Inversión CAPEX
-
-| Categoría | Partida | Importe | Subtotal |
-| :--- | :--- | :---: | :---: |
-| **Equipamiento Informático** | 16 Equipos Portátiles (BYOD - 1.000€/ud) | 16.000,00 € | **16.000,00 €** |
-| **Propiedad Intelectual y Legal** | Constitución de la Sociedad (Capital + Notaría) | 3.500,00 € | |
-| | Redacción de Pacto de Socios | 1.500,00 € | |
-| | Auditoría y Adecuación GDPR/LOPDGDD | 1.500,00 € | |
-| | Registro de Marca (OEPM / EUIPO) | 850,00 € | **7.350,00 €** |
-| **Licencias y Activos Digitales** | Licencias Tipográficas Comerciales | 800,00 € | |
-| | Librerías de Sonido e Iconografía | 500,00 € | **1.300,00 €** |
-| **Laboral** | 16 Ingenieros Junior (150h/ud a 17,82€/h) | 42.768,00 € | **42.768,00 €** |
-| **Seguridad y Previsión** | **Contingencia (10% sobre el coste fijo)** | 6.741,80 € | **6.741,80 €** |
-| **TOTAL CAPEX** | | | **74.159,80 €** |
-
-### OPEX (Coste total: 676,32 €/mes)
-Este bloque recoge los costes operativos recurrentes necesarios para mantener el entorno técnico de desarrollo en funcionamiento durante la fase de construcción del producto.
-
-#### Infraestructura (Coste total: 53,72 €/mes)
-Incluye los servicios cloud base para desplegar y validar el entorno de desarrollo de forma continua, priorizando un proveedor con buen equilibrio entre coste, simplicidad y disponibilidad.
-
-Para esta fase de desarrollo, se establece un **coste fijo** basado en el mantenimiento del entorno de desarrollo y el soporte técnico para un grupo cerrado de **40 usuarios piloto**. Al ser un número de usuarios conocido y controlado, no se aplican variables de escalabilidad hasta la fase de lanzamiento comercial.
-
-| Despliegue para desarrollo | Usuarios Piloto (Fijo) | Coste Mensual |
-|---|---|---|
-| Digital Ocean (Servidor y Base de Datos) | 40 | 53,72 €/mes |
-
-*El presupuesto contempla una base de 53,32€ para la infraestructura de computación, a la que se suma un margen de 0,40€ (0,01€/usuario) para cubrir el tráfico de datos y almacenamiento de imágenes generado por los 40 usuarios piloto durante el periodo de prueba.*
-
-#### Herramientas de desarrollo (Coste total: 541,92€/mes)
-Este apartado contempla las suscripciones mensuales del stack de productividad del equipo (repositorios, IA asistida y ofimática), imprescindibles para coordinar trabajo, documentar avances y acelerar entregas.
-
-| Herramienta | Número de licencias | Coste unitario | Coste Total |
-|---|---|---|---|
-| Github Team | 16 | 3,67€/mes | 58,72€/mes |
-| Gemini Pro | 16 | 18,50/mes | 296€/mes |
-| Microsoft 365 Business | 16 | 11,70/mes | 187,2€/mes |
-
-#### Luz (Coste total: 19,20€/mes)
-Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, tomando como base las horas mensuales del equipo, una potencia media por puesto y un precio unitario conservador por kWh.
-
-| Horas mensuales equipo | Energía consumida | Precio Energía | Coste Total |
-|---|---|---|---|
-| 640 (16x40) | 128 (640x0,2) | 0,15/kWh€ | 19,20€/mes |
-
-#### Resumen de Gastos Operativos (OPEX - Fase Desarrollo)
-| Categoría | Partida | Importe | Subtotal |
-| :--- | :--- | :---: | :---: |
-| **Infraestructura Cloud** | Digital Ocean (Servidor y Base de Datos) | 53,32 € | |
-| | Soporte 40 Usuarios Piloto | 0,40 € | **53,72 €** |
-| **Herramientas de Desarrollo** | Github Team (16 licencias) | 58,72 € | |
-| | Gemini Pro (16 licencias) | 296,00 € | |
-| | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
-| **Suministros** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
-| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 61,48 € | **61,48 €** |
-| **TOTAL OPEX MENSUAL** | | | **676,32 €** |
-
 ## Lanzamiento 21/05/2026 - 21/05/2027
-### OPEX (Coste total: 16.058,44 € + 5,25 $u$ / mes)
+### Suposiciones de mercado y crecimiento
 
+Para asegurar la coherencia del modelo financiero durante el primer año de operación comercial, se establecen las siguientes premisas basadas en el comportamiento esperado de la comunidad Rooma:
+
+#### 1. Previsión del número de usuarios 
+Se proyecta una curva de crecimiento exponencial moderada que permite validar la infraestructura y el coste de adquisición de forma controlada, alcanzando la cifra de 10000 usuarios un año después del lanzamiento.
+
+| Mes | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Usuarios ($u$) | 40 | 100 | 152 | 231 | 352 | 535 | 813 | 1.235 | 1.878 | 2.854 | 4.338 | 6.597 | 10.000 |
+
+#### 2. Previsión de transacciones y tasa de conversión
+El modelo transaccional se basa en usuarios que formalizan su contrato a través de la App.
+
+* **Tasa de conversión transaccional:** Se estima que el **25%** de la base total de usuarios registrados ($u$) tendrán un contrato de alquiler en activo y utilizarán la plataforma para gestionar pagos de rentas y servicios.
+* **Ticket medio:** Se proyecta un volumen de **800,00 € mensuales** por contrato activo (Alquiler + Suministros).
+* **Volumen de Operaciones:** Cada contrato activo genera una media de **5 transacciones mensuales** (pago de inquilino, depósitos, dispersión a propietarios y proveedores).
+
+#### 3. Previsión de suscripciones y Add-ons
+La monetización directa se divide en ingresos recurrentes y compras de funcionalidades extra, enfocándose en la conversión de la base de usuarios gratuita hacia servicios de valor añadido.
+
+* **Suscripciones Mensuales:**
+    * **Rooma Plus:** Se estima una conversión del **15%** de la base total de usuarios registrados.
+    * **Rooma Pro:** Se estima una conversión del **2%** de la base total de usuarios registrados.
+
+* **Uso de Add-ons (Microtransacciones):**
+    * Se proyecta que el uso de funcionalidades puntuales (*Rewind, Boost* o *Chat de difusión*) se distribuya de la siguiente forma:
+        * **Pack Individual (1 unidad):** Adquirido mensualmente por el **15%** de los usuarios.
+        * **Pack de Ahorro (5 unidades):** Adquirido mensualmente por el **5%** de los usuarios.
+    * Esta vía permite monetizar a perfiles que operan bajo el modelo gratuito, maximizando el rendimiento de la plataforma sin elevar los costes fijos de estructura.
+
+### OPEX (Coste total: 16.058,44 € + 5,25 $u$ / mes)
 Este bloque detalla los costes operativos recurrentes durante la fase de lanzamiento y operación de la plataforma.
 
 #### Infraestructura (Coste total: 53,32€/mes + 0,01 · u/mes)
@@ -135,7 +65,7 @@ Proyección del consumo eléctrico para una jornada laboral completa (160 horas 
 |---|---|---|---|
 | 2560 (16x160) | 512 (2560x0,2) | 0,15/kWh€ | 75,8€/mes |
 
-#### Mantenimiento (Coste total: 10.777,536€/mes)
+#### Laboral (mantenimiento) (Coste total: 10.777,536€/mes)
 
 Del equipo estructural de 16 ingenieros, durante la fase de lanzamiento se dedica 37,8 horas mensuales por persona a mantenimiento, bugs críticos, operaciones y soporte de infraestructura en producción.
 
@@ -200,8 +130,8 @@ Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** tr
 | **25.000 usuarios** | 6.250 | **5.000.000 €** | **31.250** | **110.937,50 €/mes** |
 
 
-#### Suposiciones y Lógica de Negocio:
-1. **Ratio de Contratación (25%):** Se estima que el 25% de la base de usuarios totales ($u$) son perfiles con un contrato en vigor que requiere gestión de pagos recurrente. El 75% restante representa usuarios en fase de búsqueda o perfiles inactivos que no generan coste en Stripe.
+#### Suposiciones y lógica de Negocio:
+1. **Ratio de contratación y volumen de pagos:** Como definimos anteriormente, se supone un 25% de usuarios con contrato, gastando 800€ mensuales divididos en 5 transacciones.
 2. **Activación de Connect:** El coste de 2,00€ por cuenta se aplica únicamente si el usuario recibe fondos ese mes. Al asumir que todos los contratos en vigor liquidan pagos mensualmente, este coste se vuelve estructural para el 25% de la base.
 3. **Cumplimiento Normativo:** El coste fijo de Stripe Connect cubre la validación de identidad, prevención de blanqueo de capitales y el soporte técnico de la pasarela, delegando la responsabilidad legal bancaria en el proveedor.
 4. **Estimación de Comisiones:** El cálculo de las comisiones variables se basa en un ticket medio transaccionado proporcional a la densidad de usuarios, garantizando que la infraestructura soporte el flujo de caja proyectado.
@@ -215,7 +145,7 @@ Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** tr
 | | Gemini Pro (16 licencias) | 296,00 € | |
 | | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
 | **Suministros** | Consumo eléctrico (Jornada completa) | 75,80 € | **75,80 €** |
-| **Mantenimiento Técnico** | Ingeniería (16 pers. x 37,8h/mes) | 10.777,54 € | **10.777,54 €** |
+| **Laboral (mantenimiento)** | Ingeniería (16 pers. x 37,8h/mes) | 10.777,54 € | **10.777,54 €** |
 | **Marketing y Adquisición** | Estructura CM y Producción Audiovisual | 3.150,00 € | |
 | | Inversión Publicitaria Ads | 0,80 $u$ | **3.150,00 € + 0,80 $u$** |
 | **Operaciones Financieras** | Gestión Stripe y Transacciones | 4,44 $u$ | **4,44 $u$** |
@@ -232,7 +162,26 @@ Se establece un modelo escalonado para asegurar la adquisición masiva de usuari
 - **Rooma Plus (9.99€/mes):** Orientado a usuarios con alta intención de interacción. Ofrece swipes ilimitados, visualización de likes, filtros avanzados de estilo de vida (mascotas, fumadores, teletrabajo) y experiencia sin anuncios.
 - **Rooma Pro (29.99€/mes):** Orientado a caseros o heavy users. Incluye posicionamiento destacado (aparecen primero), analíticas de visitas, insignia de verificación "Pro" y soporte prioritario.
 
-#### Vía de Ingresos 2: Modelo Transaccional y Comisiones
+#### Vía de Ingresos 2: Funcionalidades Extra (Add-ons)
+
+Para complementar las suscripciones recurrentes, se habilita una vía de monetización por "impulso" dirigida a usuarios que requieren funciones específicas de forma puntual.
+
+* **Add-ons disponibles:** 
+    * **Rewind:** Deshacer el último like o dislike.
+    * **Boost:** Posicionamiento prioritario en el feed por 24h.
+    * **Chat de difusión:** Apertura de tablón de anuncios grupal para coordinar visitas.
+
+**Estructura de Precios:**
+| Producto | Unidades | Precio PVP | Precio por Unidad |
+| :--- | :---: | :---: | :---: |
+| **Pack Individual** | 1 ud. | **0,99 €** | 0,99 € |
+| **Pack de Ahorro** | 5 uds. | **3,99 €** | 0,80 € |
+
+> **Cálculo del Ingreso Ponderado (Add-ons):**
+> Basado en las suposiciones de conversión (15% adquiere Pack Individual y 5% adquiere Pack de Ahorro):
+> * $(0,15 \times 0,99 €) + (0,05 \times 3,99 €) = \mathbf{0,35 € \text{ adicionales por usuario (u)}}$
+
+#### Vía de Ingresos 3: Modelo Transaccional y Comisiones
 
 Para garantizar que la pasarela de pagos no sea deficitaria tras los costes de Stripe, se establece una tarifa de **"Gestión y Garantía"** mixta.
 
@@ -244,21 +193,22 @@ Para garantizar que la pasarela de pagos no sea deficitaria tras los costes de S
 > * **Coste Stripe (Tarifa técnica):** 17,75 €
 > * **Beneficio Neto para la plataforma:** **24,75 €/mes por contrato activo.**
 
-### Rentabilidad y Viabilidad Económica
+#### Resumen de Monetización por Usuario ($u$)
 
-#### Análisis de Ingreso Medio por Usuario (ARPU)
-Se proyecta el ingreso bruto que genera cada usuario registrado ($u$) basado en el mix de monetización. El ingreso por transacciones incluye la tasa técnica de la pasarela de pagos para reflejar la facturación bruta total de la plataforma.
+La siguiente tabla consolida el potencial de generación de ingresos brutos mensuales por cada usuario registrado, desglosando cada vía según su tasa de conversión y su aportación al ingreso medio:
 
-| Canal de Ingreso | Conversión | Cuota Bruta | Ingreso Ponderado ($u$) |
+| Vía de Ingreso | Base de Cálculo (Conversión) | Ingreso por Unidad | Ingreso Ponderado ($u$) |
 | :--- | :---: | :---: | :---: |
 | **Suscripción Rooma Plus** | 15% | 9,99 € | 1,50 € |
 | **Suscripción Rooma Pro** | 2% | 29,99 € | 0,60 € |
+| **Add-on: Pack Individual** | 15% | 0,99 € | 0,15 € |
+| **Add-on: Pack de Ahorro** | 5% | 3,99 € | 0,20 € |
 | **Comisiones Transaccionales** | 25% | 42,50 € | 10,62 € |
-| **TOTAL INGRESO BRUTO ($u$)** | | | **12,72 € / usuario** |
+| **TOTAL INGRESO BRUTO ($ARPU$)** | | | **13,07 €** |
 
-*\*Nota: La comisión bruta de 42,50 € por contrato activo incluye el margen de Rooma (24,75 €) y la tasa técnica de Stripe (17,75 €).*
+*Nota: El ingreso ponderado por usuario ($u$) es el resultado de multiplicar el Ingreso por Unidad por su respectiva Base de Cálculo. Este valor representa la facturación bruta media que genera cada usuario registrado en la plataforma.*
 
----
+### Rentabilidad y Viabilidad Económica
 
 #### Análisis de Costes Variables y Margen de Contribución
 Para obtener el margen de contribución unitario, restamos todos los costes operativos variables asociados a cada usuario:
@@ -268,19 +218,51 @@ Para obtener el margen de contribución unitario, restamos todos los costes oper
 * **Coste Operativo de Stripe:** 4,44 €/u
 * **Total costes variables:** **5,25 € / usuario**
 
-> **Margen de Contribución Unitario:** 12,72 € (Ingreso) - 5,25 € (Gasto) = **7,47 € netos por usuario.**
+> **Margen de Contribución Unitario:** 13,07 € (Ingreso) - 5,25 € (Gasto) = **7,82 € netos por usuario.**
 
----
 
-#### Umbral de Rentabilidad (Breakeven)
-El punto de equilibrio se alcanza cuando el margen neto generado por la base de usuarios cubre la estructura fija mensual de la empresa (16.058,44 €).
+#### Punto de equilibrio: Ingresos vs. Gastos Operativos
+Este hito representa el momento en que la facturación mensual de Rooma es suficiente para cubrir la totalidad de sus costes de estructura (16.058,44 €). A partir de este número de usuarios, la empresa deja de consumir caja operativa y comienza a generar beneficios.
 
-* **Fórmula:** $Usuarios_{Breakeven} = \frac{Costes\_Fijos}{Margen\_Unitario}$
-* **Cálculo:** $16.058,44 € / 7,47 €$
+* **Fórmula:** $Usuarios_{Equilibrio} = \frac{Costes\_Fijos\_Mensuales}{Margen\_Unitario}$
+* **Cálculo:** $16.058,44 € / 7,82 €$
 
-> **Resultado:** Rooma alcanza la rentabilidad operativa con **2.150 usuarios totales** registrados y activos en la plataforma.
+> **Resultado:** Rooma alcanza la rentabilidad operativa mensual con **2.054 usuarios totales** registrados y activos (mes 9).
 
----
+#### Punto de Retorno de la Inversión Total (Payback)
+Este hito financiero determina el momento en el que el beneficio neto acumulado iguala a la suma de toda la inversión inicial y el déficit generado durante la fase de crecimiento. 
+
+**Inversión Inicial Consolidada ($I_{prev}$):**
+Incluye el CAPEX (74.159,80 €) y el OPEX de la fase de desarrollo (2.705,28 €).
+* **Total Inversión Pre-lanzamiento:** **76.865,08 €**
+
+**Cálculo del Retorno Total ($RT$):**
+El punto de retorno se alcanza cuando el sumatorio del beneficio mensual ($B_m$) compensa la inversión inicial y el gasto operativo acumulado de lanzamiento.
+
+$$RT = I_{prev} + \sum_{m=1}^{n} (Gastos\_totales_m - Ingresos\_brutos_m) = 0$$
+
+* **$I_{prev}$:** 76.865,08 € (Inversión fija inicial).
+* **Déficit de Lanzamiento:** Suma del beneficio negativo de los meses 1 al 8.
+
+| Mes | Usuarios ($u$) | Ingreso Mensual | Gasto Mensual | Beneficio Mes | **Caja Neta Acum.** |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Pre** | 0 | 0,00 € | 76.865,08 € | - | **-76.865,08 €** |
+| **1** | 100 | 1.307,00 € | 16.583,44 € | -15.276,44 € | **-92.141,52 €** |
+| **2** | 152 | 1.986,64 € | 16.856,44 € | -14.869,80 € | **-107.011,32 €** |
+| **3** | 231 | 3.019,17 € | 17.271,19 € | -14.252,02 € | **-121.263,34 €** |
+| **4** | 352 | 4.600,64 € | 17.906,44 € | -13.305,80 € | **-134.569,14 €** |
+| **5** | 535 | 6.992,45 € | 18.867,19 € | -11.874,74 € | **-146.443,88 €** |
+| **6** | 813 | 10.625,91 € | 20.326,69 € | -9.700,78 € | **-156.144,66 €** |
+| **7** | 1.235 | 16.141,45 € | 22.542,19 € | -6.400,74 € | **-162.545,40 €** |
+| **8** | 1.878 | 24.545,46 € | 25.917,94 € | -1.372,48 € | **-163.917,88 €** |
+| **9** | **2.854** | 37.301,78 € | 31.041,94 € | **+6.259,84 €** | **-157.658,04 €** |
+| **10** | 4.338 | 56.697,66 € | 38.832,94 € | +17.864,72 € | **-139.793,32 €** |
+| **11** | 6.597 | 86.222,79 € | 50.692,69 € | +35.530,10 € | **-104.263,22 €** |
+| **12** | **10.000** | 130.700,00 € | 68.558,44 € | **+62.141,56 €** | **-42.121,66 €** |
+| **13** | 10.000 | 130.700,00 € | 68.558,44 € | +62.141,56 € | **+20.019,90 €** |
+| **14** | 10.000 | 130.700,00 € | 68.558,44 € | +62.141,56 € | **+82.161,46 €** |
+
+> **Conclusión del Retorno:** Como se observa en la columna de **Caja Neta Acumulada**, el punto de recuperación total de la inversión se alcanza durante el **Mes 13**. Tras absorber el déficit acumulado, la plataforma logra sanear completamente su balance y finalizar el mes 13 con un saldo positivo de **+20.019,90 €**. A partir de este hito, Rooma deja de recuperar capital invertido para comenzar a generar valor neto y liquidez real para la sociedad.
 
 #### Proyección de Escenario Realista (10.000 usuarios)
 Una vez superado el umbral de rentabilidad en el mes 9, la eficiencia del margen unitario permite una consolidación financiera acelerada hacia el cierre del primer año:
