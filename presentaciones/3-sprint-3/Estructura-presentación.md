@@ -16,6 +16,7 @@
 ## 4 ¿Quiénes somos?
 - Equipo (lo de siempre)
 - Team building
+- Beneficios y efectos team building
 - Commitment agreement
 - Análisis económico
 
@@ -28,7 +29,9 @@
 
 ### Usuarios Piloto
 - Cantidad
-- Plan para aumentar (Añadir StoryBoard de anuncio)
+- Plan para aumentar 
+    - Storybord anuncio
+    - Storyboard inversores
 - Feedback
     - Como se recogen
     - Reacción ante el feedback
