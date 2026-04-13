@@ -35,3 +35,6 @@
 - Feedback
     - Como se recogen
     - Reacción ante el feedback
+
+### Feedback PUG
+- Acciones tomadas
