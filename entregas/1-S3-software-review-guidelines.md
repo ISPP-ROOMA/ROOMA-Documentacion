@@ -15,7 +15,7 @@
 
 ### 2.1 Casos de Uso Desarrollados Previamente (S1 y S2 aunque se han realizado extensiónes a estos)
 
-#### CU-01: Descubrimiento de Viviendas
+#### CU: Descubrimiento de Viviendas
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Gestión del Deck | El sistema debe generar un mazo dinámico de viviendas basado en los filtros de búsqueda (precio, zonas, reglas) que el usuario indique | Completado Parcialmente (no estan desarrollados los filtros todavía) |
@@ -24,7 +24,7 @@
 | Gestión de Estados | El sistema debe registrar cada interacción del usuario con cada inmueble para asegurar que una vivienda descartada no vuelva a aparecer | Completado |
 | Persistencia | El sistema debe guardar la posición actual del deck para cada usuario que este usando la aplicación, para en el caso de pérdida de conexión, que el usuario pueda retomar las acciones desde donde lo dejó y no se recarguen los inmuebles aleatoriamente | Completado |
 
-#### CU-02: Evaluación de Candidatos y Match
+#### CU: Evaluación de Candidatos y Match
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Gestión de Solicitudes | El sistema debe mostrar para los usuarios anunciantes un dashboard que permita organizar a los candidatos para cada vivienda que tengan anunciada | Completado |
@@ -33,7 +33,7 @@
 | Gestión de Estados del Inmueble | El sistema debe gestionar la modificación del estado de una vivienda (Pausado, libre) con sus respectivos candidatos. Si un inmueble pasa a estar Pausado, se cancelarán todas las solicitudes pendientes, o sea, se eliminarán a los candidatos para ese inmueble | Completado |
 | Match | El sistema debe permitir dar like o dislikes a las propuestas de apartamentos en casos de ser un usuario que busca piso o a las propuestas de inquilinos si el usuario es casero. El Match además guardará estados para saber si esté está a la espera de una de las partes (Activo), si ambas partes dieron like (Match), si alguna de las partes dio dislike o si durante el proceso posterior por chat una de las partes decide no continuar (Rechazado) o si el match se define como exitoso y se pasa al chat y las citas | Completado |
 
-#### CU-06: Gestión de Inmuebles
+#### CU: Gestión de Inmuebles
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Formulario de Alta Guiado | El sistema debe permitir al anunciante registrar un inmueble mediante un formulario que capture: ubicación exacta, precio mensual, fotografías, y reglas de convivencia (ej. mascotas, fumadores, etc.). | Completado |
@@ -41,7 +41,7 @@
 | Gestión de anuncios | El sistema debe permitir al anunciante editar toda la información del anuncio mediante formulario guiado ( precio, fotos, reglas, perfil ideal, disponibilidad), validar y persistir cambios | Completado |
 | Pausar y reactivar anuncio | El sistema debe permitir pausar temporalmente un anuncio para que deje de aparecer en búsquedas y en el deck mientras conserva matches y solicitudes existentes; mostrar el estado “Pausado” en el panel del anunciante; impedir nuevas solicitudes durante la pausa; y permitir reactivar el anuncio en cualquier momento y actualizando timestamp. Al reactivar, ofrecer opción de notificar candidatos en espera. | Completado |
 
-#### CU-09: Gestión de Facturas y Pagos (simulado)
+#### CU: Gestión de Facturas y Pagos (simulado)
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Pantalla de Registro de Gastos | El sistema debe disponer de una interfaz de formulario para el Casero que incluya: selector de fecha tipo calendario (datepicker nativo), campos numéricos para importes con formato monetario (€), un desplegable de conceptos predefinidos (Alquiler, Luz, Agua, Gas, Internet, Comunidad, Otro), un campo de texto libre para descripción adicional, y un área de carga (drag & drop o botón de selección) para adjuntar el documento de la factura (PDF o imagen). El archivo adjunto debe mostrarse en previsualización antes de confirmar el guardado. El formulario debe incluir validación en línea de campos obligatorios con mensajes de error descriptivos. | Completado |
@@ -52,7 +52,7 @@
 | Dashboard de Cobros (Vista Casero) | El sistema debe proporcionar al Casero una pantalla de seguimiento de cobros por vivienda que muestre: (a) una lista de todas las facturas emitidas con su estado global (Cobrado totalmente, Cobro parcial, Pendiente); (b) al pulsar sobre una factura, un desglose por inquilino con el estado individual de cada cuota (Pagado/Pendiente/Vencido); (c) un resumen financiero mensual con totales cobrados vs. pendientes, representado mediante un gráfico de barras o donut chart; (d) la posibilidad de enviar un recordatorio push manual a los inquilinos con pagos vencidos. | Completado |
 | Notificaciones de Pagos | El sistema debe enviar notificaciones push automáticas en los siguientes eventos: (a) nueva factura registrada — a todos los inquilinos participantes; (b) pago recibido — al Casero, indicando quién pagó y el importe; (c) recordatorio de vencimiento — al Inquilino, 3 días antes y el mismo día del vencimiento; (d) pago vencido — al Inquilino diariamente tras el vencimiento y al Casero una vez; (e) auto-pago ejecutado — al Inquilino confirmando el cargo. Todas las notificaciones deben ser también visibles en un centro de notificaciones in-app. | Completado |
 
-##### CU-11: Reseñas y Valoración de Convivencia
+#### CU: Reseñas y Valoración de Convivencia
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Tarjeta de Valoración Pendiente | El sistema debe hacer aparecer una tarjeta de llamada a la acción ('Valora tu experiencia') en la pantalla principal (Home) del usuario una vez que se detecte la finalización del contrato o que el Casero marque el fin de la convivencia. La tarjeta debe incluir: (a) foto y nombre de la persona/vivienda a valorar; (b) un botón 'Valorar ahora'; (c) un enlace 'Recordarme más tarde' que pospone la tarjeta 48 horas. Si el usuario ignora la tarjeta, se mostrarán recordatorios progresivos durante 30 días naturales, tras los cuales el sistema cierra el periodo de valoración sin reseña. | Completado |
@@ -62,7 +62,7 @@
 | Resumen de Reputación en Tarjetas de Swipe/Solicitud | El sistema debe mostrar un resumen compacto de la reputación del usuario (puntuación media + nº de reseñas + 3 etiquetas más frecuentes) en: (a) las tarjetas de pisos durante el swipe (reputación del Casero); (b) las tarjetas de solicitudes que ve el Casero (reputación del Inquilino); (c) las tarjetas de búsqueda de compañeros. Al pulsar sobre el resumen se navega al perfil completo de reseñas. | Completado |
 | Recordatorios de Valoración | El sistema debe enviar notificaciones push de recordatorio para valorar en los siguientes momentos: (a) al detectar fin de contrato o desvinculación; (b) a las 48h si se pospuso; (c) a los 7 días si no se ha valorado; (d) a los 21 días como último aviso. Tras 30 días sin acción, el periodo se cierra y se publica la reseña de la otra parte (si existe) unilateralmente. | Completado |
 
-#### CU-03: Chat post Match
+#### CU: Chat post Match
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Gestión de Chats entre Usuarios | El sistema deberá habilitar un chat activo para cada par de usuarios (inquilino/arrendatario) que tengan un Match confirmado. Esta sección será habilitada tanto en la interfaz de usuario como en la lógica de negocio y debe ser imposible acceder sin Match | Completado |
@@ -71,31 +71,31 @@
 | Gestión de Citas | El sistema debe permitir al anunciante proponer una fecha y hora para concertar una cita (normalmente sería una visita para ver el inmueble o concertar ciertos aspectos sobre el alquiler) y al usuario inquilino aceptarla o proponer una fecha alternativa | Completado |
 | Cancelación de Citas | El sistema debe permitir al anunciante o inquilino cancelar una cita programada con antelación, enviando una notificación l usuario que formara parte de la cita | Completado |
 
-#### CU-05: Sistema de Favoritos
+#### CU: Sistema de Favoritos
 | Nombre | Descripción | Prioridad |
 | :--- | :--- | :--- |
 | Gestión de Favoritos | El sistema debe permitir al usuario marcar o desmarcar una vivienda/perfil como "Favorito" desde la tarjeta, el detalle o directamente desde el listado de favoritos. | Completado |
 | Visualización del Listado de favoritos | El sistema debe ofrecer una sección específica donde el usuario pueda revisar todos los elementos guardados y acceder a su detalle. | Completado |
 | Control de Disponibilidad en Favoritos | El sistema debe detectar si una vivienda ya no está disponible (por haberse completado el grupo) y mostrar un aviso informativo en el listado indicando que no se puede acceder al detalle por este motivo. | Completado |
 
-#### CU-07: Gestión de Cuentas y Perfil
-| RF-ID | Nombre | Descripción | Estado |
-| :--- | :--- | :--- | :--- |
-| **RF-63** | Registro con email y contraseña | El sistema debe ofrecer un formulario de registro (email, contraseña, confirmar contraseña), validar formato de email (regex) y unicidad, validar la política de contraseña configurable (mín. 4 caracteres u equivalente), comprobar coincidencia de contraseña/confirmar. | Completado |
-| **RF-65** | Inicio de sesión con proveedores | El sistema debe permitir autenticación mediante Google, solicitar y guardar consentimiento para leer email y perfil básico; si el proveedor devuelve un email verificado que coincide con una cuenta existente, ofrecer la opción de vincular la credencial o iniciar sesión; si el proveedor no devuelve email o no está verificado, guiar al usuario para introducir y verificar un email (mismo flujo de token).| Completado |
-| **RF-68** | Completar y editar perfil | El sistema debe permitir completar/editar: fotos de perfil, nombre, fecha de nacimiento (validar y calcular edad), género, teléfono, estudio/trabajo, descripción libre y preguntas de convivencia con opciones predefinidas (ej. Fumar: Sí/No/Ocasional). | Completado |
+#### CU: Gestión de Cuentas y Perfil
+| Nombre | Descripción | Estado |
+| :--- | :--- | :--- |
+| Registro con email y contraseña | El sistema debe ofrecer un formulario de registro (email, contraseña, confirmar contraseña), validar formato de email (regex) y unicidad, validar la política de contraseña configurable (mín. 4 caracteres u equivalente), comprobar coincidencia de contraseña/confirmar. | Completado |
+| Inicio de sesión con proveedores | El sistema debe permitir autenticación mediante Google, solicitar y guardar consentimiento para leer email y perfil básico; si el proveedor devuelve un email verificado que coincide con una cuenta existente, ofrecer la opción de vincular la credencial o iniciar sesión; si el proveedor no devuelve email o no está verificado, guiar al usuario para introducir y verificar un email (mismo flujo de token).| Completado |
+| Completar y editar perfil | El sistema debe permitir completar/editar: fotos de perfil, nombre, fecha de nacimiento (validar y calcular edad), género, teléfono, estudio/trabajo, descripción libre y preguntas de convivencia con opciones predefinidas (ej. Fumar: Sí/No/Ocasional). | Completado |
 
-#### CU-10: Gestión de Incidencias en la Vivienda
-| RF-ID | Nombre | Descripción | Estado |
-| :--- | :--- | :--- | :--- |
-| **RF-27** | Formulario de Nueva Incidencia | El sistema debe ofrecer al Inquilino una pantalla de creación de tickets que incluya: (a) un campo de título obligatorio (máx. 100 caracteres); (b) un campo de descripción multilínea (máx. 1000 caracteres); (c) un selector desplegable de categoría (Fontanería, Electricidad, Electrodomésticos, Cerrajería, Pintura/Paredes, Climatización, Plagas, Otro); (d) un selector de urgencia (Baja, Media, Alta, Urgente) representado con código de color; (e) acceso a la cámara del dispositivo para tomar fotos directamente o seleccionarlas de la galería, con previsualización y opción de eliminar antes de enviar (máx. 5 fotos); (f) un selector de zona del piso (Cocina, Baño, Salón, Dormitorio, Zonas comunes, Exterior). | Completado |
-| **RF-28** | Línea de Tiempo de Estado | El sistema debe mostrar en la vista de detalle de cada incidencia una barra de progreso o línea de tiempo (timeline) vertical que indique visualmente en qué fase se encuentra la reparación, con los estados: 'Abierta' (gris) → 'Recibida por el casero' (azul) → 'En Proceso' (amarillo) → 'Técnico Avisado' (naranja, opcional) → 'Resuelta por Casero' (verde claro) → 'Cerrada' (verde). Cada paso debe mostrar la fecha y hora en que se alcanzó. El Casero puede avanzar el estado; el Inquilino solo puede cerrar la incidencia tras la resolución. | Completado |
-| **RF-29** | Pestaña de Chat Técnico | El sistema debe incorporar dentro del detalle de cada incidencia una pestaña o sección de conversación dedicada, separada del chat general de convivencia. Esta conversación debe permitir: (a) enviar mensajes de texto; (b) adjuntar fotos adicionales (por ejemplo, progreso de la reparación); (c) mostrar los mensajes con avatar, nombre, hora y estado de lectura (doble check). Solo participan en esta conversación el Inquilino que abrió el ticket y el Casero/Anunciante de la vivienda. | Completado |
-| **RF-30** | Botonera de Validación del Inquilino | El sistema debe mostrar al Inquilino que reportó la incidencia dos botones de acción claros ('Confirmar Solución' / 'Rechazar Solución') únicamente cuando la incidencia alcance el estado 'Resuelta por Casero'. Al confirmar, la incidencia pasa a 'Cerrada'. Al rechazar, vuelve a 'En Proceso' y se notifica al Casero con un campo obligatorio de motivo del rechazo. | Completado |
-| **RF-31** | Listado de Incidencias (Vista Inquilino) | El sistema debe presentar al Inquilino una pantalla con la lista de todas las incidencias reportadas en sus viviendas, filtrables por: estado (Abiertas / Cerradas), categoría y vivienda. Cada elemento de la lista mostrará: título, categoría (badge de color), urgencia (badge), fecha de apertura, estado actual y miniatura de la primera foto adjunta. Al pulsar sobre una incidencia se accede a la vista de detalle. | Completado |
-| **RF-32** | Panel de Incidencias (Vista Casero) | El sistema debe proporcionar al Casero un panel con todas las incidencias recibidas en sus viviendas, organizadas por defecto en columnas tipo Kanban: 'Nuevas', 'En Proceso', 'Resueltas', 'Cerradas'. El Casero podrá alternar esta vista a formato lista. Cada tarjeta mostrará título, urgencia (color), inquilino reportador (avatar + nombre), fecha y miniatura de foto. El Casero puede pulsar sobre una tarjeta para acceder al detalle, cambiar el estado o responder en el chat técnico. | Completado |
-| **RF-34** | Historial de Incidencias por Vivienda | El sistema debe mantener un historial completo de todas las incidencias (abiertas y cerradas) asociadas a cada vivienda, accesible tanto para el Casero como para los Inquilinos actuales. El historial debe ser buscable por texto libre y filtrable por categoría, fecha y estado, y servirá como documentación de mantenimiento del inmueble. | Completado |
-| **RF-35** | Adjuntar Presupuesto de Reparación | El sistema debe permitir al Casero adjuntar un documento (PDF/imagen, máx. 10 MB) con el presupuesto de reparación dentro de la vista de detalle de la incidencia. El Inquilino podrá visualizar dicho documento. Opcionalmente, el Casero puede indicar si el coste será compartido con los inquilinos, en cuyo caso el sistema ofrecerá la opción de generar un gasto en el CU-10 vinculado a la incidencia. | Completado |
+#### CU: Gestión de Incidencias en la Vivienda
+| Nombre | Descripción | Estado |
+| :--- | :--- | :--- |
+| Formulario de Nueva Incidencia | El sistema debe ofrecer al Inquilino una pantalla de creación de tickets que incluya: (a) un campo de título obligatorio (máx. 100 caracteres); (b) un campo de descripción multilínea (máx. 1000 caracteres); (c) un selector desplegable de categoría (Fontanería, Electricidad, Electrodomésticos, Cerrajería, Pintura/Paredes, Climatización, Plagas, Otro); (d) un selector de urgencia (Baja, Media, Alta, Urgente) representado con código de color; (e) acceso a la cámara del dispositivo para tomar fotos directamente o seleccionarlas de la galería, con previsualización y opción de eliminar antes de enviar (máx. 5 fotos); (f) un selector de zona del piso (Cocina, Baño, Salón, Dormitorio, Zonas comunes, Exterior). | Completado |
+| Línea de Tiempo de Estado | El sistema debe mostrar en la vista de detalle de cada incidencia una barra de progreso o línea de tiempo (timeline) vertical que indique visualmente en qué fase se encuentra la reparación, con los estados: 'Abierta' (gris) → 'Recibida por el casero' (azul) → 'En Proceso' (amarillo) → 'Técnico Avisado' (naranja, opcional) → 'Resuelta por Casero' (verde claro) → 'Cerrada' (verde). Cada paso debe mostrar la fecha y hora en que se alcanzó. El Casero puede avanzar el estado; el Inquilino solo puede cerrar la incidencia tras la resolución. | Completado |
+| Pestaña de Chat Técnico | El sistema debe incorporar dentro del detalle de cada incidencia una pestaña o sección de conversación dedicada, separada del chat general de convivencia. Esta conversación debe permitir: (a) enviar mensajes de texto; (b) adjuntar fotos adicionales (por ejemplo, progreso de la reparación); (c) mostrar los mensajes con avatar, nombre, hora y estado de lectura (doble check). Solo participan en esta conversación el Inquilino que abrió el ticket y el Casero/Anunciante de la vivienda. | Completado |
+| Botonera de Validación del Inquilino | El sistema debe mostrar al Inquilino que reportó la incidencia dos botones de acción claros ('Confirmar Solución' / 'Rechazar Solución') únicamente cuando la incidencia alcance el estado 'Resuelta por Casero'. Al confirmar, la incidencia pasa a 'Cerrada'. Al rechazar, vuelve a 'En Proceso' y se notifica al Casero con un campo obligatorio de motivo del rechazo. | Completado |
+| Listado de Incidencias (Vista Inquilino) | El sistema debe presentar al Inquilino una pantalla con la lista de todas las incidencias reportadas en sus viviendas, filtrables por: estado (Abiertas / Cerradas), categoría y vivienda. Cada elemento de la lista mostrará: título, categoría (badge de color), urgencia (badge), fecha de apertura, estado actual y miniatura de la primera foto adjunta. Al pulsar sobre una incidencia se accede a la vista de detalle. | Completado |
+| Panel de Incidencias (Vista Casero) | El sistema debe proporcionar al Casero un panel con todas las incidencias recibidas en sus viviendas, organizadas por defecto en columnas tipo Kanban: 'Nuevas', 'En Proceso', 'Resueltas', 'Cerradas'. El Casero podrá alternar esta vista a formato lista. Cada tarjeta mostrará título, urgencia (color), inquilino reportador (avatar + nombre), fecha y miniatura de foto. El Casero puede pulsar sobre una tarjeta para acceder al detalle, cambiar el estado o responder en el chat técnico. | Completado |
+| Historial de Incidencias por Vivienda | El sistema debe mantener un historial completo de todas las incidencias (abiertas y cerradas) asociadas a cada vivienda, accesible tanto para el Casero como para los Inquilinos actuales. El historial debe ser buscable por texto libre y filtrable por categoría, fecha y estado, y servirá como documentación de mantenimiento del inmueble. | Completado |
+| Adjuntar Presupuesto de Reparación | El sistema debe permitir al Casero adjuntar un documento (PDF/imagen, máx. 10 MB) con el presupuesto de reparación dentro de la vista de detalle de la incidencia. El Inquilino podrá visualizar dicho documento. Opcionalmente, el Casero puede indicar si el coste será compartido con los inquilinos, en cuyo caso el sistema ofrecerá la opción de generar un gasto en el CU-10 vinculado a la incidencia. | Completado |
 
 ### 2.1 Nuevos Casos de Uso (Entregable S3)
 
