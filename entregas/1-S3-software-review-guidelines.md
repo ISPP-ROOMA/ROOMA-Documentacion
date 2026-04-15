@@ -7,7 +7,7 @@
 
 ### 1.2 Release en GitHub
 * **Página de la Release:** https://github.com/ISPP-ROOMA/ROOMA-sprint-3/releases/tag/s3
-* **Registro de Cambios:** *Se pueden ver todos los cambios realizados desde la página de la release incidacada arriba*
+* **Registro de Cambios:** *Se pueden ver todos los cambios realizados desde la página de la release indicada arriba*
 
 ---
 
@@ -101,7 +101,7 @@
 
 *(Estos son los casos de uso desarrollados desde 0 en este sprint, los anteriores casos de uso fueron desarrollados en gran parte en los anteriores pero han sido mejorados)*
 
-## CU-04: Gestión de notificaciones
+#### CU: Gestión de notificaciones
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Generación de notificaciones por eventos | El sistema debe generar automáticamente una notificación cuando ocurra un match o se reciba un mensaje. | Completado |
@@ -110,7 +110,7 @@
 | Navegación Directa desde la notificación | El sistema debe redirigir al usuario a la pantalla específica del evento al interactuar con una notificación interna, evitando que el usuario tenga que buscar manualmente el mensaje o la solicitud dentro de la app. | Completado |
 | Actualización de Estado leída | El sistema debe marcar automáticamente la notificación como "Leída" cuando el usuario haga clic en ella o acceda a su enlace directo, permitiendo también al usuario marcar todas las notificaciones del listado como leídas de forma simultánea mediante una acción global. | Completado |
 
-## CU-08: Filtros avanzados para arrendador
+#### CU: Filtros avanzados para arrendador
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
 | Definición de Perfil Ideal | El sistema debe permitir al anunciante parametrizar las características deseadas del compañero de piso (rango de edad, ocupación, hábitos) para alimentar el algoritmo de afinidad. | Completado |
