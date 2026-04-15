@@ -30,6 +30,32 @@ Problemas de desarrollo #208 10/04/2026: https://github.com/orgs/ISPP-ROOMA/proj
 
 Usuarios pilot #238 12/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/238
 
+Documento de contribuciones a la base de conocimiento común #262 13/04/2026 https://github.com/ISPP-ROOMA/ROOMA/issues/262
+
+Documento uso de la IA #258 15/04/2026 https://github.com/ISPP-ROOMA/ROOMA/issues/258
+
+Terminar documentación #218 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/218
+
+Documento X-D-deliverable.pdf #265 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/265
+
+Presentación #250 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/250
+
+Lista usuarios piloto + presentacion pdf #261 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/261
+
+Crear repositorio y hacer commit de entrega #266 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/266
+
+Añadir nuevas issues al archivo de deadlines #252 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/252
+
+Documento de dedicacion #259 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/259
+
+Documento desglose tiempo #260 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/260
+
+Documento X-D-software-review-guidelines.pdf #264 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/264
+
+Entregar en EV #267 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/267
+
+Presentar en EV #253 16/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/253
+
 ## Desarrollo
 Sistema de notificaciones Backend #221 04/04/2026: https://github.com/orgs/ISPP-ROOMA/projects/3/views/1?pane=issue&itemId=170119797
 
@@ -58,6 +84,10 @@ Completar test Review Backend #231 09/04/2026: https://github.com/orgs/ISPP-ROOM
 Completar test Apartment y ApartmentPhoto Backend #232 09/04/2026: https://github.com/orgs/ISPP-ROOMA/projects/3/views/1?pane=issue&itemId=172566525&issue=ISPP-ROOMA%7CROOMA%7C232
 
 Test de Frontend de nuevas funcionalidades #240 09/04/2026: https://github.com/orgs/ISPP-ROOMA/projects/3/views/1?pane=issue&itemId=173313001&issue=ISPP-ROOMA%7CROOMA%7C240
+
+Realizar comprobaciones pre-despliegue (DANGER) #256 12/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/256
+
+Probar toda la aplicación #277 15/04/2026: https://github.com/ISPP-ROOMA/ROOMA/issues/277
 
 
 
