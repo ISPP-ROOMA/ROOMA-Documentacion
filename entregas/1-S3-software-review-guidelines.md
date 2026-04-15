@@ -6,8 +6,8 @@
 * **Despliegue Final:** https://rooma-sprint-3.vercel.app
 
 ### 1.2 Release en GitHub
-* **Página de la Release:** [Insertar enlace a la página de releases de GitHub, ej. https://github.com/tu-repo/releases/tag/vX.X.X]
-* **Registro de Cambios e Issues:** [Mencionar brevemente los cambios introducidos y referenciar los issues relacionados, o listarlos directamente aquí].
+* **Página de la Release:** https://github.com/ISPP-ROOMA/ROOMA-sprint-3/releases/tag/s3
+* **Registro de Cambios:** *Se pueden ver todos los cambios realizados desde la página de la release incidacada arriba*
 
 ---
 
@@ -152,8 +152,10 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 ### 3.2 Feedback del Profesor
 | Fallo / Mejora Identificada | Medida Correctiva Tomada | Resultado Obtenido |
 | :--- | :--- | :--- |
-| *ej., Falta validación de datos en el formulario* | *ej., Se añadió validación Regex en frontend y backend* | *ej., Los datos inválidos ahora muestran un error descriptivo al usuario* |
-| [Comentario/Issue] | [Acción tomada] | [Resultado] |
+| **Datos de Prueba:** Se debe mantener datos de prueba realistas para que la aplicación siempre sea lo más cercana a la realidad | Se han añadido datos de prueba realistas para el despliegue de este sprint y para el despliegue para los usuarios piloto | La aplicación tiene un estilo realista |
+| **Análisis Económico:** El análisis económico debe siempre consistir de datos agregados y teniendo en cuenta la estimación de usuarios | Se ha realizado el análisis económico tomando en cuenta en estos consejos | El análisis económico ahora es mucho más detallado y más realista con la progresión de usuarios y tiempo |
+| **Análisis de Problemas:** Los análisis de problemas deben siempre contener sus mitigaciones, los plazos para ver si la mitigación ha funcionado o la solución y usar métricas completas para medir elproblema y su solución | Se ha utilizado una estructura de "Lección", "Mitigación" y "Comprobación" para cada problema encontrado con métricas específicas | Se ha conseguido una mayor eficiencia en el control de los problemas y su seguimiento |
+| **Calendario de Citas centralizado:** Se aconsejó realizar una funcionalidad por la que un propietario pudiera centralizar las visitas a sus inmuebles para todos los matches del mismo. | Se ha seguido este consejo y ahora los propietarios pueden crear visitas centralizadas que se mandarán automáticamente a todos los matches del inmueble mediante el chat de cada interesado, y desde aquí el interesado podrá elegir un horario al que asistir. | Un manejo de las citas mucho más como para el propietario y los interesados |
 
 ---
 
@@ -162,23 +164,30 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 Datos necesarios para poder realizar la revisión (usuarios, contraseñas o ejemplos de datasets si son complejos):
 
 ### 4.1 Cuentas de Prueba
-* **Usuario Administrador:**
-  * Usuario: `[Insertar usuario]`
-  * Contraseña: `[Insertar contraseña]`
-* **Usuario Estándar:**
-  * Usuario: `[Insertar usuario]`
-  * Contraseña: `[Insertar contraseña]`
+#### Inquilinos
+
+| Email | Contraseña |
+| :--- | :--- |
+| tenant1@test.com | 123456 |
+| tenant2@test.com | 123456 |
+| tenant3@test.com | 123456 |
+
+#### Caseros
+
+| Email | Contraseña |
+| :--- | :--- |
+| landlord1@test.com | 123456 |
+| landlord2@test.com | 123456 |
+| landlord3@test.com | 123456 |
 
 ### 4.2 Ejemplos de Conjuntos de Datos de Entrada
-*(Proporcionar cualquier dato de entrada complejo necesario para probar características específicas, o enlazar a un archivo CSV/JSON si aplica)*
-* **Escenario A:** [Proporcionar dataset o instrucciones]
-* **Escenario B:** [Proporcionar dataset o instrucciones]
+*(No contamos con campos complejos para probar cualquier funcionalidad)*
 
 ---
 
 ## 5. Requisitos del Sistema y Permisos
 
 Posibles requisitos necesarios para poder utilizar el sistema:
-* [ej., "Activar acceso a la ubicación en el navegador"]
-* [ej., "Permitir permisos de cámara para subir la foto de perfil"]
-* [ej., "Desactivar bloqueadores de anuncios para que el mapa se renderice correctamente"]
+* Activar acceso a la ubicación en el navegador
+* Permitir permisos de cámara para subir la foto de una incidencia si se está en móvil
+* Permitir el acceso a las notificaciones push al activar las notificaciones desde el perfil
