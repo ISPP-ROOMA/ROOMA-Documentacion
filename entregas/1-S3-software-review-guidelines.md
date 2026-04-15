@@ -36,7 +36,7 @@
 #### CU-06: Gestión de Inmuebles
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
-| Formulario de Alta Guiado | El sistema debe permitir al anunciante registrar un inmueble mediante un formulario que capture: ubicación exacta, precio mensual, fotografías, NUMERO MÁXIMO DE MIEMBROS y reglas de convivencia (ej. mascotas, fumadores, etc.). | Completado |
+| Formulario de Alta Guiado | El sistema debe permitir al anunciante registrar un inmueble mediante un formulario que capture: ubicación exacta, precio mensual, fotografías, y reglas de convivencia (ej. mascotas, fumadores, etc.). | Completado |
 | Consulta de miembros de la vivienda | El sistema debe permitir visualizar los usuarios vinculados a un inmueble, mostrando su rol dentro de la vivienda y la fecha de incorporación, con el fin de proporcionar información sobre la composición actual del piso. | Completado |
 | Gestión de anuncios | El sistema debe permitir al anunciante editar toda la información del anuncio mediante formulario guiado ( precio, fotos, reglas, perfil ideal, disponibilidad), validar y persistir cambios | Completado |
 | Pausar y reactivar anuncio | El sistema debe permitir pausar temporalmente un anuncio para que deje de aparecer en búsquedas y en el deck mientras conserva matches y solicitudes existentes; mostrar el estado “Pausado” en el panel del anunciante; impedir nuevas solicitudes durante la pausa; y permitir reactivar el anuncio en cualquier momento y actualizando timestamp. Al reactivar, ofrecer opción de notificar candidatos en espera. | Completado |
