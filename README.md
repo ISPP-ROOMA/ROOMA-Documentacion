@@ -32,7 +32,8 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   └── historias-de-usuario
 ├── analisis-economico/
 │   ├── informe-costes
-│   ├── presupuesto-estimado
+│   ├── presupuesto-estimado-desarrollo
+│   ├── presupuesto-estimado-lanzamiento
 │   └── tecnologias-de-pago
 ├── captacion-usuarios/
 |   ├── planes-usuarios-piloto/
@@ -48,8 +49,9 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 ├── despliegues/
 │   ├── despliegue-info
 ├── entregas/
-│   ├── entregas
-│   └── checklist-entrega-sprint-3.md
+│   ├── 1-S3-software-review-guidelines
+│   ├── checklist-entrega-sprint-3
+│   └── entregas
 ├── feedback/
 │   ├── clase/
 │   │   ├── contribucion-bbdd-comun
@@ -60,8 +62,16 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 |   |   │   ├── cerebrus
 |   |   │   └── nexus
 │   │   ├── hechos-por-rooma/
-|   |   │   ├── keatkit
+|   |   │   ├── keatkit-s2
+|   |   │   ├── keatkit-
+|   |   │   ├── vecinus-s2
 |   |   │   └── vecinus
+│   ├── usuarios-piloto/
+|   │   ├── informe-feedback-usuarios-s2
+├── marketing/
+│   ├── plan-marketing-pre-lanzamiento
+│   ├── storyboard-inversores
+│   └── storyboard
 ├── nuestro-equipo/
 │   ├── team-building/
 │   │   ├── plan-team-building
@@ -79,6 +89,10 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── 2-sprint-2/
 │   │   ├── 06-presentacion-12-03
 │   │   ├── 07-presentacion-26-03
+│   ├── 3-sprint-3/
+│   │   ├── 08-presentacion-09-04
+│   │   ├── 09-presentacion-16-04
+│   │   ├── estructura-presentacion
 │   ├── guia-presentaciones
 │   ├── presentaciones
 ├── pug/
@@ -98,8 +112,16 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   ├── lead-time-s2
 │   │   └── puntos-historia-s2
 │   ├── 3-sprint-3/
-│   │   ├── registro-horas-s3/
-│   │   ├── sprint-planning-s3
+│   │   ├── cuadrante-rendimiento-s3
+│   │   ├── cycle-time-s3
+│   │   ├── deadlines
+│   │   ├── desviacion-deadlines-s3
+│   │   ├── horas-desv-tipica-s3
+│   │   ├── horas-s3
+│   │   ├── horas-totales-s3
+│   │   ├── niko-niko
+│   │   ├── puntos-historia-diarios-s3
+│   │   ├── puntos-historia-s3
 │   │   └── sprint-retrospective-s3
 │   ├── 4-ppl/
 │   └── problemas-desarrollo

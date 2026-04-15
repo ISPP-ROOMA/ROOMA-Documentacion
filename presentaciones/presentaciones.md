@@ -13,7 +13,7 @@ Este documento contiene los accesos a todas las presentaciones realizadas durant
 | 12-03 | S2 - Primera presentación | [Ver PDF](/presentaciones/2-sprint-2/06-presentacion-12-03.pdf) | [Enlace a Canva](https://www.canva.com/design/DAHDKzd1wok/Y1n7K7bbzCwXZJfH1pNCXw/edit?utm_content=DAHDKzd1wok&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 | 26-03 | S2 - Presentación de evaluación | [Ver PDF](/presentaciones/2-sprint-2/07-presentacion-26-03.pdf) | [Enlace a Canva](https://www.canva.com/design/DAHEVdryOP4/cPKGtgUg9Z1XR2ghIU_pWg/edit?utm_content=DAHEVdryOP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 | 09-04 | S3 - Primera presentación | [Ver PDF](/presentaciones/3-sprint-3/08-presentacion-09-04.pdf)   | [Enlace a Canva](https://canva.link/j09q56lfnd701kv)
-| 16-04 | S3 - Presentación de evaluación |   | [Enlace a Canva](https://canva.link/97jy2aklt5ugiin)
+| 16-04 | S3 - Presentación de evaluación | [Ver PDF](/presentaciones/3-sprint-3/09-presentacion-16-04.pdf)   | [Enlace a Canva](https://canva.link/97jy2aklt5ugiin)
 
 Las presentaciones de **Rooma** se fundamentan en un sistema de diseño estructurado que garantiza la coherencia y profesionalismo en cada exposición. Para lograrlo, nos apoyamos en una [*plantilla en Canvas*](https://www.canva.com/design/DAHDKlcO5bA/jydygnp_eDgm9BwKZdjEHA/edit?utm_content=DAHDKlcO5bA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) y en el cumplimiento estricto del documento de [*Guía para presentaciones*](/presentaciones/guia-presentaciones.md), el cual marca el flujo de trabajo desde la estructura inicial hasta la revisión final de ortografía y estilo. 
 
