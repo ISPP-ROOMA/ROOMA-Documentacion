@@ -15,11 +15,11 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-53** | Gestión de Solicitudes | Completado | Testeado|
-| **RF-54** | Visualización Candidato | Completado | Testeado|
-| **RF-55** | Gestión de Candidatos | Completado Parcialmente (no hay calendario de citas) | Testeado(sin calendario) |
-| **RF-56** | Gestión de Estados del Inmueble | Completado Parcialmente (no se modifica el estado si esta ocupado, pero esto no me parece mal ya que también apuntamos para encontrar compañeros) | Parcialmente( Faltan test por ejemplo en processSwipe) |
-| **RF-74** | Match | Completado Parcialmente (el Match no se puede cancelar una vez aceptado) | Parcialmente( Faltan test por ejemplo en processSwipe)|
+| **RF-53** | Gestión de Solicitudes | Completado | Si |
+| **RF-54** | Visualización Candidato | Completado | Si |
+| **RF-55** | Gestión de Candidatos | Completado Parcialmente (no hay calendario de citas) | Si |
+| **RF-56** | Gestión de Estados del Inmueble | Completado Parcialmente (no se modifica el estado si esta ocupado, pero esto no me parece mal ya que también apuntamos para encontrar compañeros) | Parcial |
+| **RF-74** | Match | Completado Parcialmente (el Match no se puede cancelar una vez aceptado) | Si |
 
 ---
 
@@ -33,14 +33,14 @@
 ## Requisitos No Funcionales (RNF)
 | ID | Nombre del Requisito | Estado |Testeado |
 | :--- | :--- | :---: | :---: |
-| **RNF-19** | Consistencia de Match bilateral | Completado | Parcialmente |
-| **RNF-20** | Latencia de aviso de Match | NO | NO|
+| **RNF-19** | Consistencia de Match bilateral | Completado | Parcial |
+| **RNF-20** | Latencia de aviso de Match | NO | No |
 
 ---
 
 ## Historias de Usuario (HU)
 | ID | Título de la Historia | Estado |Testeado |
 | :--- | :--- | :---: | :---: |
-| **HU-05** | Dashboard de Candidatos | Parcialmente| Parcialmente|
-| **HU-06** | Ficha Técnica del Candidato | Completado| Testeado|
-| **HU-07** | Gestión de Decisiones | Parcialmente | Parcialmente|
+| **HU-05** | Dashboard de Candidatos | Parcialmente| Parcial |
+| **HU-06** | Ficha Técnica del Candidato | Completado| Si |
+| **HU-07** | Gestión de Decisiones | Parcialmente | Parcial |

@@ -17,11 +17,11 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-01** | Generación de notificaciones por eventos | Completado | |
-| **RF-02** | Visualización de Listado | Completado | |
-| **RF-03** | Indicador de nuevas notificaciones | Completado Parcialmente (estaría bien que salga un circulito rojo en el botón de las notificaciones por si no estana activas las notis push) | |
-| **RF-04** | Navegación Directa desde la notificación | Completado | |
-| **RF-05** | Actualización de Estado leída | Completado | |
+| **RF-01** | Generación de notificaciones por eventos | Completado | Si |
+| **RF-02** | Visualización de Listado | Completado | Si |
+| **RF-03** | Indicador de nuevas notificaciones | Completado Parcialmente (estaría bien que salga un circulito rojo en el botón de las notificaciones por si no estana activas las notis push) | Parcial |
+| **RF-04** | Navegación Directa desde la notificación | Completado | Si |
+| **RF-05** | Actualización de Estado leída | Completado | Si |
 
 ---
 

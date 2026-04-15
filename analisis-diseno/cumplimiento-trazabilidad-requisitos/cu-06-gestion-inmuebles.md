@@ -20,13 +20,13 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-09** | Formulario de Alta Guiado | Completado Parcialmente (no hay número máximo de miebros ni las reglas de convivencia y no funciona ahora mismo al finalizar) | |
-| **RF-11** | Gestión de Estado del Anuncio de la vivienda | Completado Parcialmente (no se puede eliminar una vivienda) | |
-| **RF-12** | Previsualización del Anuncio de la vivienda | Por Hacer | |
-| **RF-13** | Restricción de eliminación de vivienda | Por Hacer| |
-| **RF-14** | Consulta de miembros de la vivienda | Completado | |
-| **RF-72** | Gestión de anuncios | Completado | |
-| **RF-73** | Pausar y reactivar anuncio | Completado | |
+| **RF-09** | Formulario de Alta Guiado | Completado Parcialmente (no hay número máximo de miebros ni las reglas de convivencia y no funciona ahora mismo al finalizar) | Si |
+| **RF-11** | Gestión de Estado del Anuncio de la vivienda | Completado Parcialmente (no se puede eliminar una vivienda) | Si |
+| **RF-12** | Previsualización del Anuncio de la vivienda | Por Hacer | No |
+| **RF-13** | Restricción de eliminación de vivienda | Por Hacer| Parcial |
+| **RF-14** | Consulta de miembros de la vivienda | Completado | Si |
+| **RF-72** | Gestión de anuncios | Completado | Parcial |
+| **RF-73** | Pausar y reactivar anuncio | Completado | Si |
 
 ---
 

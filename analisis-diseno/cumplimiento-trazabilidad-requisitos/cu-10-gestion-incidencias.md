@@ -21,15 +21,15 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-27** | Formulario de Nueva Incidencia | Completado Parcialmente (la estetica se puede mejorar y no se pueden hacer fotos directamente desde el formulario) | |
-| **RF-28** | Línea de Tiempo de Estado | Completado Parcialmente (el inquilino no puede cerrar la incidencia) | |
-| **RF-29** | Pestaña de Chat Técnico | Completado | |
-| **RF-30** | Botonera de Validación del Inquilino | Completado (la estética se podría mejorar) | |
-| **RF-31** | Listado de Incidencias (Vista Inquilino) | Completado | |
-| **RF-32** | Panel de Incidencias (Vista Casero) | Completado | |
-| **RF-33** | Notificaciones de Incidencias | Por Hacer | |
-| **RF-34** | Historial de Incidencias por Vivienda | Completado | |
-| **RF-35** | Adjuntar Presupuesto de Reparación | Por Hacer | |
+| **RF-27** | Formulario de Nueva Incidencia | Completado Parcialmente (la estetica se puede mejorar y no se pueden hacer fotos directamente desde el formulario) | Si |
+| **RF-28** | Línea de Tiempo de Estado | Completado Parcialmente (el inquilino no puede cerrar la incidencia) | Si |
+| **RF-29** | Pestaña de Chat Técnico | Completado | Si |
+| **RF-30** | Botonera de Validación del Inquilino | Completado (la estética se podría mejorar) | Si |
+| **RF-31** | Listado de Incidencias (Vista Inquilino) | Completado | Si |
+| **RF-32** | Panel de Incidencias (Vista Casero) | Completado | Si |
+| **RF-33** | Notificaciones de Incidencias | Por Hacer | No |
+| **RF-34** | Historial de Incidencias por Vivienda | Completado | Si |
+| **RF-35** | Adjuntar Presupuesto de Reparación | Por Hacer | No |
 
 ---
 

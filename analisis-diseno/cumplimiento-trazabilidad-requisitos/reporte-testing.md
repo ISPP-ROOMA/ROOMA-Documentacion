@@ -1,7 +1,10 @@
 # ROOMA
-# Desglose detallado de testing por CU y RF
+# Reporte de testing definitivo
 
-Fecha de actualizacion: 2026-03-30
+## Alcance
+
+- Backend unitarios e integracion: backend/src/test/java
+- Frontend e2e con Playwright: frontend/tests
 
 ## Convenciones
 
@@ -14,14 +17,57 @@ Fecha de actualizacion: 2026-03-30
   - BI: Backend integracion (Spring Test, DataJpaTest, WebMvcTest, etc.).
   - FU: Frontend unitario (Vitest).
   - FE: Frontend e2e (Playwright).
-- Fuentes revisadas:
-  - backend/src/test
-  - frontend/src/__tests__
-  - frontend/tests
 
 ---
 
-## CU-01 - Descubrimiento de viviendas
+## Resumen global
+
+| Tipo | Total tests |
+|---|---:|
+| Backend unitarios | 388 |
+| Backend integracion | 218 |
+| Frontend Playwright | 91 |
+| **Total general** | **697** |
+
+## Backend por modulo
+
+| Modulo | Unitarios | Integracion | Total |
+|---|---:|---:|---:|
+| Apartment | 16 | 27 | 43 |
+| ApartmentMatch | 72 | 45 | 117 |
+| ApartmentPhoto | 13 | 0 | 13 |
+| Auth | 12 | 6 | 18 |
+| Billing | 27 | 20 | 47 |
+| Chat | 36 | 16 | 52 |
+| dummy | 1 | 0 | 1 |
+| Favorite | 17 | 24 | 41 |
+| Incident | 46 | 21 | 67 |
+| Jwt | 20 | 0 | 20 |
+| MemberApartment | 61 | 31 | 92 |
+| Review | 34 | 10 | 44 |
+| User | 33 | 18 | 51 |
+
+## Frontend Playwright por modulo
+
+| Modulo | Tests Playwright |
+|---|---:|
+| advertisements | 2 |
+| apartments | 4 |
+| candidates-visits | 4 |
+| chats | 24 |
+| deck-swipe | 5 |
+| favourites | 2 |
+| incidents | 25 |
+| invoices | 6 |
+| notifications | 9 |
+| profile-accounts | 4 |
+| reviews | 6 |
+
+---
+
+## Desglose detallado por CU y RF
+
+### CU-01 - Descubrimiento de viviendas
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -35,7 +81,7 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-02 - Gestion de candidatos y match
+### CU-02 - Gestion de candidatos y match
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -47,32 +93,32 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-03 - Sistema de chats
+### CU-03 - Sistema de chats
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
-| RF-57 | Si | BU, BI | backend/src/test/java/com/example/demo/Chat/ChatControllerTest.java:71 - getMessageHistory_ReturnsOkForTenant; backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:111 - getMessageHistory_shouldReturnMessages_forValidStatuses | Flujo FE completo de bandeja/chat. |
-| RF-58 | Parcial | BI | backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:393 - sendFileMessage_shouldSaveMessage_whenValid; backend/src/test/java/com/example/demo/Chat/ChatWebSocketControllerTest.java:38 - sendMessage_ReturnsMessageDTO | Cobertura FE e2e de adjuntos y limites de tamano. |
-| RF-59 | Parcial | BU, BI | backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:597 - markMessagesAsRead_shouldMarkOtherUsersMessagesAsRead; backend/src/test/java/com/example/demo/Chat/ChatControllerTest.java:157 - markAsRead_ReturnsOkAndMessages | Validacion visual FE de check entregado/leido. |
+| RF-57 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Chat/ChatControllerTest.java:71 - getMessageHistory_ReturnsOkForTenant; backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:111 - getMessageHistory_shouldReturnMessages_forValidStatuses; frontend/tests/chats/ - 24 tests e2e de bandeja y chat | - |
+| RF-58 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:393 - sendFileMessage_shouldSaveMessage_whenValid; backend/src/test/java/com/example/demo/Chat/ChatWebSocketControllerTest.java:38 - sendMessage_ReturnsMessageDTO; frontend/tests/chats/ - cobertura e2e de adjuntos | - |
+| RF-59 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Chat/ChatServiceTest.java:597 - markMessagesAsRead_shouldMarkOtherUsersMessagesAsRead; backend/src/test/java/com/example/demo/Chat/ChatControllerTest.java:157 - markAsRead_ReturnsOkAndMessages; frontend/tests/chats/ - cobertura e2e de checks entregado/leido | - |
 | RF-60 | No | - | Sin test asociado para gestion de citas en chat. | Crear casos de proponer/aceptar/contraoferta. |
 | RF-61 | No | - | Sin test asociado para cancelacion de citas. | Cobertura de cancelacion y aviso a contraparte. |
 | RF-62 | No | - | Sin test asociado para cierre/archivo de chat por estado del inmueble. | Cobertura de bloqueo y mensaje de no disponibilidad. |
 
 ---
 
-## CU-04 - Gestion de notificaciones
+### CU-04 - Gestion de notificaciones
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
-| RF-01 | No | - | Sin test asociado. | Motor de eventos match/mensaje/pago. |
-| RF-02 | No | - | Sin test asociado. | Listado cronologico y scoping por usuario. |
-| RF-03 | No | - | Sin test asociado. | Badge de pendientes y refresco en tiempo real. |
-| RF-04 | No | - | Sin test asociado. | Navegacion directa desde notificacion. |
-| RF-05 | No | - | Sin test asociado. | Marcado individual y masivo de lectura. |
+| RF-01 | Si | FE | frontend/tests/notifications/ - 9 tests e2e cubriendo generacion y visualizacion de notificaciones | Cobertura BU/BI del motor de eventos. |
+| RF-02 | Si | FE | frontend/tests/notifications/ - cobertura e2e de listado cronologico | Cobertura BU/BI de scoping por usuario. |
+| RF-03 | Parcial | FE | frontend/tests/notifications/ - cobertura e2e del badge de pendientes | Indicador visual en boton + refresco en tiempo real. |
+| RF-04 | Si | FE | frontend/tests/notifications/ - cobertura e2e de navegacion desde notificacion | Cobertura BU/BI de deep linking. |
+| RF-05 | Si | FE | frontend/tests/notifications/ - cobertura e2e de marcado de lectura | Cobertura BU/BI de marcado masivo. |
 
 ---
 
-## CU-05 - Sistema de favoritos
+### CU-05 - Sistema de favoritos
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -82,7 +128,7 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-06 - Gestion de inmuebles
+### CU-06 - Gestion de inmuebles
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -96,14 +142,14 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-07 - Gestion de cuentas y perfil
+### CU-07 - Gestion de cuentas y perfil
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
 | RF-63 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Auth/AuthControllerTests.java:67 - register_success; backend/src/test/java/com/example/demo/Auth/AuthServiceTest.java:85 - register_shouldReturnAuthResultWhenUserIsNew; frontend/tests/profile-accounts/register.spec.ts:126 - Registra inquilino con email... | Rate limit/captcha y mensajes localizados. |
 | RF-64 | Parcial | BU, BI | backend/src/test/java/com/example/demo/Auth/AuthControllerTests.java:145 - validate_success; backend/src/test/java/com/example/demo/Auth/AuthControllerTests.java:159 - validate_invalid | Reenvio controlado y expiracion completa en FE/BI. |
 | RF-65 | No | - | Sin test asociado para OAuth Google/Apple/Facebook. | Vinculacion/desvinculacion de proveedores. |
-| RF-66 | No | - | Sin test asociado para recuperacion de contraseña por token. | Solicitud, token, cambio clave e invalidacion sesiones. |
+| RF-66 | No | - | Sin test asociado para recuperacion de contrasena por token. | Solicitud, token, cambio clave e invalidacion sesiones. |
 | RF-67 | No | - | Sin test asociado para 2FA TOTP y codigos de backup. | Alta/baja 2FA y recuperacion por backup. |
 | RF-68 | Parcial | BU, BI | backend/src/test/java/com/example/demo/User/UserServiceTest.java:70 - updateCurrentUserProfile_updatesFields; backend/src/test/java/com/example/demo/User/UserControllerTests.java:103 - updateUserProfile_UpdatesSuccessfully | Onboarding completo, validaciones multimedia y perfil minimo. |
 | RF-69 | No | - | Sin test asociado para reportes de usuarios. | Formulario reporte, adjuntos y cola de moderacion. |
@@ -112,7 +158,7 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-08 - Filtros avanzados para arrendador
+### CU-08 - Filtros avanzados para arrendador
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -122,7 +168,7 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-09 - Gestion de facturas y pagos
+### CU-09 - Gestion de facturas y pagos
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -141,23 +187,23 @@ Fecha de actualizacion: 2026-03-30
 
 ---
 
-## CU-10 - Gestion de incidencias
+### CU-10 - Gestion de incidencias
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
-| RF-27 | No | - | Sin test asociado. | Alta de incidencia con adjuntos y borrador. |
-| RF-28 | No | - | Sin test asociado. | Timeline de estados y transiciones. |
-| RF-29 | No | - | Sin test asociado. | Chat tecnico por incidencia con adjuntos. |
-| RF-30 | No | - | Sin test asociado. | Confirmar/rechazar solucion + autocierre. |
-| RF-31 | No | - | Sin test asociado. | Listado inquilino con filtros y badges. |
-| RF-32 | No | - | Sin test asociado. | Panel casero tipo kanban/lista. |
-| RF-33 | No | - | Sin test asociado. | Notificaciones por eventos de incidencia. |
-| RF-34 | No | - | Sin test asociado. | Historial por vivienda con busqueda/filtros. |
-| RF-35 | No | - | Sin test asociado. | Presupuesto adjunto y enlace con pagos. |
+| RF-27 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - 46 BU + 21 BI; frontend/tests/incidents/ - 25 tests e2e | Adjuntos desde camara y borrador. |
+| RF-28 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de transiciones de estado; frontend/tests/incidents/ - cobertura e2e de timeline | - |
+| RF-29 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de chat tecnico; frontend/tests/incidents/ - cobertura e2e | - |
+| RF-30 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de validacion de solucion; frontend/tests/incidents/ - cobertura e2e | Autocierre por timeout. |
+| RF-31 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de listado; frontend/tests/incidents/ - cobertura e2e con filtros | - |
+| RF-32 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de panel casero; frontend/tests/incidents/ - cobertura e2e | - |
+| RF-33 | No | - | Sin test asociado para notificaciones de incidencias. | Triggers por eventos de incidencia. |
+| RF-34 | Si | BU, BI, FE | backend/src/test/java/com/example/demo/Incident/ - cobertura de historial; frontend/tests/incidents/ - cobertura e2e | Busqueda y filtros avanzados. |
+| RF-35 | No | - | Sin test asociado para presupuesto adjunto. | Presupuesto adjunto y enlace con pagos. |
 
 ---
 
-## CU-11 - Resenas y valoracion de convivencia
+### CU-11 - Resenas y valoracion de convivencia
 
 | RF | Testeado | Tipo | Tests en repo (nombre y linea) | Pendiente |
 | :--- | :---: | :--- | :--- | :--- |
@@ -167,7 +213,7 @@ Fecha de actualizacion: 2026-03-30
 | RF-39 | Si | BI, FE | frontend/tests/reviews/reviews.spec.ts:487 - Usuario valorado puede responder...; backend/src/test/java/com/example/demo/Review/ReviewServiceTest.java:321 - respondToReview_success | Moderacion de replica y no-edicion posterior. |
 | RF-41 | Parcial | BI, FE | backend/src/test/java/com/example/demo/Review/ReviewControllerTest.java:116 - getReceivedReviews_ok; frontend/tests/reviews/reviews.spec.ts:311 - Formulario de inquilino valida categorias... | Ordenacion, paginacion y resumen agregado por categorias. |
 | RF-42 | No | - | Sin test asociado para moderacion automatica de contenido. | Filtro automatico + estado en revision + descarte a 7 dias. |
-| RF-43 | No | - | Sin test asociado para reporte de reseñas inadecuadas. | Flujo reportar, motivos y umbral de ocultacion. |
+| RF-43 | No | - | Sin test asociado para reporte de resenas inadecuadas. | Flujo reportar, motivos y umbral de ocultacion. |
 | RF-44 | No | - | Sin test asociado para resumen reputacional en tarjetas. | Resumen reputacion en swipe/solicitud + navegacion a perfil. |
 | RF-45 | Parcial | BI, FE | frontend/tests/reviews/reviews.spec.ts:276 - Muestra aviso de valoracion en Home...; backend/src/test/java/com/example/demo/Review/ReviewServiceTest.java:297 - publishOldReviews_publishesAll | Hitos completos 48h/7d/21d/30d y publicacion unilateral. |
 

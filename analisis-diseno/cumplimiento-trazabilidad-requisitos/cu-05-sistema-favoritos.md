@@ -15,9 +15,9 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-06** | Gestión de Favoritos | Completado | |
-| **RF-07** | Visualización del Listado de favoritos | Completado | |
-| **RF-08** | Control de Disponibilidad en Favoritos | Completado | |
+| **RF-06** | Gestión de Favoritos | Completado | Si |
+| **RF-07** | Visualización del Listado de favoritos | Completado | Si |
+| **RF-08** | Control de Disponibilidad en Favoritos | Completado | Parcial |
 
 ---
 

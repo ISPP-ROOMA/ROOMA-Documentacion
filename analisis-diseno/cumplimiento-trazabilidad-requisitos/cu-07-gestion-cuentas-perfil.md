@@ -20,15 +20,15 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-63** | Registro con email e contraseña | Completado Parcialmente (la vaidación de cuentas no está implementada y la contraseña solo tiene como restriccion min de 4 chars)| |
-| **RF-64** | Validación, verificación e reenvío | Por Hacer | |
-| **RF-65** | Inicio de sesión con proveedores | Por Hacer | |
-| **RF-66** | Recuperación de contraseña | Por Hacer | |
-| **RF-67** | Autenticación en dos pasos (2FA TOTP) | Por Hacer | |
-| **RF-68** | Completar e editar perfil | Completado | |
-| **RF-69** | Reportes de usuarios | Por Hacer | |
-| **RF-70** | Sanciones administrativas | Por Hacer | |
-| **RF-71** | Verificación de identidad delegada | Por Hacer | |
+| **RF-63** | Registro con email e contraseña | Completado Parcialmente (la vaidación de cuentas no está implementada y la contraseña solo tiene como restriccion min de 4 chars)| Si |
+| **RF-64** | Validación, verificación e reenvío | Por Hacer | Parcial |
+| **RF-65** | Inicio de sesión con proveedores | Por Hacer | No |
+| **RF-66** | Recuperación de contraseña | Por Hacer | No |
+| **RF-67** | Autenticación en dos pasos (2FA TOTP) | Por Hacer | No |
+| **RF-68** | Completar e editar perfil | Completado | Parcial |
+| **RF-69** | Reportes de usuarios | Por Hacer | No |
+| **RF-70** | Sanciones administrativas | Por Hacer | No |
+| **RF-71** | Verificación de identidad delegada | Por Hacer | No |
 
 ---
 

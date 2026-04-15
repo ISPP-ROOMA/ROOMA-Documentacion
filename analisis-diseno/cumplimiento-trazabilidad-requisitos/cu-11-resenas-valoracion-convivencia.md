@@ -22,15 +22,15 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-36** | Tarjeta de Valoración Pendiente | | |
-| **RF-37** | Interfaz de Estrellas e Etiquetas | | |
-| **RF-38** | Sistema de Ciego Mutuo | | |
-| **RF-39** | Hilo de Réplica | Completado | |
-| **RF-41** | Visualización de Reseñas en Perfil Público | Por Hacer | |
-| **RF-42** | Moderación de Contenido | Por Hacer| |
-| **RF-43** | Reportar Reseña Inadecuada | Por Hacer| |
-| **RF-44** | Resumen de Reputación en Tarjetas | Por Hacer| |
-| **RF-45** | Recordatorios de Valoración | Completado | |
+| **RF-36** | Tarjeta de Valoración Pendiente | | Si |
+| **RF-37** | Interfaz de Estrellas e Etiquetas | | Si |
+| **RF-38** | Sistema de Ciego Mutuo | | Si |
+| **RF-39** | Hilo de Réplica | Completado | Si |
+| **RF-41** | Visualización de Reseñas en Perfil Público | Por Hacer | Parcial |
+| **RF-42** | Moderación de Contenido | Por Hacer| No |
+| **RF-43** | Reportar Reseña Inadecuada | Por Hacer| No |
+| **RF-44** | Resumen de Reputación en Tarjetas | Por Hacer| No |
+| **RF-45** | Recordatorios de Valoración | Completado | Parcial |
 
 ---
 
