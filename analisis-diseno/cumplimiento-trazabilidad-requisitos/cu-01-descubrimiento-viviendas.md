@@ -16,13 +16,13 @@
 ## Requisitos Funcionales (RF)
 | ID | Nombre del Requisito | Estado | Testeado |
 | :--- | :--- | :---: | :---: |
-| **RF-46** | Gestión del Deck | Parcialmente completado | Si |
+| **RF-46** | Gestión del Deck | Completado | Si |
 | **RF-47** | Visualizar Detalles | Completado | Si |
 | **RF-48** | Swipe | Completado | Si |
 | **RF-49** | Rewind | Fuera del alcance | No |
 | **RF-50** | Gestión de Estados |Completado | Si |
 | **RF-51** | Persistencia | Completado| Parcial |
-| **RF-52** | Sugerencia de Filtros | Por Hacer| Si |
+| **RF-52** | Sugerencia de Filtros | Completado | Si |
 
 ---
 
