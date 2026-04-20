@@ -30,8 +30,8 @@
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
 | **RI-03** | Vivienda (Datos obligatorios) | Completado |
-| **RI-04** | FotosViviendas (Archivos visuales) | Parcialmente (Nombres en español)|
-| **RI-06** | ReglasVivienda (Normas booleanas) | Parcialmente (Los nombres están en español) |
+| **RI-04** | FotosViviendas (Archivos visuales) | Completado |
+| **RI-06** | ReglasVivienda (Normas booleanas) | Completado |
 
 ---
 
