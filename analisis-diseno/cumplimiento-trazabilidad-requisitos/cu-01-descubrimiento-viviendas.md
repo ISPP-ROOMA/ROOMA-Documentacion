@@ -39,8 +39,8 @@
 | ID | Nombre del Requisito | Estado |
 | :--- | :--- | :---: |
 | **RNF-08** | Responsividad del Swipe | Completado |
-| **RNF-09** | Caché de deck offline | NO |
-| **RNF-10** | Estandarización carga Deck | NO |
+| **RNF-09** | Caché de deck offline | Completado  |
+| **RNF-10** | Estandarización carga Deck | Completado |
 
 ---
 
@@ -48,6 +48,6 @@
 | ID | Título de la Historia | Estado |
 | :--- | :--- | :---: |
 | **HU-01** | Visualización del Deck |  Completado |
-| **HU-02** | Navegación por Gestos (Swipe) | Completado (Falta la caché offline)|
+| **HU-02** | Navegación por Gestos (Swipe) | Completado |
 | **HU-03** | Detalle del Inmueble | Completado |
 | **HU-04** | Función Rewind |  Fuera del alcance |
