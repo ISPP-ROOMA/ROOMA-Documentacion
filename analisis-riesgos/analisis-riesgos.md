@@ -14,7 +14,7 @@
 10. [Análisis de viabilidad y puntos de equilibrio](#análisis-de-viabilidad-y-puntos-de-equilibrio)  
 11. [Flujo de caja (caso optimista)](#flujo-de-caja-del-proyecto-caso-optimista)  
 12. [Flujo de caja (caso pesimista)](#flujo-de-caja-del-proyecto-caso-pesimista)  
-13. [Planes de contingencia](#4-planes-de-contingencia-acciones-de-mitigación)
+13. [Planes de contingencia](#planes-de-contingencia-acciones-de-mitigación)
 
 
 ## Categorías de riesgos
