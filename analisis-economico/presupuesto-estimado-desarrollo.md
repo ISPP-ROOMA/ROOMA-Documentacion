@@ -36,11 +36,12 @@ Este apartado detalla el gasto operativo del capital humano. Para realizar una p
 - **Salario Bruto:** La base imponible negociada en el contrato. Incluye el líquido más las retenciones del trabajador.
 - **Coste Total de Empresa (Coste Presupuestado):** El desembolso real. Es la suma del Salario Bruto más la cuota patronal a la Seguridad Social (aprox. 30-33% adicional en España por contingencias comunes, desempleo, formación y FOGASA). Esta es la única métrica utilizada para calcular el gasto mensual y anual.
 
-Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el análisis financiero, los costes se han prorrateado en base a una dedicación parcial de 10 horas semanales por persona durante el periodo estipulado de 15 semanas.
+Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el análisis financiero, los costes se han prorrateado en base a una dedicación de 10 horas semanales por persona: **8h dedicadas a desarrollo (CAPEX)** y **2h dedicadas a mantenimiento del piloto (OPEX)**.
 
-| Rol | Unidades | Horas | Salario Líquido | Salario Bruto | Coste de Empresa | Total |
+| Rol | Unidades | Horas (CAPEX) | Salario Líquido | Salario Bruto | Coste de Empresa | Total CAPEX |
 |---|---|---|---|---|---|---|
-| Ingeniero Junior | 16 | 150 | 10,60€/h | 13,50€/h | 17,82€/h | 42.768€ |
+| Ingeniero Junior | 16 | 120 | 10,60€/h | 13,50€/h | 17,82€/h | 34.214,40€ |
+
 
 #### Resumen de Inversión CAPEX
 
@@ -53,9 +54,10 @@ Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el a
 | | Registro de Marca (OEPM / EUIPO) | 850,00 € | **7.350,00 €** |
 | **Licencias y Activos Digitales** | Licencias Tipográficas Comerciales | 800,00 € | |
 | | Librerías de Sonido e Iconografía | 500,00 € | **1.300,00 €** |
-| **Laboral** | 16 Ingenieros Junior (150h/ud a 17,82€/h) | 42.768,00 € | **42.768,00 €** |
-| **Seguridad y Previsión** | **Contingencia (10% sobre el coste fijo)** | 6.741,80 € | **6.741,80 €** |
-| **TOTAL CAPEX** | | | **74.159,80 €** |
+| **Laboral (Desarrollo)** | 16 Ingenieros (120h/ud a 17,82€/h) | 34.214,40 € | **34.214,40 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre el coste fijo)** | 5.886,44 € | **5.886,44 €** |
+| **TOTAL CAPEX** | | | **64.750,84 €** |
+
 
 ### OPEX (Coste total: 676,32 €/mes)
 Este bloque recoge los costes operativos recurrentes necesarios para mantener el entorno técnico de desarrollo en funcionamiento durante la fase de construcción del producto.
@@ -96,5 +98,6 @@ Se estima el consumo eléctrico asociado al tiempo efectivo de desarrollo, toman
 | | Gemini Pro (16 licencias) | 296,00 € | |
 | | Microsoft 365 Business (16 licencias) | 187,20 € | **541,92 €** |
 | **Suministros** | Consumo eléctrico (128 kWh mensuales) | 19,20 € | **19,20 €** |
-| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 61,48 € | **61,48 €** |
-| **TOTAL OPEX MENSUAL** | | | **676,32 €** |
+| **Laboral (Mantenimiento)** | 16 Ingenieros (2h/semana a 17,82€/h) | 2.280,96 € | **2.280,96 €** |
+| **Seguridad y Previsión** | **Contingencia (10% sobre costes fijos)** | 289,58 € | **289,58 €** |
+| **TOTAL OPEX MENSUAL** | | | **3.185,38 €** |

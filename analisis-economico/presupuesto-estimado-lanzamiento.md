@@ -22,8 +22,9 @@ El modelo transaccional se basa en usuarios que formalizan su contrato a través
 La monetización directa se divide en ingresos recurrentes y compras de funcionalidades extra, enfocándose en la conversión de la base de usuarios gratuita hacia servicios de valor añadido.
 
 * **Suscripciones Mensuales:**
-    * **Rooma Plus:** Se estima una conversión del **15%** de la base total de usuarios registrados.
-    * **Rooma Pro:** Se estima una conversión del **2%** de la base total de usuarios registrados.
+    * **Rooma Plus:** Se estima una conversión del **25%** de la base total de usuarios registrados.
+    * **Rooma Pro:** Se estima una conversión del **3,75%** de la base total de usuarios registrados.
+
 
 * **Uso de Add-ons (Microtransacciones):**
     * Se proyecta que el uso de funcionalidades puntuales (*Rewind, Boost* o *Chat de difusión*) se distribuya de la siguiente forma:
@@ -158,9 +159,10 @@ Para el cálculo, se supone una media de **5 transacciones** y **800,00 €** tr
 
 Se establece un modelo escalonado para asegurar la adquisición masiva de usuarios en la base, monetizando a través de la aportación de valor añadido.
 
-- **Nivel Free (0€):** Actúa exclusivamente como embudo de adquisición. Sus funciones están restringidas a 20 swipes diarios, chat básico y visualización de mapas. Estos usuarios son un gasto neto de infraestructura; su única función estratégica es generar la liquidez del mercado (efecto red) necesaria para que otros perfiles paguen.
-- **Rooma Plus (9.99€/mes):** Orientado a usuarios con alta intención de interacción. Ofrece swipes ilimitados, visualización de likes, filtros avanzados de estilo de vida (mascotas, fumadores, teletrabajo) y experiencia sin anuncios.
-- **Rooma Pro (29.99€/mes):** Orientado a caseros o heavy users. Incluye posicionamiento destacado (aparecen primero), analíticas de visitas, insignia de verificación "Pro" y soporte prioritario.
+- **Nivel Free (0€):** Actúa exclusivamente como embudo de adquisición. Sus funciones están restringidas a 20 swipes diarios, chat básico y visualización de mapas.
+- **Rooma Plus (5,99€/mes):** Orientado a usuarios con alta intención de interacción. Ofrece swipes ilimitados, visualización de likes, filtros avanzados y experiencia sin anuncios.
+- **Rooma Pro (15,99€/mes):** Orientado a caseros o heavy users. Incluye posicionamiento destacado, analíticas de visitas, insignia de verificación y soporte prioritario.
+
 
 #### Vía de Ingresos 2: Funcionalidades Extra (Add-ons)
 
@@ -199,12 +201,13 @@ La siguiente tabla consolida el potencial de generación de ingresos brutos mens
 
 | Vía de Ingreso | Base de Cálculo (Conversión) | Ingreso por Unidad | Ingreso Ponderado ($u$) |
 | :--- | :---: | :---: | :---: |
-| **Suscripción Rooma Plus** | 15% | 9,99 € | 1,50 € |
-| **Suscripción Rooma Pro** | 2% | 29,99 € | 0,60 € |
+| **Suscripción Rooma Plus** | 25% | 5,99 € | 1,50 € |
+| **Suscripción Rooma Pro** | 3,75% | 15,99 € | 0,60 € |
 | **Add-on: Pack Individual** | 15% | 0,99 € | 0,15 € |
 | **Add-on: Pack de Ahorro** | 5% | 3,99 € | 0,20 € |
 | **Comisiones Transaccionales** | 25% | 42,50 € | 10,62 € |
 | **TOTAL INGRESO BRUTO ($ARPU$)** | | | **13,07 €** |
+
 
 *Nota: El ingreso ponderado por usuario ($u$) es el resultado de multiplicar el Ingreso por Unidad por su respectiva Base de Cálculo. Este valor representa la facturación bruta media que genera cada usuario registrado en la plataforma.*
 
