@@ -224,13 +224,17 @@ Para obtener el margen de contribución unitario, restamos todos los costes oper
 > **Margen de Contribución Unitario:** 13,07 € (Ingreso) - 5,25 € (Gasto) = **7,82 € netos por usuario.**
 
 
-#### Punto de equilibrio: Ingresos vs. Gastos Operativos
-Este hito representa el momento en que la facturación mensual de Rooma es suficiente para cubrir la totalidad de sus costes de estructura (16.058,44 €). A partir de este número de usuarios, la empresa deja de consumir caja operativa y comienza a generar beneficios.
+#### Hitos de Rentabilidad: Comparativa de Escenarios
+Para una visión estratégica, comparamos los hitos de viabilidad entre el escenario base y el escenario de riesgo (Pesimista):
 
-* **Fórmula:** $Usuarios_{Equilibrio} = \frac{Costes\_Fijos\_Mensuales}{Margen\_Unitario}$
-* **Cálculo:** $16.058,44 € / 7,82 €$
+| Hito Financiero | Métrica | Escenario Realista (Base) | Escenario Pesimista (Riesgo) |
+| :--- | :---: | :---: | :---: |
+| **Punto de Equilibrio** | Usuarios necesarios | **2.054 $u$** | **9.355 $u$** |
+| (Mes de Break-even) | Cuándo ocurre | **Mes 9** | **Mes 12** |
+| **Retorno de Inversión** | Usuarios necesarios | **10.000 $u$** | **35.704 $u$** |
+| (Mes de Payback) | Cuándo ocurre | **Mes 13** | **Mes 23** |
 
-> **Resultado:** Rooma alcanza la rentabilidad operativa mensual con **2.054 usuarios totales** registrados y activos (mes 9).
+> **Interpretación:** En el escenario realista, la plataforma es autosuficiente antes del primer año. En el escenario pesimista, la necesidad de masa crítica se triplica, desplazando el retorno total casi un año adicional (Mes 23). Estas estimaciones se explican en el documento [análisis-riesgos](/analisis-riesgos/analisis-riesgos.md).
 
 #### Punto de Retorno de la Inversión Total (Payback)
 Este hito financiero determina el momento en el que el beneficio neto acumulado iguala a la suma de toda la inversión inicial y el déficit generado durante la fase de crecimiento. 

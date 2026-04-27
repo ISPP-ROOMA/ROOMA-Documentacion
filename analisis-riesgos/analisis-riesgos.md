@@ -138,16 +138,34 @@ Basado en el documento de presupuesto de lanzamiento:
 - **Costes Fijos Mensuales**: 16.058,44 €  
 - **Inversión Inicial a recuperar**: 76.865,08 €  
 
+| Vía de Ingreso | Base de Cálculo (Conversión) | Ingreso por Unidad | Ingreso Ponderado ($u$) |
+| :--- | :---: | :---: | :---: |
+| **Suscripción Rooma Plus** | 25% | 5,99 € | 1,50 € |
+| **Suscripción Rooma Pro** | 3,75% | 15,99 € | 0,60 € |
+| **Add-on: Pack Individual** | 15% | 0,99 € | 0,15 € |
+| **Add-on: Pack de Ahorro** | 5% | 3,99 € | 0,20 € |
+| **Comisiones Transaccionales** | 25% | 42,50 € | 10,62 € |
+| **TOTAL INGRESO BRUTO ($ARPU$)** | | | **13,07 €** |
+
+
 ---
 
 ### Escenario B: Pesimista (Impacto de Riesgos)
 
-Se aplican los riesgos de baja conversión (Plus 15% → 5%) e inflación de marketing (Ads 0,80 € → 1,20 €):
+Se aplica una caída severa en la conversión (Plus 25%→10% / Pro 3,75%→1% / Add-ons 20%→7% / Comisiones 25%→9,8%) y una pérdida de eficiencia en marketing (Ads 0,80€→1,24€):
 
-- **Nuevo Ingreso por Usuario (ARPU)**: 5,05 €  
-- **Nuevos Gastos Variables**: 2,99 €  
-- **Nuevo Margen Unitario**: 5,05 - 2,99 = **2,06 €** (reducción del 73%)  
-- **Nuevos Costes Fijos**: 19.270,13 € (incremento del 20%)  
+| Vía de Ingreso | Conversión | Ingreso Unit. | Ponderado |
+| :--- | :---: | :---: | :---: |
+| Suscripción Plus | 10,0% | 5,99 € | 0,60 € |
+| Suscripción Pro | 1,0% | 15,99 € | 0,16 € |
+| Add-ons (Media) | 7,0% | 2,00 € | 0,14 € |
+| Comisiones transaccionales | 9,8% | 42,50 € | 4,15 € |
+| **ARPU TOTAL** | | | **5,05 €** |
+
+
+- **Nuevos Gastos Variables**: 2,99 € (Stripe 1,74€ + Ads 1,24€ + Cloud 0,01€)
+- **Nuevo Margen Unitario**: 5,05 - 2,99 = **2,06 €**
+- **Nuevos Costes Fijos**: 19.270,13 € (incremento del 20% por contingencias)
 
 ---
 
