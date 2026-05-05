@@ -1,4 +1,4 @@
-# Gestión de Redes Sociales y Plan Estratégico de Futuro - ROOMA
+# Gestión de Redes Sociales y Plan Estratégico de Futuro - RoomA
 
 ## Resumen ejecutivo
 
@@ -387,7 +387,7 @@ Reutilizar contenido existente:
 
 ## Plan de influencers
 
-### 6.1. Tipo de influencer
+### 5.1. Tipo de influencer
 
 La estrategia de Rooma se centrará en influencers y creadores de contenido joven, especialmente aquellos vinculados a lifestyle, vida universitaria y experiencias personales.
 
@@ -396,6 +396,7 @@ La estrategia de Rooma se centrará en influencers y creadores de contenido jove
 - Jacobo Cabezas.
 - Manu Regato.
 - Marina Barrial.
+- Izaro Mur.
 - Manu Rivas.
 
 Estos perfiles comparten características clave:
@@ -405,7 +406,7 @@ Estos perfiles comparten características clave:
 - Alta interacción con seguidores.
 - Capacidad de generar storytelling.
 
-### 6.2. Ajuste estratégico importante
+### 5.2. Ajuste estratégico importante
 
 Aunque algunos de estos creadores pueden superar el rango clásico de microinfluencer, sí son válidos como referencia aspiracional, ya que:
 
@@ -418,7 +419,7 @@ En la práctica, la estrategia consistiría en:
 - Colaborar con perfiles más pequeños pero similares en estilo.
 - Usar estos ejemplos como benchmark.
 
-### 6.3. Tarifas aproximadas, realistas y defendibles
+### 5.3. Tarifas aproximadas, realistas y defendibles
 
 En lugar de cifras inventadas por perfil, se utilizan rangos estándar del mercado.
 
@@ -434,14 +435,14 @@ En lugar de cifras inventadas por perfil, se utilizan rangos estándar del merca
 - Stories: 40 € - 100 €.
 - Este sería el core de la estrategia de Rooma.
 
-#### Creadores tipo referencia
+#### Creadores tipo referencia: 50k+ seguidores
 
 - Reel: 300 € - 800 €+.
 - Campañas completas: 800 € - 2.000 €.
 - No prioritarios al inicio, pero útiles en fases de crecimiento.
 
 | Tipo de creador | Rango de seguidores | Formato | Estimación |
-|---|---:|---|---:|
+|---|---|---|---|
 | Creadores pequeños | 5k-15k | Reel / TikTok | 30 € - 100 € |
 | Creadores pequeños | 5k-15k | Stories | 10 € - 40 € |
 | Creadores medios | 15k-50k | Reel | 100 € - 300 € |
@@ -451,7 +452,7 @@ En lugar de cifras inventadas por perfil, se utilizan rangos estándar del merca
 
 **Fuentes:** Shopify, Influencer Marketing Hub y SocialPilot.
 
-### 6.4. Estrategia por fases adaptada a estos perfiles
+### 5.4. Estrategia por fases adaptada a estos perfiles
 
 #### Fase 1: Validación
 
@@ -474,7 +475,7 @@ En lugar de cifras inventadas por perfil, se utilizan rangos estándar del merca
   - Manu Regato.
 - **Presupuesto:** 1.000 € - 2.500 €.
 
-### 6.5. Tipos de contenido ideales
+### 5.5. Tipos de contenido ideales
 
 Con este tipo de creadores, los formatos más efectivos serían:
 
@@ -493,7 +494,7 @@ Con este tipo de creadores, los formatos más efectivos serían:
 - “Tipos de roomies”.
 - “El que nunca limpia / nunca paga”.
 
-### 6.6. Conclusión estratégica
+### 5.6. Conclusión estratégica
 
 La clave no es fichar directamente a estos perfiles grandes, sino:
 
@@ -507,7 +508,7 @@ Esto permite:
 
 Y en fases posteriores:
 
-- Colaborar con perfiles como los mencionados para amplificar alcance.
+- Colaborar con perfiles de referencia como Marina Barrial, Manu Regato u otros creadores similares para amplificar el alcance.
 
 ---
 
