@@ -79,6 +79,8 @@ Rooma actúa como intermediario seguro en el pago de rentas y suministros a trav
 | Comisiones transaccionales | 10,62 € |
 | **ARPU TOTAL** | **13,07 €/mes** |
 
+> **Composición de la base de usuarios:** El 71,25% son usuarios Free (contribuyen 1,9% del ingreso vía add-ons), el 25% son Rooma Plus (12,1% del ingreso) y el 3,75% son Rooma Pro (4,7% del ingreso). El 81,3% restante del ingreso proviene de comisiones transaccionales sobre el 25% de usuarios con contrato activo. El módulo de pagos es, por tanto, la pieza crítica de monetización.
+
 ---
 
 ## 4. Estructura de Costes
@@ -92,7 +94,7 @@ Rooma actúa como intermediario seguro en el pago de rentas y suministros a trav
 | Licencias y activos digitales | 1.300,00 € |
 | Laboral — desarrollo (16 ingenieros × 120h × 17,82 €/h) | 34.214,40 € |
 | Contingencia (10%) | 5.886,44 € |
-| **TOTAL CAPEX** | **64.750,84 €** |
+| **TOTAL CAPEX** | **74.159,80 €** |
 
 ### 4.2. Costes Operativos Mensuales (OPEX — Fase Lanzamiento)
 
@@ -275,6 +277,9 @@ El inversor tendrá visibilidad sobre las siguientes métricas, reportadas de fo
 | **Runway** | Meses de operación con caja disponible | ≥ 6 meses |
 | **MRR** (Monthly Recurring Revenue) | Ingresos recurrentes mensuales | 130.700 € (a 10K users) |
 | **Tasa de conversión Premium** | % de usuarios que pagan suscripción | ≥ 25% (Plus) / ≥ 3,75% (Pro) |
+| **Composición de usuarios** | Distribución Free / Plus / Pro | 71,25% / 25% / 3,75% |
+| **% usuarios con contrato activo** | Usuarios gestionando pagos por la plataforma | ≥ 25% |
+| **Conversión Free → Premium** | Usuarios que pasan de Free a Plus o Pro | Reportado mensualmente |
 
 ---
 

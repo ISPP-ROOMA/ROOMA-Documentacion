@@ -36,7 +36,7 @@ Este apartado detalla el gasto operativo del capital humano. Para realizar una p
 - **Salario Bruto:** La base imponible negociada en el contrato. Incluye el líquido más las retenciones del trabajador.
 - **Coste Total de Empresa (Coste Presupuestado):** El desembolso real. Es la suma del Salario Bruto más la cuota patronal a la Seguridad Social (aprox. 30-33% adicional en España por contingencias comunes, desempleo, formación y FOGASA). Esta es la única métrica utilizada para calcular el gasto mensual y anual.
 
-Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el análisis financiero, los costes se han prorrateado en base a una dedicación de 10 horas semanales por persona: **8h dedicadas a desarrollo (CAPEX)** y **2h dedicadas a mantenimiento del piloto (OPEX)**.
+Para reflejar fielmente la realidad operativa de la empresa y no desvirtuar el análisis financiero, los costes se han prorrateado en base a una dedicación de 10 horas semanales por persona: **8h dedicadas a desarrollo (CAPEX)** y **2h dedicadas a mantenimiento del piloto (OPEX, ver sección OPEX — Laboral)**.
 
 | Rol | Unidades | Horas (CAPEX) | Salario Líquido | Salario Bruto | Coste de Empresa | Total CAPEX |
 |---|---|---|---|---|---|---|

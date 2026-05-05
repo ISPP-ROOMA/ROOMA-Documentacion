@@ -1,7 +1,7 @@
 # Plan de SEO — ROOMA
 
 **Proyecto:** ROOMA — App para encontrar compañero de piso sin agencia + gestionar gastos compartidos  
-**Fase:** Pre-lanzamiento y lanzamiento (mayo 2026)  
+**Fase:** Pre-lanzamiento y lanzamiento (21 mayo 2026)  
 **Vinculado a:** `plan-marketing-pre-lanzamiento.md`
 
 ---
@@ -343,16 +343,15 @@ Para que los vídeos aparezcan en búsquedas de Google y dentro de cada platafor
 | **Tráfico orgánico → registros** | 5+ | 80+ | 500+ |
 | **% registros desde orgánico** | 5% | 10% | 20-30% |
 
-### 8.3. Relación con impresiones de redes sociales (plan de marketing §5)
+### 8.3. Relación con impresiones de redes sociales
 
-El tráfico SEO complementa y amplifica la inversión en Ads. Mientras los Ads generan impresiones pagadas inmediatas, el SEO genera impresiones orgánicas crecientes y acumulativas:
+El tráfico SEO complementa y amplifica la inversión en Ads. Mientras los Ads generan impresiones pagadas inmediatas, el SEO genera impresiones orgánicas crecientes y acumulativas.
 
-| Fuente | Mes 1 | Mes 6 | Mes 12 |
+Los datos detallados de impresiones por plataforma de Ads y orgánico en redes se encuentran en el plan de marketing (§5). A continuación se muestra únicamente la contribución incremental del canal SEO:
+
+| Fuente SEO | Mes 1 | Mes 6 | Mes 12 |
 |:---|:---:|:---:|:---:|
-| **Impresiones Ads (TikTok + Meta)** | ~13.400 | ~119.000 | ~1.415.000 |
-| **Impresiones orgánicas RRSS** | ~1.300 – 12.000 | ~15.000 – 50.000 | ~80.000 – 200.000 |
 | **Impresiones Google Search (SEO)** | ~500 | ~10.000 | ~50.000 |
-| **Total impresiones** | **~15.200 – 25.900** | **~144.000 – 179.000** | **~1.545.000 – 1.665.000** |
 
 > **Ventaja clave del SEO:** El coste marginal por impresión orgánica tiende a 0 €. Mientras que cada impresión en Ads cuesta ~0,005 – 0,006 €, las impresiones SEO son gratuitas una vez posicionado el contenido. A medida que la autoridad del dominio crece, el SEO se convierte en el canal más rentable.
 
@@ -405,10 +404,10 @@ El tráfico SEO complementa y amplifica la inversión en Ads. Mientras los Ads g
 | Partida | Coste | Frecuencia | Notas |
 |:---|:---:|:---|:---|
 | Herramientas (Search Console, GA4, Lighthouse) | 0 € | — | Todas gratuitas |
-| Creación de contenidos (blog) | Incluido en CM | Mensual | El CM dedica ~20% de su tiempo a contenido SEO |
+| Creación de contenidos (blog) | Incluido en CM | Mensual | El CM dedica ~20% de su tiempo a contenido SEO (parte de los 1.000 €/mes presupuestados en el plan de marketing §10) |
 | Imagen Open Graph | ~50 € | Una vez | Diseño profesional o herramienta tipo Canva |
 | Registro en directorios | 0 € | Una vez | La mayoría son gratuitos |
 | Product Hunt launch | 0 € | Una vez | Solo requiere preparación |
-| **Total coste adicional SEO** | **~50 €** | — | El SEO se apoya en recursos ya presupuestados (CM, desarrollo) |
+| **Total coste adicional SEO** | **~50 €** | — | El SEO se apoya en recursos ya presupuestados (CM y desarrollo) |
 
 > **Conclusión económica:** El SEO es la estrategia de marketing con mejor ROI a medio-largo plazo. Con un coste adicional prácticamente nulo (se apoya en el CM y el equipo de desarrollo ya presupuestados), genera impresiones y tráfico orgánico creciente que reduce progresivamente la dependencia de la inversión en Ads.

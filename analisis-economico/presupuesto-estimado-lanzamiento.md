@@ -75,7 +75,7 @@ Del equipo estructural de 16 ingenieros, durante la fase de lanzamiento se dedic
 | Ingeniero Junior | 16 | 37,8h/mes | 10,60€/h | 13,50€/h | 17,82€/h | 10.777,536€/mes |
 
 
-#### Marketing (Coste total: 31500 +  0,80€ · u / mes)
+#### Marketing (Coste total: 3.150,00 € + 0,80€ · u / mes)
 
 El presupuesto de marketing se divide en dos áreas operativas: los costes fijos de estructura (personal y creación de contenidos) y la inversión variable en adquisición de usuarios (Ads).
 
@@ -209,6 +209,26 @@ La siguiente tabla consolida el potencial de generación de ingresos brutos mens
 | **TOTAL INGRESO BRUTO ($ARPU$)** | | | **13,07 €** |
 
 
+#### Desglose de Ingresos por Tipo de Usuario
+
+Para comprender la contribución real de cada segmento de usuarios al ingreso total, se distingue entre usuarios gratuitos y de pago:
+
+| Tipo de Usuario | % de la base | Usuarios (a 10.000) | Ingreso unitario/mes | Ingreso total/mes | % del ingreso |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Free** (solo add-ons) | 71,25% | 7.125 | 0,35 € | 2.493,75 € | ~1,9% |
+| **Rooma Plus** | 25,00% | 2.500 | 5,99 € + 0,35 € = 6,34 € | 15.850,00 € | ~12,1% |
+| **Rooma Pro** | 3,75% | 375 | 15,99 € + 0,35 € = 16,34 € | 6.127,50 € | ~4,7% |
+| **Con contrato activo** (comisiones) | 25,00% (transversal) | 2.500 | 42,50 € | 106.250,00 € | ~81,3% |
+| **TOTAL** | — | 10.000 | **13,07 €** (ARPU) | **~130.700 €** | **100%** |
+
+> **Nota:** Un usuario Plus o Pro también puede tener contrato activo. Las categorías de suscripción y de contrato transaccional no son mutuamente excluyentes.
+
+**Insights clave:**
+- El **81,3% del ingreso** proviene de comisiones transaccionales → el módulo de pagos es crítico para la viabilidad del negocio.
+- Los usuarios **Free** contribuyen solo un **1,9%** del ingreso directo, pero son esenciales como embudo de adquisición y masa crítica de la plataforma.
+- La conversión a **Premium** (25% Plus + 3,75% Pro = **28,75%**) es la palanca de crecimiento más directa en ingresos recurrentes.
+- Los usuarios de pago (Plus + Pro) representan solo el **28,75%** de la base pero generan el **16,8%** del ingreso por suscripciones + add-ons.
+
 *Nota: El ingreso ponderado por usuario ($u$) es el resultado de multiplicar el Ingreso por Unidad por su respectiva Base de Cálculo. Este valor representa la facturación bruta media que genera cada usuario registrado en la plataforma.*
 
 ### Rentabilidad y Viabilidad Económica
@@ -274,8 +294,8 @@ $$RT = I_{prev} + \sum_{m=1}^{n} (Gastos\_totales_m - Ingresos\_brutos_m) = 0$$
 #### Proyección de Escenario Realista (10.000 usuarios)
 Una vez superado el umbral de rentabilidad en el mes 9, la eficiencia del margen unitario permite una consolidación financiera acelerada hacia el cierre del primer año:
 
-* **Ingresos Brutos Mensuales:** 127.200,00 €
+* **Ingresos Brutos Mensuales:** 130.700,00 €
 * **Gastos Totales (Fijos + Variables):** 68.558,44 €
-* **Beneficio Neto Mensual:** **+ 58.641,56 €**
+* **Beneficio Neto Mensual:** **+ 62.141,56 €**
 
 *Nota: Con este nivel de beneficios operativos al finalizar el año, la inversión inicial de CAPEX (74.159,80 €) se recuperaría íntegramente en apenas 1,3 meses de operación en este escenario. Esto demuestra un retorno de inversión (ROI) extremadamente sólido y una alta capacidad de autofinanciación del proyecto tras alcanzar su masa crítica inicial.*

@@ -1,7 +1,8 @@
 # Campaña de Lanzamiento - ROOMA
 
 **Proyecto:** ROOMA - App para encontrar compañero de piso sin agencia + gestionar gastos compartidos  
-**Fecha de lanzamiento:** 13/05/2026  
+**Fecha de lanzamiento:** 21/05/2026  
+**Documento vinculado:** [`plan-marketing-pre-lanzamiento.md`](plan-marketing-pre-lanzamiento.md) (segmentación, mensaje, métricas generales y presupuesto)  
 **Objetivo:** ejecutar un lanzamiento coordinado, claro y medible que convierta interés en registros, primeras interacciones y feedback útil.
 
 ---
@@ -24,30 +25,18 @@
 
 ## 2. A QUIÉN HABLAMOS
 
-### Público principal
-- Estudiantes y jóvenes que van a compartir piso
-- Personas que quieren independizarse
-- Usuarios que buscan una alternativa más clara que grupos dispersos
+La segmentación completa de audiencia (5 segmentos con CPI estimado y distribución del presupuesto) se define en el plan de marketing (§3). Para la ejecución del día del lanzamiento, el enfoque operativo se divide en:
 
-### Público secundario
-- Propietarios particulares
-- Contactos cercanos con capacidad de publicar habitaciones o mover la app
-
-### Qué cambia según el público
-- **Demanda:** rapidez, afinidad, facilidad y cero comisión
-- **Oferta:** confianza, visibilidad, filtrado y sensación de control
+- **Demanda (estudiantes, jóvenes profesionales, trabajadores desplazados):** rapidez, afinidad, facilidad y cero comisión
+- **Oferta (propietarios particulares, contactos cercanos):** confianza, visibilidad, filtrado y sensación de control
 
 ---
 
 ## 3. MENSAJE PRINCIPAL
 
-### Mensaje corto
-**Encuentra compañero de piso. Sin comisión. Sin fraudes.**
+El posicionamiento y mensaje de marca se definen en el plan de marketing (§8). Para el día del lanzamiento, los mensajes clave a repetir en cada pieza son:
 
-### Mensaje ampliado
-ROOMA ayuda a encontrar compañero de piso y a gestionar gastos compartidos en un mismo entorno, con una experiencia más clara que la búsqueda fragmentada en grupos, portales y chats sueltos.
-
-### Ideas que deben repetirse durante toda la campaña
+- **Mensaje corto:** "Encuentra compañero de piso. Sin comisión. Sin fraudes."
 - Sin comisión
 - Perfiles verificados
 - Más claro que buscar en canales caóticos
@@ -210,48 +199,41 @@ Hoy por fin lanzamos ROOMA. Gracias por haber formado parte de las pruebas. Si t
 
 ---
 
-## 9. MÉTRICAS DEL LANZAMIENTO
+## 9. MÉTRICAS DEL DÍA DE LANZAMIENTO
 
-### Métricas principales
-- nuevos registros
-- clics al enlace principal
-- conversión visita → registro
-- comentarios y mensajes recibidos
-- número de compartidos
-- usuarios que vuelven ese mismo día
+Las métricas generales de marketing (impresiones, CTR, CPC, seguidores) se definen en el plan de marketing (§9). Aquí se recogen solo las métricas específicas del día 21 de mayo:
 
-### Métricas de calidad
-- cuántos completan onboarding
-- cuántos llegan al primer punto de valor
-- dudas repetidas
-- objeciones frecuentes
-- canal que trae usuarios con mejor comportamiento
+### Métricas cuantitativas del día
+- Nuevos registros (objetivo: 50–60)
+- Clics al enlace principal
+- Conversión visita → registro
+- Número de compartidos
+- Usuarios que vuelven ese mismo día
+
+### Métricas cualitativas del día
+- Cuántos completan onboarding
+- Dudas repetidas y objeciones frecuentes
+- Canal que trae usuarios con mejor comportamiento
 
 ---
 
-## 10. PLAN DE CONTINGENCIA
+## 10. PLAN DE CONTINGENCIA DEL DÍA
 
-### Si el contenido no genera interacción
-- simplificar el mensaje
-- reforzar el CTA
-- priorizar difusión directa por grupos y contactos
+El plan de contingencia general de marketing se define en el plan maestro (§11). Aquí se recogen solo las contingencias operativas del día:
+
+### Si el contenido no genera interacción inmediata
+- Simplificar el mensaje y reforzar el CTA
+- Priorizar difusión directa por grupos y contactos
 
 ### Si entra gente pero no se registra
-- revisar si la landing o el onboarding frenan
-- comprobar si la propuesta de valor queda clara desde el primer impacto
+- Revisar si la landing o el onboarding frenan
 
 ### Si aparecen dudas repetidas
-- convertirlas en stories o respuestas fijadas
-- hacer visible la aclaración en comentarios y grupos
-
-### Si falta oferta visible dentro de la app
-- reforzar mensajes hacia propietarios y contactos con habitaciones
-- no centrar toda la campaña en demanda si el producto no parece suficientemente poblado
+- Convertirlas en stories o respuestas fijadas inmediatamente
 
 ### Si hay bugs el mismo día
-- comunicarlo con rapidez y claridad
-- evitar empujar tráfico hacia una parte rota
-- concentrar el tráfico en el flujo más estable
+- Comunicarlo con rapidez y claridad
+- Concentrar el tráfico en el flujo más estable
 
 ---
 

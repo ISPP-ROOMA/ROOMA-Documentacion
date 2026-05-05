@@ -143,13 +143,13 @@ Capas de monetización apareciendo sobre la interfaz.
 
 **Texto en pantalla:**
 > **Monetización multicapa**
-> - Premium
-> - Servicios de valor añadido
-> - Gestión operativa
-> - Infraestructura transaccional
+> - ARPU: 13,07 €/mes por usuario
+> - Suscripciones Premium (Plus y Pro)
+> - Microtransacciones (Add-ons)
+> - Comisiones transaccionales (3,25% + 0,15 €/op neto)
 
 **Lo que se quiere transmitir a los inversores:**
-Ingresos potenciales en varias fases del ciclo de vida.
+Ingresos potenciales en varias fases del ciclo de vida. Margen de contribución unitario de 7,82 €/usuario.
 
 ---
 
@@ -161,8 +161,11 @@ Mapa expandiéndose por ciudades. Segmentos: estudiantes, jóvenes profesionales
 **Voz del narrador:**
 *"RoomA puede empezar en nichos claros, como estudiantes y jóvenes profesionales, y crecer por ciudad, por segmento y por profundidad de servicio. Cada nueva convivencia genera datos, reputación, interacción y recurrencia. No es solo una base de usuarios. Es una red de confianza operativa."*
 
+**Texto en pantalla:**
+> Proyección: 10.000 usuarios en 12 meses → Break-even en Mes 9
+
 **Lo que se quiere transmitir a los inversores:**
-Escalabilidad geográfica y funcional.
+Escalabilidad geográfica y funcional con hitos financieros concretos.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Proyecto:** ROOMA - App para encontrar compañero de piso sin agencia + gestionar gastos compartidos  
 **Fase:** Antes del lanzamiento oficial  
-**Período:** 13/04 - 13/05/2026
+**Período:** 21/04 - 21/05/2026
 
 ---
 
@@ -15,7 +15,7 @@
 - Arreglar los bugs principales que encontremos
 - Llegar al lanzamiento con una base mínima de oferta y demanda que haga que la app tenga sentido al entrar
 
-### El día del lanzamiento
+### El día del lanzamiento (21 de mayo)
 - Que se registren 50-60 personas nuevas
 - Que hable de nosotros alguien en redes o prensa universitaria
 - Que la gente entienda qué es ROOMA en 10 segundos
@@ -117,31 +117,31 @@ Para optimizar la inversión publicitaria y los mensajes creativos, se definen l
 
 ## 4. PLAN PARA LAS PRÓXIMAS 4 SEMANAS
 
-### Semana 1 (13-19 abril) - Arreglar lo roto
+### Semana 1 (21-27 abril) - Arreglar lo roto
 1. Arreglar persistencia de sesión
 2. Simplificar el onboarding para que en 3 pasos se entienda qué hace ROOMA
 3. Pedir feedback a los 29 pilotos actuales con una pregunta simple: "¿Qué no entiendes?"
 4. Detectar en qué punto exacto se pierde la gente en la primera sesión
 5. Separar el feedback por tipo de usuario: quien busca piso/compañero y quien publica o alquila
 
-### Semana 2 (20-26 abril) - Invitar gente
+### Semana 2 (28 abril - 4 mayo) - Invitar gente
 1. Activar red cercana: cada piloto trae 1-2 personas
 2. Postear en grupos de WhatsApp/Telegram de residencias, facultades y estudiantes
 3. Publicar en Reddit con enfoque de validación real, no de publicidad dura
 4. Empezar captación más directa de oferta: propietarios, habitaciones y contactos que puedan poblar la app
 5. Recoger qué dice la gente que falta, qué no entiende y qué le genera desconfianza
 
-### Semana 3 (27 abril - 3 mayo) - Historias de uso y prueba social
+### Semana 3 (5-11 mayo) - Historias de uso y prueba social
 1. Buscar 5-10 usuarios que hayan usado la app de verdad o hayan completado una parte útil del flujo
 2. Pedir testimonios breves en texto o vídeo
 3. Preparar piezas cortas de contenido con problema → solución → resultado
 4. Convertir el feedback repetido en mejoras de mensaje y onboarding
 5. Definir los copies base del lanzamiento
 
-### Semana 4 (4-10 mayo) - Listo para lanzar
+### Semana 4 (12-18 mayo) - Listo para lanzar
 1. Asegurarse de que todo funciona sin errores grandes
 2. Cerrar el mensaje principal del lanzamiento
-3. Preparar piezas, calendario y responsables del día 13 de mayo
+3. Preparar piezas, calendario y responsables del día 21 de mayo
 4. Contactar a 3-4 blogs, medios locales o prensa universitaria
 5. Hacer un ensayo interno del lanzamiento: publicaciones, enlaces, mensajes y respuesta a dudas
 
@@ -259,17 +259,13 @@ Además de la inversión en Ads, las publicaciones orgánicas en redes sociales 
 
 ---
 
-## 7. CAMPAÑA DE LANZAMIENTO (13 DE MAYO)
+## 7. CAMPAÑA DE LANZAMIENTO (21 DE MAYO)
 
-La operativa específica del lanzamiento del 13 de mayo se desarrolla en el documento `campana-lanzamiento-13-mayo.md`.
+La operativa específica del lanzamiento del 21 de mayo se desarrolla en el documento [`campana-lanzamiento-21-mayo.md`](campana-lanzamiento-21-mayo.md).
 
-Ese documento incluye:
-- el mensaje principal
-- el cronograma del día
-- las piezas por canal
-- los responsables
-- las métricas del lanzamiento
-- el plan de contingencia
+Ese documento incluye el cronograma del día, las piezas por canal, los responsables, las métricas específicas del día de lanzamiento y el plan de contingencia operativo.
+
+> **Nota:** El mensaje principal, la segmentación de audiencia y las métricas generales de marketing se definen en este documento (secciones 3, 8 y 9). La campaña solo recoge la ejecución operativa del día.
 
 ---
 
@@ -421,4 +417,4 @@ Para calcular el coste real por impresión se debe considerar tanto la estructur
 
 ## 12. RESUMEN: ENTRADA A LA PRESENTACIÓN (1 minuto)
 
-> "ROOMA resuelve un problema real: buscar compañero de piso sigue siendo confuso, caro y poco fiable. Hemos creado una app donde puedes encontrar perfiles compatibles, evitar intermediación innecesaria y además gestionar gastos compartidos en el mismo entorno. Ya la hemos probado con usuarios piloto y ese aprendizaje nos ha servido para simplificar el producto antes del lanzamiento. El 13 de mayo la abrimos al público objetivo con un mensaje muy claro: encontrar compañero de piso debería ser más fácil, más seguro y sin comisión."
+> "ROOMA resuelve un problema real: buscar compañero de piso sigue siendo confuso, caro y poco fiable. Hemos creado una app donde puedes encontrar perfiles compatibles, evitar intermediación innecesaria y además gestionar gastos compartidos en el mismo entorno. Ya la hemos probado con usuarios piloto y ese aprendizaje nos ha servido para simplificar el producto antes del lanzamiento. El 21 de mayo la abrimos al público objetivo con un mensaje muy claro: encontrar compañero de piso debería ser más fácil, más seguro y sin comisión."
