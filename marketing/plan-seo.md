@@ -15,13 +15,13 @@
 
 | Aspecto | Estado actual | Impacto SEO | Prioridad |
 |:---|:---|:---|:---:|
-| **Título de la página** | Genérico: `Rooma` | No comunica propuesta de valor ni keywords principales | 🔴 Alta |
+| **`<title>`** | Genérico: `Rooma` | No comunica propuesta de valor ni keywords principales | 🔴 Alta |
 | **Meta description** | No existe | Google genera un snippet automático poco controlado | 🔴 Alta |
 | **Open Graph / Twitter Cards** | No existen | Al compartir la URL en redes no se muestra preview optimizado | 🔴 Alta |
 | **Idioma del HTML** | `lang="en"` | Incoherente con público objetivo español | 🔴 Alta |
 | **robots.txt** | No existe | Falta control explícito de rastreo | 🟠 Media |
 | **sitemap.xml** | No existe | Google no recibe estructura básica de URLs | 🔴 Alta |
-| **Heading structure** | Gestionado por React en cada vista | Puede ser inconsistente entre páginas | 🟠 Media |
+| **Heading structure (H1)** | Gestionado por React en cada vista | Puede ser inconsistente entre páginas | 🟠 Media |
 | **Renderizado** | SPA con React + Vite | Riesgo de indexación si el contenido depende de JavaScript | 🔴 Alta |
 | **PWA manifest** | Descripción genérica: `"A room booking application"` | No representa la propuesta real de ROOMA | 🟠 Media |
 | **Canonical URL** | No definida | Riesgo de duplicidad si existen varias rutas o dominios | 🟠 Media |
@@ -35,11 +35,11 @@ La web actual de ROOMA necesita una optimización SEO básica antes del lanzamie
 
 Las acciones prioritarias son:
 
-- corregir el idioma principal de la web;
-- mejorar el título y la descripción pública;
-- preparar la vista previa al compartir el enlace en redes;
-- crear archivos básicos de rastreo e indexación;
-- preparar una landing clara e indexable;
+- optimizar el `index.html`;
+- corregir el idioma del documento;
+- añadir meta tags SEO y sociales;
+- crear `robots.txt` y `sitemap.xml`;
+- preparar una landing indexable;
 - configurar Search Console y Analytics;
 - alinear SEO con el plan de marketing, redes sociales y análisis económico.
 
@@ -56,7 +56,7 @@ Las acciones prioritarias son:
 | Que la web tenga una puntuación Lighthouse SEO ≥ 80 | Auditoría Lighthouse |
 | Que Google pueda rastrear la web correctamente | `robots.txt` y `sitemap.xml` activos |
 | Que la propuesta de valor sea entendible sin navegar por la app | Landing clara e indexable |
-| Que el idioma esté alineado con España | Documento configurado en español |
+| Que el idioma esté alineado con España | `lang="es"` |
 
 ### Objetivos a medio plazo: meses 1-6 post-lanzamiento
 
@@ -140,36 +140,36 @@ Las acciones prioritarias son:
 
 ## 4. Acciones técnicas SEO On-Page
 
-El objetivo de esta fase es preparar la web para que Google y las redes sociales entiendan correctamente qué es ROOMA antes del lanzamiento.
+El objetivo de esta fase es preparar la web para que Google y las redes sociales entiendan correctamente qué es ROOMA antes del lanzamiento. No se trata de desarrollar nuevas funcionalidades, sino de ajustar la capa pública de la aplicación para que sea rastreable, comprensible y compartible.
 
 ### 4.1. Optimización del documento principal
 
-Se debe actualizar el documento principal de entrada de la aplicación para que comunique la propuesta de valor de ROOMA desde el primer rastreo.
+El documento principal de entrada de la aplicación debe dejar de ser genérico y pasar a comunicar claramente la propuesta de valor de ROOMA.
 
 Acciones necesarias:
 
-- Cambiar el idioma del documento a español.
-- Sustituir el título genérico por un título descriptivo.
-- Añadir una meta description orientada a conversión.
-- Definir una URL canónica.
-- Añadir configuración Open Graph para WhatsApp, LinkedIn, Facebook e Instagram.
-- Añadir Twitter Cards para mejorar la vista previa en X.
-- Incluir una imagen social específica de ROOMA.
-- Añadir un texto alternativo básico para usuarios o bots que no ejecuten JavaScript.
+- cambiar el idioma principal de la web a español;
+- sustituir el título genérico por un título descriptivo;
+- añadir una descripción breve orientada a conversión;
+- definir la URL principal del proyecto como referencia canónica;
+- preparar la vista previa al compartir el enlace en redes sociales;
+- añadir una imagen específica para previews en WhatsApp, LinkedIn, Facebook, Instagram y X;
+- incluir un texto alternativo básico para usuarios o bots que no ejecuten JavaScript;
+- evitar depender únicamente del contenido cargado por React para explicar qué es ROOMA.
 
 ### 4.2. Título y descripción recomendados
 
 | Elemento | Contenido recomendado |
 |:---|:---|
-| Title | ROOMA — Encuentra compañero de piso sin comisión |
-| Meta description | ROOMA te ayuda a encontrar compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos, incidencias y pagos de forma sencilla. |
+| Título SEO | ROOMA — Encuentra compañero de piso sin comisión |
+| Descripción SEO | ROOMA te ayuda a encontrar compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos, incidencias y pagos de forma sencilla. |
 | Idioma | Español |
-| Canonical | Dominio principal de producción |
-| Robots | Indexar y seguir enlaces |
+| URL canónica | Dominio principal de producción |
+| Rastreo | Permitir indexación de páginas públicas |
 
 ### 4.3. Archivos técnicos básicos
 
-Se deben añadir los siguientes archivos públicos:
+Se deben añadir o revisar los siguientes archivos públicos:
 
 | Archivo | Función |
 |:---|:---|
@@ -180,9 +180,9 @@ Se deben añadir los siguientes archivos públicos:
 
 ### 4.4. Recomendaciones para `robots.txt`
 
-El archivo debe permitir la indexación de la web pública y bloquear rutas internas que no aportan valor SEO, como administración o API.
+El archivo debe permitir la indexación de la web pública y bloquear rutas internas que no aportan valor SEO.
 
-| Ruta | Tratamiento |
+| Ruta | Tratamiento recomendado |
 |:---|:---|
 | Página principal | Permitir |
 | Registro | Permitir |
@@ -193,7 +193,7 @@ El archivo debe permitir la indexación de la web pública y bloquear rutas inte
 
 ### 4.5. Recomendaciones para `sitemap.xml`
 
-El sitemap debe incluir únicamente URLs públicas relevantes:
+El sitemap debe incluir únicamente URLs públicas relevantes.
 
 | URL | Prioridad |
 |:---|:---:|
@@ -333,7 +333,7 @@ Crear un perfil de Google Business para ROOMA.
 | **Nombre** | ROOMA — App compañero de piso |
 | **Categoría** | Aplicación móvil / Servicio inmobiliario |
 | **Descripción** | ROOMA es una app para encontrar compañero de piso sin comisión y gestionar gastos compartidos. Perfiles verificados, matching por compatibilidad y sin intermediarios. |
-| **Sitio web** | Dominio oficial de ROOMA |
+| **Sitio web** | https://www.rooma.app |
 | **Horario** | Servicio digital 24/7 |
 | **Zona de servicio** | Sevilla inicialmente, con expansión progresiva |
 
@@ -444,8 +444,8 @@ Una mejora SEO permite:
 
 | Acción | Responsable | Prioridad |
 |:---|:---|:---:|
-| Actualizar título, descripción y Open Graph | Desarrollador frontend | 🔴 Crítica |
-| Cambiar idioma del documento a español | Desarrollador frontend | 🔴 Crítica |
+| Actualizar `index.html` con meta tags SEO y Open Graph | Desarrollador frontend | 🔴 Crítica |
+| Cambiar `lang="en"` a `lang="es"` | Desarrollador frontend | 🔴 Crítica |
 | Crear `robots.txt` | Desarrollador frontend | 🔴 Alta |
 | Crear `sitemap.xml` | Desarrollador frontend | 🔴 Alta |
 | Crear imagen Open Graph | Diseñador / CM | 🔴 Alta |
@@ -479,7 +479,7 @@ Una mejora SEO permite:
 | Crear landing pages locales | Frontend + CM | 🔴 Alta |
 | Outreach para backlinks | Marketing | 🟠 Media |
 | Optimizar titles y descriptions con datos reales | CM | 🟠 Media |
-| Implementar datos estructurados | Frontend | 🟠 Media |
+| Implementar Schema.org | Frontend | 🟠 Media |
 | Evaluar SSR / SSG | Equipo técnico | 🟢 Baja |
 
 ---
