@@ -126,7 +126,7 @@ Presupuesto neto destinado a la compra de alcance y conversión. La inversión e
 
 > $Inversión_{Ads} = 0,80€ \cdot u$
 
-> **Nota de coherencia con el plan de marketing:** el valor de **0,80 €/usuario** se interpreta como un coste medio combinado de adquisición, no como un CPI puramente publicitario. Este coste medio incluye la inversión en Ads, pero también el efecto de canales orgánicos, referidos, difusión en grupos universitarios, reactivación de usuarios piloto y captación directa de propietarios o agencias. Por ello, los segmentos con CPI pagado superior se compensan con canales de bajo coste o sin coste publicitario directo.
+> **Nota de coherencia con el plan de marketing:** la partida de **0,80 €/usuario** representa la inversión publicitaria presupuestada en relación con el objetivo total de usuarios, pero la captación real no depende exclusivamente de Ads. El CAC efectivo del modelo se interpreta de forma combinada, incorporando también canales orgánicos, referidos, difusión en grupos universitarios, reactivación de usuarios piloto y captación directa de propietarios o agencias. Por ello, los segmentos con CPI pagado superior se compensan con canales de bajo coste o sin coste publicitario directo.
 
 | Escenario de usuarios ($u$) | Inversión TikTok Ads (50%) | Inversión Meta Ads (50%) | Inversión total Ads |
 | :--- | ---: | ---: | ---: |
@@ -262,6 +262,8 @@ Para comprender la contribución real de cada segmento de usuarios al ingreso to
 | **TOTAL** | — | 10.000 | **13,07 €** (ARPU) | **~130.700 €** | **100%** |
 
 > **Nota:** Un usuario Plus o Pro también puede tener contrato activo. Las categorías de suscripción y de contrato transaccional no son mutuamente excluyentes.
+>
+> **Nota de redondeo:** los importes por usuario se muestran redondeados a dos decimales para facilitar la lectura. Por ello, algunos subtotales pueden presentar pequeñas diferencias frente al cálculo exacto ponderado.
 
 **Insights clave:**
 
@@ -272,7 +274,7 @@ Para comprender la contribución real de cada segmento de usuarios al ingreso to
 
 *Nota: el ingreso ponderado por usuario ($u$) es el resultado de multiplicar el ingreso por unidad por su respectiva base de cálculo. Este valor representa la facturación bruta media que genera cada usuario registrado en la plataforma.*
 
-#### ROI y margen por tipo de usuario
+#### Economía unitaria y margen por tipo de usuario
 
 Para responder con mayor precisión al retorno económico del modelo, se distingue entre usuarios normales, usuarios de pago y usuarios con contrato activo. Esta separación es necesaria porque no todos los perfiles activan las mismas fuentes de ingresos ni soportan los mismos costes variables.
 
@@ -301,7 +303,7 @@ Para usuarios con contrato activo se añade el coste operativo de Stripe:
 
 El usuario Free no es rentable de forma aislada, pero cumple una función necesaria como masa crítica, liquidez del marketplace y embudo de conversión. El usuario Plus ya presenta margen positivo sin necesidad de contrato activo. El usuario Pro aporta mayor margen recurrente dentro de las suscripciones. El usuario con contrato activo es el perfil económico más relevante porque activa la vía transaccional, que representa la mayor parte del ingreso mensual.
 
-Por tanto, el ROI de Rooma no depende solo de captar usuarios, sino de convertir usuarios normales en usuarios de pago o en usuarios con contrato activo.
+Por tanto, la rentabilidad de Rooma no depende solo de captar usuarios, sino de convertir usuarios normales en usuarios de pago o en usuarios con contrato activo.
 
 ---
 
@@ -311,7 +313,7 @@ Por tanto, el ROI de Rooma no depende solo de captar usuarios, sino de convertir
 
 Para obtener el margen de contribución unitario, restamos todos los costes operativos variables asociados a cada usuario:
 
-* **Coste de adquisición (Ads):** 0,80 €/u
+* **Coste de adquisición presupuestado (Ads/blended):** 0,80 €/u
 * **Coste de infraestructura (Cloud):** 0,01 €/u
 * **Coste operativo de Stripe:** 4,44 €/u
 * **Total costes variables:** **5,25 €/usuario**
@@ -325,7 +327,7 @@ Para validar la coherencia interna del presupuesto, se incluyen las principales 
 | Elemento revisado | Cálculo | Resultado |
 |---|---:|---:|
 | ARPU | 1,50 + 0,60 + 0,15 + 0,20 + 10,62 | 13,07 €/usuario |
-| Costes variables | 0,80 Ads + 0,01 Cloud + 4,44 Stripe | 5,25 €/usuario |
+| Costes variables | 0,80 Ads/blended + 0,01 Cloud + 4,44 Stripe | 5,25 €/usuario |
 | Margen unitario | 13,07 - 5,25 | 7,82 €/usuario |
 | Break-even operativo | 16.058,44 / 7,82 | ≈ 2.054 usuarios |
 | Stripe ponderado | 17,75 × 25% | 4,4375 €/usuario |
