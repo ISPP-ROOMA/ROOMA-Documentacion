@@ -15,13 +15,13 @@
 
 | Aspecto | Estado actual | Impacto SEO | Prioridad |
 |:---|:---|:---|:---:|
-| **`<title>`** | Genérico: `Rooma` | No comunica propuesta de valor ni keywords principales | 🔴 Alta |
+| **Título de la página** | Genérico: `Rooma` | No comunica propuesta de valor ni keywords principales | 🔴 Alta |
 | **Meta description** | No existe | Google genera un snippet automático poco controlado | 🔴 Alta |
 | **Open Graph / Twitter Cards** | No existen | Al compartir la URL en redes no se muestra preview optimizado | 🔴 Alta |
 | **Idioma del HTML** | `lang="en"` | Incoherente con público objetivo español | 🔴 Alta |
 | **robots.txt** | No existe | Falta control explícito de rastreo | 🟠 Media |
 | **sitemap.xml** | No existe | Google no recibe estructura básica de URLs | 🔴 Alta |
-| **Heading structure (H1)** | Gestionado por React en cada vista | Puede ser inconsistente entre páginas | 🟠 Media |
+| **Heading structure** | Gestionado por React en cada vista | Puede ser inconsistente entre páginas | 🟠 Media |
 | **Renderizado** | SPA con React + Vite | Riesgo de indexación si el contenido depende de JavaScript | 🔴 Alta |
 | **PWA manifest** | Descripción genérica: `"A room booking application"` | No representa la propuesta real de ROOMA | 🟠 Media |
 | **Canonical URL** | No definida | Riesgo de duplicidad si existen varias rutas o dominios | 🟠 Media |
@@ -35,11 +35,11 @@ La web actual de ROOMA necesita una optimización SEO básica antes del lanzamie
 
 Las acciones prioritarias son:
 
-- optimizar el `index.html`;
-- corregir el idioma del documento;
-- añadir meta tags SEO y sociales;
-- crear `robots.txt` y `sitemap.xml`;
-- preparar una landing indexable;
+- corregir el idioma principal de la web;
+- mejorar el título y la descripción pública;
+- preparar la vista previa al compartir el enlace en redes;
+- crear archivos básicos de rastreo e indexación;
+- preparar una landing clara e indexable;
 - configurar Search Console y Analytics;
 - alinear SEO con el plan de marketing, redes sociales y análisis económico.
 
@@ -56,7 +56,7 @@ Las acciones prioritarias son:
 | Que la web tenga una puntuación Lighthouse SEO ≥ 80 | Auditoría Lighthouse |
 | Que Google pueda rastrear la web correctamente | `robots.txt` y `sitemap.xml` activos |
 | Que la propuesta de valor sea entendible sin navegar por la app | Landing clara e indexable |
-| Que el idioma esté alineado con España | `lang="es"` |
+| Que el idioma esté alineado con España | Documento configurado en español |
 
 ### Objetivos a medio plazo: meses 1-6 post-lanzamiento
 
@@ -140,184 +140,99 @@ Las acciones prioritarias son:
 
 ## 4. Acciones técnicas SEO On-Page
 
-### 4.1. Mejoras en `index.html`
+El objetivo de esta fase es preparar la web para que Google y las redes sociales entiendan correctamente qué es ROOMA antes del lanzamiento.
 
-El archivo `index.html` debe transmitir claramente qué es ROOMA antes de que el usuario entre en la aplicación.
+### 4.1. Optimización del documento principal
 
-```html
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+Se debe actualizar el documento principal de entrada de la aplicación para que comunique la propuesta de valor de ROOMA desde el primer rastreo.
 
-    <!-- SEO básico -->
-    <title>ROOMA — Encuentra compañero de piso sin comisión | App de alquiler compartido</title>
-    <meta
-      name="description"
-      content="ROOMA te ayuda a encontrar compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos, incidencias y pagos de forma sencilla."
-    />
-    <meta name="author" content="ROOMA" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://www.rooma.app/" />
+Acciones necesarias:
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="ROOMA — Encuentra compañero de piso sin comisión" />
-    <meta
-      property="og:description"
-      content="App para encontrar compañero de piso compatible y gestionar gastos compartidos. Sin agencia. Sin fraudes."
-    />
-    <meta property="og:image" content="https://www.rooma.app/og-image.jpg" />
-    <meta property="og:url" content="https://www.rooma.app/" />
-    <meta property="og:locale" content="es_ES" />
-    <meta property="og:site_name" content="ROOMA" />
+- Cambiar el idioma del documento a español.
+- Sustituir el título genérico por un título descriptivo.
+- Añadir una meta description orientada a conversión.
+- Definir una URL canónica.
+- Añadir configuración Open Graph para WhatsApp, LinkedIn, Facebook e Instagram.
+- Añadir Twitter Cards para mejorar la vista previa en X.
+- Incluir una imagen social específica de ROOMA.
+- Añadir un texto alternativo básico para usuarios o bots que no ejecuten JavaScript.
 
-    <!-- Twitter / X Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ROOMA — Encuentra compañero de piso sin comisión" />
-    <meta
-      name="twitter:description"
-      content="Encuentra compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos desde la app."
-    />
-    <meta name="twitter:image" content="https://www.rooma.app/og-image.jpg" />
+### 4.2. Título y descripción recomendados
 
-    <!-- Favicon e iconos -->
-    <link rel="icon" type="image/jpeg" href="/Logo Rooma.jpeg" />
-    <link rel="apple-touch-icon" href="/icons/rooma_192.png" />
+| Elemento | Contenido recomendado |
+|:---|:---|
+| Title | ROOMA — Encuentra compañero de piso sin comisión |
+| Meta description | ROOMA te ayuda a encontrar compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos, incidencias y pagos de forma sencilla. |
+| Idioma | Español |
+| Canonical | Dominio principal de producción |
+| Robots | Indexar y seguir enlaces |
 
-    <!-- Google Search Console: sustituir por código real -->
-    <!-- <meta name="google-site-verification" content="CODIGO_VERIFICACION" /> -->
+### 4.3. Archivos técnicos básicos
 
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
-  </head>
+Se deben añadir los siguientes archivos públicos:
 
-  <body>
-    <noscript>
-      ROOMA es una app para encontrar compañero de piso sin comisión, con perfiles verificados y gestión de gastos compartidos.
-    </noscript>
+| Archivo | Función |
+|:---|:---|
+| `robots.txt` | Indicar a los buscadores qué zonas pueden rastrear |
+| `sitemap.xml` | Facilitar a Google las URLs principales del proyecto |
+| `og-image.jpg` | Mejorar la vista previa al compartir la web en redes |
+| `manifest.json` | Ajustar nombre, idioma y descripción de la PWA |
 
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
-```
+### 4.4. Recomendaciones para `robots.txt`
 
-> **Nota:** se evita depender de `meta keywords`, ya que no tiene peso relevante en Google. La optimización debe centrarse en título, descripción, contenido visible, enlaces, rendimiento y autoridad.
+El archivo debe permitir la indexación de la web pública y bloquear rutas internas que no aportan valor SEO, como administración o API.
 
----
+| Ruta | Tratamiento |
+|:---|:---|
+| Página principal | Permitir |
+| Registro | Permitir |
+| Login | Permitir |
+| Panel interno | Bloquear si no aporta contenido público |
+| API | Bloquear |
+| Administración | Bloquear |
 
-### 4.2. Crear `robots.txt`
+### 4.5. Recomendaciones para `sitemap.xml`
 
-Ubicación: `frontend/public/robots.txt`
+El sitemap debe incluir únicamente URLs públicas relevantes:
 
-```txt
-User-agent: *
-Allow: /
+| URL | Prioridad |
+|:---|:---:|
+| Página principal | Alta |
+| Registro | Alta |
+| Login | Media |
+| Futuras páginas locales | Alta |
+| Futuro blog | Media |
 
-Disallow: /admin/
-Disallow: /api/
+### 4.6. Manifest PWA
 
-Sitemap: https://www.rooma.app/sitemap.xml
-```
+La descripción actual de la PWA debe sustituirse por una descripción alineada con el producto real.
 
----
+| Campo | Recomendación |
+|:---|:---|
+| Nombre | ROOMA — Compañero de piso sin comisión |
+| Nombre corto | ROOMA |
+| Descripción | Encuentra compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos y alquila con confianza. |
+| Idioma | Español |
+| Display | Standalone |
 
-### 4.3. Crear `sitemap.xml`
+### 4.7. Imagen Open Graph
 
-Ubicación: `frontend/public/sitemap.xml`
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.rooma.app/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://www.rooma.app/login</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.rooma.app/register</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
-```
-
-> **Nota:** si el dominio final cambia, deben actualizarse el canonical, el sitemap, las URLs Open Graph y Search Console.
-
----
-
-### 4.4. Corregir manifest de la PWA
-
-En `vite.config.ts` o configuración equivalente de PWA:
-
-```typescript
-manifest: {
-  name: 'ROOMA — Compañero de piso sin comisión',
-  short_name: 'ROOMA',
-  description: 'Encuentra compañero de piso compatible, sin agencia y sin comisión. Gestiona gastos compartidos y alquila con confianza.',
-  theme_color: '#ffffff',
-  background_color: '#ffffff',
-  display: 'standalone',
-  lang: 'es',
-  // ...iconos existentes
-}
-```
-
----
-
-### 4.5. Imagen Open Graph
-
-Crear una imagen de **1200 × 630 px** para previews en redes sociales.
+Crear una imagen de 1200 × 630 px para previews en redes sociales.
 
 Debe incluir:
 
 - logo de ROOMA;
-- tagline: **"Encuentra compañero de piso. Sin comisión. Sin fraudes."**;
-- mockup simplificado de la app;
-- contraste alto para lectura en móvil;
-- formato `.jpg` o `.png`.
+- mensaje principal: "Encuentra compañero de piso. Sin comisión. Sin fraudes.";
+- mockup simple de la app;
+- diseño limpio y legible en móvil.
 
 Ubicación recomendada:
 
-```txt
-frontend/public/og-image.jpg
-```
+`frontend/public/og-image.jpg`
 
----
+### 4.8. Datos estructurados
 
-### 4.6. Datos estructurados Schema.org
-
-Añadir JSON-LD para ayudar a Google a interpretar ROOMA como aplicación/software.
-
-```html
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ROOMA",
-  "applicationCategory": "LifestyleApplication",
-  "operatingSystem": "Web, Android, iOS",
-  "description": "App para encontrar compañero de piso compatible, sin agencia y sin comisión. Permite gestionar gastos compartidos, incidencias y convivencia.",
-  "url": "https://www.rooma.app/",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "EUR"
-  }
-}
-</script>
-```
+A medio plazo se recomienda añadir datos estructurados para que Google interprete ROOMA como una aplicación web. Esta mejora no es crítica para el lanzamiento, pero sí recomendable para reforzar SEO técnico en la fase de crecimiento.
 
 ---
 
@@ -399,17 +314,11 @@ La landing debe incluir:
 
 ### 6.2. Mensaje base para outreach
 
-```txt
-Hola,
-
-Somos el equipo de ROOMA, una app creada para ayudar a estudiantes y jóvenes profesionales a encontrar compañero de piso sin agencia ni comisión, con perfiles verificados y gestión de gastos compartidos.
-
-Lanzamos públicamente el 21 de mayo y estamos buscando medios universitarios, blogs o comunidades interesadas en proyectos tecnológicos orientados a vivienda joven y convivencia.
-
-Podemos facilitar una breve nota de prensa, capturas de la app y contexto del proyecto.
-
-Gracias.
-```
+> Somos el equipo de ROOMA, una app creada para ayudar a estudiantes y jóvenes profesionales a encontrar compañero de piso sin agencia ni comisión, con perfiles verificados y gestión de gastos compartidos.
+>
+> Lanzamos públicamente el 21 de mayo y estamos buscando medios universitarios, blogs o comunidades interesadas en proyectos tecnológicos orientados a vivienda joven y convivencia.
+>
+> Podemos facilitar una breve nota de prensa, capturas de la app y contexto del proyecto.
 
 ---
 
@@ -424,7 +333,7 @@ Crear un perfil de Google Business para ROOMA.
 | **Nombre** | ROOMA — App compañero de piso |
 | **Categoría** | Aplicación móvil / Servicio inmobiliario |
 | **Descripción** | ROOMA es una app para encontrar compañero de piso sin comisión y gestionar gastos compartidos. Perfiles verificados, matching por compatibilidad y sin intermediarios. |
-| **Sitio web** | https://www.rooma.app |
+| **Sitio web** | Dominio oficial de ROOMA |
 | **Horario** | Servicio digital 24/7 |
 | **Zona de servicio** | Sevilla inicialmente, con expansión progresiva |
 
@@ -456,13 +365,11 @@ Cada perfil social debe funcionar como una micro-landing.
 
 ### 8.2. Bio optimizada para Instagram / TikTok
 
-```txt
-🏠 Encuentra compañero de piso sin comisión
-✅ Perfiles verificados · Gestión de gastos
-📱 Disponible ya — link en bio
-🇪🇸 Sevilla · expansión progresiva
-👇 Regístrate gratis
-```
+> 🏠 Encuentra compañero de piso sin comisión  
+> ✅ Perfiles verificados · Gestión de gastos  
+> 📱 Disponible ya — link en bio  
+> 🇪🇸 Sevilla · expansión progresiva  
+> 👇 Regístrate gratis
 
 ### 8.3. SEO en vídeos
 
@@ -537,8 +444,8 @@ Una mejora SEO permite:
 
 | Acción | Responsable | Prioridad |
 |:---|:---|:---:|
-| Actualizar `index.html` con meta tags SEO y Open Graph | Desarrollador frontend | 🔴 Crítica |
-| Cambiar `lang="en"` a `lang="es"` | Desarrollador frontend | 🔴 Crítica |
+| Actualizar título, descripción y Open Graph | Desarrollador frontend | 🔴 Crítica |
+| Cambiar idioma del documento a español | Desarrollador frontend | 🔴 Crítica |
 | Crear `robots.txt` | Desarrollador frontend | 🔴 Alta |
 | Crear `sitemap.xml` | Desarrollador frontend | 🔴 Alta |
 | Crear imagen Open Graph | Diseñador / CM | 🔴 Alta |
@@ -572,7 +479,7 @@ Una mejora SEO permite:
 | Crear landing pages locales | Frontend + CM | 🔴 Alta |
 | Outreach para backlinks | Marketing | 🟠 Media |
 | Optimizar titles y descriptions con datos reales | CM | 🟠 Media |
-| Implementar Schema.org | Frontend | 🟠 Media |
+| Implementar datos estructurados | Frontend | 🟠 Media |
 | Evaluar SSR / SSG | Equipo técnico | 🟢 Baja |
 
 ---
