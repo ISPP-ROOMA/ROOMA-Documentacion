@@ -10,7 +10,7 @@
 
 ## 1. ENFOQUE GENERAL
 
-La estrategia de marketing se divide en dos momentos diferenciados:
+La estrategia de marketing de ROOMA se divide en tres momentos diferenciados:
 
 1. **Preparación y validación previa (21/04 - 12/05):**  
    Fase orientada a mejorar el producto, activar usuarios piloto, corregir fricciones y preparar mensajes.
