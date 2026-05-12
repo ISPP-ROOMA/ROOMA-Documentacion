@@ -3,7 +3,7 @@
 ## 1. Acceso al Sistema y Versiones (Releases)
 
 ### 1.1 Enlace de Despliegue
-* **Despliegue Final:** https://rooma-sprint-3.vercel.app
+* **Despliegue Final:** https://rooma-ppl.vercel.app
 
 ### 1.2 Release en GitHub
 * **Página de la Release:** https://github.com/ISPP-ROOMA/ROOMA-sprint-3/releases/tag/s3
