@@ -18,7 +18,7 @@
 #### CU: Descubrimiento de Viviendas
 | Nombre | Descripción | Estado |
 | :--- | :--- | :--- |
-| Gestión del Deck | El sistema debe generar un mazo dinámico de viviendas basado en los filtros de búsqueda (precio, zonas, reglas) que el usuario indique | Completado Parcialmente (no estan desarrollados los filtros todavía) |
+| Gestión del Deck | El sistema debe generar un mazo dinámico de viviendas basado en los filtros de búsqueda (precio, zonas, reglas) que el usuario indique | Completado |
 | Visualizar Detalles | El sistema debe permitir abrir una vista expandida de cada vivienda que aparezca en el deck para consultar los detalles de esta, las fotos expandidas, su ubicación, la reglas de la vivienda (si hay alguna) y los inquilinos actuales (si hay alguno), junto con los detalles de estos para así poder evaluar la convivencia. | Completado |
 | Swipe | El sistema debe procesar el gesto táctil de swipe a la vivienda que este actualmente al frente del deck (derecha “Like”, izquierda “Dislike”). Además, el gesto de swipe se debe poder realizar con dos botones que indiquen las mismas acciones (“Like” / “Dislike”) | Completado |
 | Gestión de Estados | El sistema debe registrar cada interacción del usuario con cada inmueble para asegurar que una vivienda descartada no vuelva a aparecer | Completado |
@@ -107,7 +107,7 @@
 
 ## 3. Fallos, Feedback y Mejoras
 
-Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de Usuarios Pares) y, donde corresponde, por el profesor revisor, indicando claramente las medidas tomadas y los resultados logrados.
+Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de Usuarios Pares) y, cuando corresponda, por el profesor revisor, indicando claramente las medidas tomadas y los resultados logrados.
 
 ### 3.1 Feedback de los PUGs
 
@@ -136,14 +136,18 @@ Esta sección aborda los fallos y mejoras identificados por los PUGs (Grupos de 
 |  **CU Reseñas y Valoración:** Al valorar al *landlord*, el mensaje mostrado es erróneo y lo trata como inquilino ("Tu valoración de tu compañero/a..."). | No se ha podido solucionar para el sprint porque se recibio el feedback cuando el despliegue ya estaba completado, se realizará su corrección en el próximo sprint | Se anota para el siguiente sprint |
 
 ### 3.2 Feedback del Profesor
-| Fallo / Mejora Identificada | Medida Correctiva Tomada | Resultado Obtenido |
+| Fallo / Mejora Identificada | Medida Correctiva Tomada |
 | :--- | :--- | :--- |
-| **Datos de Prueba:** Se deben mantener datos de prueba realistas para que la aplicación siempre sea lo más cercana a la realidad | Se han añadido datos de prueba realistas para el despliegue de este sprint y para el despliegue para los usuarios piloto | La aplicación tiene un estilo realista |
-| **Análisis Económico:** El análisis económico debe siempre consistir de datos agregados y teniendo en cuenta la estimación de usuarios | Se ha realizado el análisis económico tomando en cuenta en estos consejos | El análisis económico ahora es mucho más detallado y más realista con la progresión de usuarios y tiempo |
-| **Análisis de Problemas:** Los análisis de problemas deben siempre contener sus mitigaciones, los plazos para ver si la mitigación ha funcionado o la solución y usar métricas completas para medir elproblema y su solución | Se ha utilizado una estructura de "Lección", "Mitigación" y "Comprobación" para cada problema encontrado con métricas específicas | Se ha conseguido una mayor eficiencia en el control de los problemas y su seguimiento |
-| **Calendario de Citas centralizado:** Se aconsejó realizar una funcionalidad por la que un propietario pudiera centralizar las visitas a sus inmuebles para todos los matches del mismo. | Se ha seguido este consejo y ahora los propietarios pueden crear visitas centralizadas que se mandarán automáticamente a todos los matches del inmueble mediante el chat de cada interesado, y desde aquí el interesado podrá elegir un horario al que asistir. | Un manejo de las citas mucho más como para el propietario y los interesados |
-
+| **Reporte de IA escueto:** Recibimos feedback asociado al reporte de IA, indicando que era necesario añadir ejemplos concretos de los usos, incluyendo explícitamente los prompts o conversaciones usadas | Se han incluido ejemplos explícitos del uso de la IA por todo el grupo, desde consultas tecnológicas hasta generación de imágenes |
+| **Fallo en las notificaciones:** Como propietario, no se mandaban las notificaciones relacionadas con las incidencias | Se corregido el error |
+| **Los filtros no funcionan correctamente:** Como propietario, a la hora de aplicar los filtros de fumador o no para elegir candidato para un inmueble | Se corregido este error |
+| **Problemas de validación de cuestionarios:** A la hora de validar los cuestionarios, no se indicaba el error explicito de validación, solo se mostraba un mensaje general | Se han añadido mensajes descriptivos para los errores de validación |
 ---
+
+* Al reporte de IA tenemos que añadirles ejemplos en cada uno de los casos que lo hemos usado por ejemplo uso de imágenes, explicar el proceso que sigo para obtener las imágenes (prompts) , y ejemplo de ellos. (Si no lo hacemos nos quita el muller un 10%)
+* ⁠Bug con las incidencias, al crear una incidencia no se notifica al casero
+* ⁠Bug con los filtros, al filtrar por no fumadores en los datos usados por el muller se cambiaban las imágenes de los pisos
+* ⁠Validaciones genéricas de formulario, al tener un error el cuestionario solo pone invalid credentials.
 
 ## 4. Datos de Prueba y Credenciales
 
@@ -151,7 +155,7 @@ Datos necesarios para poder realizar la revisión (usuarios, contraseñas o ejem
 
 ### 4.1 Cuentas de Prueba
 #### Inquilinos
-
+  
 | Email | Contraseña |
 | :--- | :--- |
 | tenant1@test.com | 123456 |
