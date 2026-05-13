@@ -27,6 +27,10 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Refactoriza los fragmentos donde el linter indica que la complejidad ciclomática es demasiado alta para que el código sea más legible.*
 
         * *Asegúrate de que el resultado final cumpla estrictamente con las reglas de estilo de nuestra guía de Clean Code."*
+     
+          ![Linting request](imagenes_uso_IA/linting_request.jpeg)
+          ![Linting reponse](imagenes_uso_IA/linting_reponse.png)
+
        
 ### 2.2 Arquitectura Backend y Lógica de Negocio
 *   **Generación de Código y Vibe Coding:** Mediante **GitHub Copilot** y su "modo agente", se han transformado requisitos textuales en planes de diseño técnicos ejecutados bajo supervisión humana. Esto ha permitido crear aplicaciones completas para métricas de forma iterativa (**Marco, David, Manuel**).
@@ -38,7 +42,8 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 
         * *Refactoriza cada módulo para asegurar que el código sea altamente cohesivo y desacoplado.*
 
-        * *Al terminar cada fase, verifica que la implementación cumple con los requisitos técnicos definidos en el documento base."*
+        * *Al terminar cada fase, verifica que la implementación cumple con los requisitos técnicos definidos en el documento base."*<br>
+        <br> En este caso adjuntamos un archivo en la que se detalla completamente el proceso para añadir metricas a la aplicacion de rendimiento: 
           
 *   **Comunicación e Infraestructura:** Optimización de la capa de servicios para la comunicación entre el front y el back, además de la creación de archivos de configuración críticos como Dockerfiles para compilación nativa en Java (**Juan, Manuel**).
     * **Ejemplo**: *"Necesito resolver los problemas de latencia en la comunicación entre el frontend y el backend. Para ello:*
@@ -47,7 +52,8 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 
         * *Configura los parámetros necesarios para que el contenedor pueda comunicarse correctamente con el servicio de base de datos en un entorno de staging.*
 
-        * *Asegúrate de que la configuración sea escalable y siga las mejores prácticas de infraestructura como código.*
+        * *Asegúrate de que la configuración sea escalable y siga las mejores prácticas de infraestructura como código."*<br>
+        <br> En este caso adjuntamos una conversación con Gemini donde se crea la base para el archivo Dockerfile de nuestra aplicacion: https://gemini.google.com/share/bec85d0603da
           
 *   **Seguridad:** Revisión asistida de rutas y endpoints para garantizar que la lógica de acceso sea segura y cumpla con los estándares de protección de datos (**Guille**).
     * **Ejemplo**: *"Actúa como un experto en ciberseguridad y seguridad en APIs. Analiza las siguientes rutas de mi controlador en el backend y verifica si existen vulnerabilidades. En concreto:*
