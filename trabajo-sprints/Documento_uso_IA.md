@@ -11,11 +11,11 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 ### 2.1 Desarrollo Frontend y Experiencia de Usuario (UX/UI)
 *   **Generación y Estilizado:** Se han utilizado herramientas para la creación de componentes dinámicos y la aplicación de estilos CSS complejos, asegurando una interfaz moderna y funcional (**Dani, Juan, Jesús, Iván**).
     * **Ejemplo**: "_Necesito crear un componente de tarjeta (Card) dinámico en React para mostrar las incidencias del proyecto. La tarjeta debe incluir un badge de prioridad que cambie de color según el estado (crítico, medio, bajo) y un efecto de hover suave que eleve la tarjeta y cambie el borde. Utiliza CSS modular o Tailwind para asegurar un diseño minimalista y moderno, y asegúrate de que el componente sea totalmente responsive._"<br>
-      <br> Adjuntamos enlace a una conversacion real que refleja el proceso: https://gemini.google.com/share/ce0179872689
+      <br> Se adjunta enlace a una conversacion real que se utilizó para generar una primera version del componente para las Card: https://gemini.google.com/share/ce0179872689
       
 *   **Cohesión Visual:** La IA ha sido clave para garantizar que el diseño sea consistente en todas las pantallas, detectando discrepancias visuales y sugiriendo ajustes de diseño (**Javier Clavijo, Iván**).
     * **Ejemplo**: "_Tengo este archivo CSS que define los estilos globales de mi aplicación y este nuevo componente que acabo de crear. Analiza ambos y dime si el nuevo componente mantiene la cohesión visual del proyecto, específicamente en el uso de las variables de color y sombras, así como el radio de los bordes y los espaciados internos._"<br>
-      <br> En primer lugar se paso una primera version del css de la aplicacion a la IA para detectar inconsistencias y puntos débiles: https://gemini.google.com/share/2398d83e75d6 
+      <br> En primer lugar se pasó una primera version del css de la aplicacion a Gemini para detectar inconsistencias y puntos débiles: https://gemini.google.com/share/2398d83e75d6 
       
 *   **Calidad del Código (Linting):** Se han corregido errores de sintaxis y formato mediante el análisis automático del linter, asegurando un código limpio y mantenible (**Guille**).
     * **Ejemplo**: *"He pasado el linter a mi proyecto de frontend y me devuelve varios errores de formato y sintaxis en estos archivos. Por favor:*
@@ -43,7 +43,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Refactoriza cada módulo para asegurar que el código sea altamente cohesivo y desacoplado.*
 
         * *Al terminar cada fase, verifica que la implementación cumple con los requisitos técnicos definidos en el documento base."*<br>
-        <br> En este caso adjuntamos un archivo en la que se detalla completamente el proceso para añadir metricas a la aplicacion de rendimiento: 
+        <br> En este caso se adjunta un archivo de texto en la que se detalla completamente el proceso para añadir métricas a la aplicacion de rendimiento: 
           
 *   **Comunicación e Infraestructura:** Optimización de la capa de servicios para la comunicación entre el front y el back, además de la creación de archivos de configuración críticos como Dockerfiles para compilación nativa en Java (**Juan, Manuel**).
     * **Ejemplo**: *"Necesito resolver los problemas de latencia en la comunicación entre el frontend y el backend. Para ello:*
@@ -53,7 +53,7 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
         * *Configura los parámetros necesarios para que el contenedor pueda comunicarse correctamente con el servicio de base de datos en un entorno de staging.*
 
         * *Asegúrate de que la configuración sea escalable y siga las mejores prácticas de infraestructura como código."*<br>
-        <br> En este caso adjuntamos una conversación con Gemini donde se crea la base para el archivo Dockerfile de nuestra aplicacion: https://gemini.google.com/share/bec85d0603da
+        <br> Se adjunta una conversación con Gemini donde se crea la base para el archivo Dockerfile de nuestra aplicacion: https://gemini.google.com/share/bec85d0603da
           
 *   **Seguridad:** Revisión asistida de rutas y endpoints para garantizar que la lógica de acceso sea segura y cumpla con los estándares de protección de datos (**Guille**).
     * **Ejemplo**: *"Actúa como un experto en ciberseguridad y seguridad en APIs. Analiza las siguientes rutas de mi controlador en el backend y verifica si existen vulnerabilidades. En concreto:*
@@ -80,7 +80,7 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
          * *Casos Negativos: Pruebas de resistencia ante entradas nulas, correos duplicados, contraseñas excesivamente cortas y caracteres especiales no permitidos.*
 
          * *Edge Cases: Comportamiento del sistema ante el límite máximo de caracteres en los campos de texto."*<br>
-         <br> Adjuntamos la conversación con Gemini que ayudó a generar un plan de pruebas para la logica de registro: https://gemini.google.com/share/88e62dc6ace5
+         <br> Se adjunta la conversación con Gemini que ayudó a generar un plan de pruebas para la lógica de registro: https://gemini.google.com/share/88e62dc6ace5
 
 *   **Automatización E2E:** Identificación de localizadores de la UI para tests de extremo a extremo (End-to-End) y análisis de cobertura de código para detectar zonas críticas no testeadas (**Dani, Sergio**).
     * **Ejemplo**: *"Actúa como un experto en automatización con Playwright. Necesito generar los scripts de prueba para el flujo de 'Match'. Por favor:*
@@ -89,7 +89,8 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
 
         * *Tras ejecutar los tests, analiza el reporte de cobertura de código e identifica qué funciones de la lógica de match han quedado sin testear.*
 
-        * *Sugiere nuevos casos de prueba para cubrir esas zonas críticas y asegurar que ninguna lógica de negocio se quede sin validación automática."*
+        * *Sugiere nuevos casos de prueba para cubrir esas zonas críticas y asegurar que ninguna lógica de negocio se quede sin validación automática."*<br>
+        <br> Se adjuta una conversación con ChatGPT que se utilizó como apoyo para los test E2E: https://chatgpt.com/share/6a044efb-b998-838e-bde0-055a386ab9bf
           
 *   **Soporte en CI/CD:** Análisis y diagnóstico rápido de errores en los flujos de integración y despliegue continuo (GitHub Actions/Workflows), reduciendo drásticamente el tiempo de inactividad por fallos en el pipeline (**Guille**).
     * **Ejemplo**: *"Actúa como un experto en DevOps y automatización. He recibido un error de tipo 'exit code 1' en el paso de despliegue de mi flujo de GitHub Actions. Te adjunto los logs del fallo y el archivo YAML de configuración del workflow. Por favor:*
@@ -123,7 +124,7 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Evalúa nuestro stack tecnológico actual basándote en que el equipo tiene experiencia previa en Java y React, pero solo 3 meses para el lanzamiento; ¿es la curva de aprendizaje asumible o deberíamos simplificar alguna tecnología?*
 
-        * *Analiza si esta arquitectura podrá soportar un incremento de carga de hasta 10.000 usuarios activos mensuales sin necesidad de una reescritura completa.*
+        * *Analiza si esta arquitectura podrá soportar un incremento de carga de hasta 10.000 usuarios activos mensuales sin necesidad de una reescritura completa."*
 
 *   **Toma de Decisiones:** Asesoramiento técnico para elegir entre diferentes soluciones de programación basándose en las mejores prácticas de la industria (**Iván, Javi Clavijo**).
     * **Ejemplo**: *"Estamos debatiendo si implementar la lógica de chats mediante WebSockets o utilizando Server-Sent Events (SSE). Necesito que:*
@@ -132,7 +133,7 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Evalúes cuál de las dos soluciones es más resiliente ante micro-cortes de red y reconexiones automáticas.*
 
-        * *Analices cuál es la práctica estándar en la industria para aplicaciones con una carga moderada de usuarios.*<br>
+        * *Analices cuál es la práctica estándar en la industria para aplicaciones con una carga moderada de usuarios."*<br>
         <br> Se adjunta una conversación con Gemini en la que se pide consejo sobre la tecnología a utilizar para la logica de Chats: https://gemini.google.com/share/c8281df4be75
 
 ---
@@ -161,8 +162,11 @@ El flujo de trabajo diario se ha visto beneficiado por la optimización de tarea
 
         * *Cuestiones mi narrativa: ¿Dónde están los puntos más débiles de mi argumento? ¿Qué suposiciones estoy dando por sentado que un inversor podría rebatir?*
 
-        * *Tu objetivo no es validar mi idea, sino ser mi espejo y forzarme a reconstruir la estructura de la presentación para que sea lógica y estratégicamente impecable.*
+        * *Tu objetivo no es validar mi idea, sino ser mi espejo y forzarme a reconstruir la estructura de la presentación para que sea lógica y estratégicamente impecable."*
 
+*  **Gestión del Bienestar y Dinámicas de Equipo**: Implementación de metodologías ágiles para el seguimiento del estado anímico del grupo, utilizando la IA para la formación en conceptos de gestión de RR.HH. y la creación de herramientas de seguimiento personalizadas (**Javier Lozano**).
+   * **Ejemplo**: *"Actúa como un Agile Coach experto. Explícame el concepto de 'Niko-Niko Calendar' aplicado a equipos de alto rendimiento y genera una plantilla de seguimiento para un equipo de                      16 miembros. La plantilla no debe estar rellena y debe sustituir los días del calendario por 'Eventos' (del 1 al 10), permitiendo evaluar la moral del equipo tras cada hito                         crítico del proyecto. Asegúrate de que el formato sea limpio y fácil de integrar en nuestra documentación de gestión."*<br>
+                     <br> Se adjunta la conversación con ChatGPT que refleja todo este proceso: https://chatgpt.com/share/6a024e1c-e87c-83eb-bb9a-615359163edf
 ---
 
 ## 6. Supervisión Humana y Conclusión
