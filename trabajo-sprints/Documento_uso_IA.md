@@ -10,10 +10,12 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 
 ### 2.1 Desarrollo Frontend y Experiencia de Usuario (UX/UI)
 *   **Generación y Estilizado:** Se han utilizado herramientas para la creación de componentes dinámicos y la aplicación de estilos CSS complejos, asegurando una interfaz moderna y funcional (**Dani, Juan, Jesús, Iván**).
-    * **Ejemplo**: "_Necesito crear un componente de tarjeta (Card) dinámico en React para mostrar las incidencias del proyecto. La tarjeta debe incluir un badge de prioridad que cambie de color según el estado (crítico, medio, bajo) y un efecto de hover suave que eleve la tarjeta y cambie el borde. Utiliza CSS modular o Tailwind para asegurar un diseño minimalista y moderno, y asegúrate de que el componente sea totalmente responsive._"
+    * **Ejemplo**: "_Necesito crear un componente de tarjeta (Card) dinámico en React para mostrar las incidencias del proyecto. La tarjeta debe incluir un badge de prioridad que cambie de color según el estado (crítico, medio, bajo) y un efecto de hover suave que eleve la tarjeta y cambie el borde. Utiliza CSS modular o Tailwind para asegurar un diseño minimalista y moderno, y asegúrate de que el componente sea totalmente responsive._"<br>
+      <br> Adjuntamos enlace a una conversacion real que refleja el proceso: https://gemini.google.com/share/ce0179872689
       
-*   **Cohesión Visual:** La IA ha sido clave para garantizar que el diseño sea consistente en todas las pantallas, detectando discrepancias visuales y sugiriendo ajustes de diseño (**Javier Clavijo**).
-    * **Ejemplo**: "_Tengo este archivo CSS que define los estilos globales de mi aplicación y este nuevo componente que acabo de crear. Analiza ambos y dime si el nuevo componente mantiene la cohesión visual del proyecto, específicamente en el uso de las variables de color y sombras, así como el radio de los bordes y los espaciados internos._"
+*   **Cohesión Visual:** La IA ha sido clave para garantizar que el diseño sea consistente en todas las pantallas, detectando discrepancias visuales y sugiriendo ajustes de diseño (**Javier Clavijo, Iván**).
+    * **Ejemplo**: "_Tengo este archivo CSS que define los estilos globales de mi aplicación y este nuevo componente que acabo de crear. Analiza ambos y dime si el nuevo componente mantiene la cohesión visual del proyecto, específicamente en el uso de las variables de color y sombras, así como el radio de los bordes y los espaciados internos._"<br>
+      <br> En primer lugar se paso una primera version del css de la aplicacion a la IA para detectar inconsistencias y puntos débiles: https://gemini.google.com/share/2398d83e75d6 
       
 *   **Calidad del Código (Linting):** Se han corregido errores de sintaxis y formato mediante el análisis automático del linter, asegurando un código limpio y mantenible (**Guille**).
     * **Ejemplo**: *"He pasado el linter a mi proyecto de frontend y me devuelve varios errores de formato y sintaxis en estos archivos. Por favor:*
@@ -72,7 +74,7 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
 
          * *Edge Cases: Comportamiento del sistema ante el límite máximo de caracteres en los campos de texto."*
 
-*   **Automatización E2E:** Identificación de localizadores de la UI para tests de extremo a extremo (End-to-End) y análisis de cobertura de código para detectar zonas críticas no testeadas (**Dani**).
+*   **Automatización E2E:** Identificación de localizadores de la UI para tests de extremo a extremo (End-to-End) y análisis de cobertura de código para detectar zonas críticas no testeadas (**Dani, Sergio**).
     * **Ejemplo**: *"Actúa como un experto en automatización con Playwright. Necesito generar los scripts de prueba para el flujo de 'Match'. Por favor:*
 
         * *Genera el script de la prueba que cubra todo el flujo desde el home page hasta la confirmación de match.*
