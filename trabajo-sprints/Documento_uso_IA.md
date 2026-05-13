@@ -98,8 +98,10 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
 
         * *Explica la causa raíz del problema de forma clara.*
 
-        * *Propón la corrección necesaria en el archivo YAML o en el script de despliegue para solucionar el fallo y evitar que el pipeline se detenga en futuras ejecuciones."*
-          
+        * *Propón la corrección necesaria en el archivo YAML o en el script de despliegue para solucionar el fallo y evitar que el pipeline se detenga en futuras ejecuciones."*<br>
+        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_requst1.jpeg)
+        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_request2.jpeg)
+        <br> ![CI/CD request](imagenes_uso_IA/CI-CD_reponse.jpeg)
 
 ---
 
@@ -111,7 +113,8 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Genera una estimación de crecimiento de usuarios a 12 meses proyectando un escenario conservador y uno optimista.*
 
-        * *Calcula el punto de equilibrio (break-even point) para determinar en qué mes el proyecto será rentable."*
+        * *Calcula el punto de equilibrio (break-even point) para determinar en qué mes el proyecto será rentable."*<br>
+          <br>Se adjunta una conversación con Gemini en la que se pide asesoramiento sobre el analisis económico: https://gemini.google.com/share/60bd8e6dd292
           
 *   **Evaluación Tecnológica:** Comparativa de proveedores de pago y valoración de stacks tecnológicos basándose en la curva de aprendizaje del equipo y la escalabilidad del proyecto (**Manuel**).
     * **Ejemplo**: *"Necesitamos elegir una pasarela de pago para nuestro proyecto y definir si el stack actual es el adecuado para escalar. Realiza lo siguiente:*
@@ -122,14 +125,15 @@ Más allá del código, la IA ha servido como un consultor de negocio de alto ni
 
         * *Analiza si esta arquitectura podrá soportar un incremento de carga de hasta 10.000 usuarios activos mensuales sin necesidad de una reescritura completa.*
 
-*   **Toma de Decisiones:** Asesoramiento técnico para elegir entre diferentes soluciones de programación basándose en las mejores prácticas de la industria (**Iván**).
+*   **Toma de Decisiones:** Asesoramiento técnico para elegir entre diferentes soluciones de programación basándose en las mejores prácticas de la industria (**Iván, Javi Clavijo**).
     * **Ejemplo**: *"Estamos debatiendo si implementar la lógica de chats mediante WebSockets o utilizando Server-Sent Events (SSE). Necesito que:*
 
         * *Compares ambas tecnologías en términos de consumo de recursos del servidor y facilidad de implementación en un entorno Java Spring Boot.*
 
         * *Evalúes cuál de las dos soluciones es más resiliente ante micro-cortes de red y reconexiones automáticas.*
 
-        * *Analices cuál es la práctica estándar en la industria para aplicaciones con una carga moderada de usuarios.*
+        * *Analices cuál es la práctica estándar en la industria para aplicaciones con una carga moderada de usuarios.*<br>
+        <br> Se adjunta una conversación con Gemini en la que se pide consejo sobre la tecnología a utilizar para la logica de Chats: https://gemini.google.com/share/c8281df4be75
 
 ---
 
@@ -138,6 +142,9 @@ El flujo de trabajo diario se ha visto beneficiado por la optimización de tarea
 
 *   **Generación de Activos:** Creación de recursos gráficos, iconos e imágenes personalizadas para presentaciones de alto impacto mediante el uso de Nano Banana Pro y otros motores generativos (**Fran, Rafa, Dani, Ivan**).
     * **Ejemplo**: *"Genera un pack de 6 iconos vectoriales de estilo  y colores corporativos (azul turquesa #00CED1, gris oscuro #333333 y blanco). Los iconos deben representar los siguientes conceptos para una presentación de negocio: 'Análisis de Datos', 'Crecimiento Exponencial', 'Sistema de Chat', 'Gestión de Incidencias' y 'Descubrimiento de Pisos'. Todos los iconos deben tener una estética minimalista, bordes suaves y un fondo transparente para integrarse perfectamente en diapositivas profesionales."*
+    * **Ejemplo 2**: Del prompt anterior obtuvimos los primeros emojis, una vez ya teníamos un estilo que nos gustaba hicimos lo siguiente:
+        * Primero abrimos una conversación nueva con gemini donde le pegamos los emojis con el estilo que queremos y usamos el siguiente prompt "Analiza el estilo de este emoji y dame un json en el que se defina el estilo de un solo eomji que tenga esos colores y solo necesite la frase que quiero representar". Conversación con gemini: <https://g.co/gemini/share/1af2e3ff2f4c>  
+        * En segundo lugar abrimos otra conversación donde activamos el modo nanobanana Pro y pegamos directamente el JSON obtenido. Conversación con gemini: <https://g.co/gemini/share/3b8b36bd227c>
       
 *   **Gestión del Conocimiento:** Conversión de documentación técnica a formato Markdown, redacción de informes profesionales y corrección de inconsistencias semánticas en la documentación del proyecto (**Rafa, Fran, Dani, Iván, Manuel**).
     * **Ejemplo**: *"Tengo este informe técnico sobre la arquitectura del sistema redactado de forma rápida y desestructurada. Por favor, procésalo siguiendo estos puntos:*
@@ -146,7 +153,8 @@ El flujo de trabajo diario se ha visto beneficiado por la optimización de tarea
 
         * *Elimina redundancias y asegura que la terminología técnica sea precisa y consistente en todo el documento.*
 
-        * *Identifica y corrige cualquier inconsistencia semántica."*
+        * *Identifica y corrige cualquier inconsistencia semántica."*<br>
+        <br>Se adjunta una conversación con Gemini en la que se pide la conversión de un texto a formato Markdown: https://gemini.google.com/share/c34cef20d995
           
 *   **Ideación Estructural:** Uso de la IA como espejo para desafiar estructuras de presentaciones y proponer ideas disruptivas en la fase de concepción (**Rafa**).
     * **Ejemplo**: "Actúa como un Consultor de Estrategia de alto nivel. Tengo esta estructura inicial para la presentación de nuestro modelo de negocio ante inversores (adjunto esquema). Antes de empezar con el diseño, necesito que:
