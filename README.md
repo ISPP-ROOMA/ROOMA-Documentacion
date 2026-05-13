@@ -32,9 +32,12 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   └── historias-de-usuario
 ├── analisis-economico/
 │   ├── informe-costes
+│   ├── oferta-inversion
 │   ├── presupuesto-estimado-desarrollo
 │   ├── presupuesto-estimado-lanzamiento
 │   └── tecnologias-de-pago
+├── analisis-riesgos/
+│   └── analisis-riesgos
 ├── captacion-usuarios/
 |   ├── planes-usuarios-piloto/
 │   │   ├── investigación-tipos-de-usuarios
@@ -49,6 +52,7 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 ├── despliegues/
 │   ├── despliegue-info
 ├── entregas/
+│   ├── 1-PPL-software-review-guidelines
 │   ├── 1-S3-software-review-guidelines
 │   ├── checklist-entrega-sprint-3
 │   └── entregas
@@ -69,15 +73,18 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   ├── usuarios-piloto/
 |   │   ├── informe-feedback-usuarios-s2
 ├── marketing/
+│   ├── campana-lanzamiento
+│   ├── gestion-redes-sociales
 │   ├── plan-marketing-pre-lanzamiento
+│   ├── plan-seo
 │   ├── storyboard-inversores
 │   └── storyboard
 ├── nuestro-equipo/
 │   ├── team-building/
 │   │   ├── plan-team-building
 │   ├── commitment-agreement
-│   ├── matriz-raci
-│   └── uso-IA
+│   ├── informe-commitment
+│   └── matriz-raci
 ├── presentaciones/
 │   ├── 0-dp/
 │   │   ├── 01-presentacion-05-02
@@ -93,9 +100,19 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   ├── 08-presentacion-09-04
 │   │   ├── 09-presentacion-16-04
 │   │   ├── estructura-presentacion
+│   ├── 4-ppl/
+│   │   ├── 10-presentacion-30-04
+│   │   ├── 11-presentacion-30-04
+│   │   ├── 12-presentacion-07-05-global-retrospective
+│   │   ├── 13-presentacion-14-05
+│   │   ├── 14-presentacion-14-05
+│   │   ├── estructura-presentacion
 │   ├── guia-presentaciones
 │   ├── presentaciones
 ├── pug/
+│   ├── revisiones-aplicadas/
+│   │   ├── implementacion-feedback-cerebrus
+│   │   └── implementacion-feedback-nexus
 │   ├── revisiones-realizadas/
 │   │   └──  feedback-vecinus-keakit-s1
 │   └── revisiones-recibidas/
@@ -124,6 +141,15 @@ Bienvenido al repositorio central de documentación de **Rooma**.
 │   │   ├── puntos-historia-s3
 │   │   └── sprint-retrospective-s3
 │   ├── 4-ppl/
+│   │   └── 1-ppl-dedication
+│   ├── imagenes-uso-ia/
+│   │   ├── ci-cd-response
+│   │   ├── ci-cd-request1
+│   │   ├── ci-cd-request2
+│   │   ├── linting-response
+│   │   ├── linting-request
+│   │   └── security
+│   ├── documento-uso-ia
 │   └── problemas-desarrollo
 └── readme       
 ```
