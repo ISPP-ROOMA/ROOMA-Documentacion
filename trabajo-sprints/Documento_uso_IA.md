@@ -64,7 +64,8 @@ La IA ha actuado como un multiplicador de fuerza en el desarrollo, facilitando u
 
         * *Revisa que la lógica de acceso no permita que un usuario autenticado pueda consultar datos de otros usuarios.*
 
-        * *Sugiere las correcciones necesarias para garantizar la protección de los datos de los usuarios."*
+        * *Sugiere las correcciones necesarias para garantizar la protección de los datos de los usuarios."*<br>
+        <br> ![security request](imagenes_uso_IA/security.jpeg)
 
 ---
 
@@ -78,7 +79,8 @@ La IA ha redefinido nuestro flujo de QA (Quality Assurance), permitiendo un enfo
 
          * *Casos Negativos: Pruebas de resistencia ante entradas nulas, correos duplicados, contraseñas excesivamente cortas y caracteres especiales no permitidos.*
 
-         * *Edge Cases: Comportamiento del sistema ante el límite máximo de caracteres en los campos de texto."*
+         * *Edge Cases: Comportamiento del sistema ante el límite máximo de caracteres en los campos de texto."*<br>
+         <br> Adjuntamos la conversación con Gemini que ayudó a generar un plan de pruebas para la logica de registro: https://gemini.google.com/share/88e62dc6ace5
 
 *   **Automatización E2E:** Identificación de localizadores de la UI para tests de extremo a extremo (End-to-End) y análisis de cobertura de código para detectar zonas críticas no testeadas (**Dani, Sergio**).
     * **Ejemplo**: *"Actúa como un experto en automatización con Playwright. Necesito generar los scripts de prueba para el flujo de 'Match'. Por favor:*
