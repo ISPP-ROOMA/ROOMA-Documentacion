@@ -19,6 +19,7 @@ Este documento contiene los accesos a todas las presentaciones realizadas durant
 | 07-05 | PPL - Global retrospective | [Ver PDF](/presentaciones/4-ppl/12-presentacion-07-05-global-retrospective.pdf)   | [Enlace a Canva](https://canva.link/8p9brotl5n3lpuh)
 | 14-05 | PPL - Presentación final 1 | [Ver PDF](/presentaciones/4-ppl/13-presentacion-14-05.pdf)   | [Enlace a Canva](https://canva.link/opnke03n5mrog84)
 | 14-05 | PPL - Presentación final 2 | [Ver PDF](/presentaciones/4-ppl/14-presentacion-14-05.pdf)   | [Enlace a Canva](https://canva.link/hm5t5gv0zp2y63c)
+| 14-05 | WPL - Presentación de lanzamiento | [Ver PDF]()   | [Enlace a Canva](https://canva.link/3v3gdq2olx2kqs4)
 
 
 Las presentaciones de **Rooma** se fundamentan en un sistema de diseño estructurado que garantiza la coherencia y profesionalismo en cada exposición. Para lograrlo, nos apoyamos en una [*plantilla en Canvas*](https://www.canva.com/design/DAHDKlcO5bA/jydygnp_eDgm9BwKZdjEHA/edit?utm_content=DAHDKlcO5bA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) y en el cumplimiento estricto del documento de [*Guía para presentaciones*](/presentaciones/guia-presentaciones.md), el cual marca el flujo de trabajo desde la estructura inicial hasta la revisión final de ortografía y estilo. 
